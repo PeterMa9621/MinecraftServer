@@ -1,3 +1,4 @@
+databaseName: minecraft
 maxLevel: 30
 chatPrefix: true
 formula:

@@ -1,6 +1,7 @@
 VipSystem:
   DefaultGroup: default
   DatabaseType: mysql
+  DatabaseName: minecraft
   VIPGroups:
   - vip1
   - vip2

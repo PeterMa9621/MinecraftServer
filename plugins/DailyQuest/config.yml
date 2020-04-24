@@ -85,3 +85,4 @@ ItemWildcardBlackList:
 MobWildcardBlackList: {}
 EnableCommandGetQuest: true
 Database: MYSQL
+DatabaseName: minecraft

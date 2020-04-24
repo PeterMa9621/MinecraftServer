@@ -125,3 +125,4 @@ CheckIn:
       Command:
       - cc give p 疯狂 2 %player%
   Database: MYSQL
+  DatabaseName: minecraft

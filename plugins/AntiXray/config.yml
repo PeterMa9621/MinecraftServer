@@ -1,4 +1,5 @@
 Database: MYSQL
+DatabaseName: minecraft
 RecoverPointPerMinute: 30
 Points: 600
 RecoverItem:
