@@ -89,3 +89,7 @@ server.properties
 plugins/ProtocolLib/lastupdate
 
 run.sh
+
+run.bat
+
+plugins/ScoreBoard/config.yml
