@@ -77,7 +77,7 @@ plugins/VipSystem/Data/
 plugins/WorldEdit/sessions/
 plugins/WorldGuard/cache/
 plugins/WorldGuard/worlds/
-
+plugins/PlotSquared/storage.db
 
 
 
