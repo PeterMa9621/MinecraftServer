@@ -79,7 +79,7 @@ teleport-safety: true
 force-disable-teleport-safety: false
 
 # The delay, in seconds, required between /home, /tp, etc.
-teleport-cooldown: 0
+teleport-cooldown: 2
 
 # The delay, in seconds, before a user actually teleports. If the user moves or gets attacked in this timeframe, the teleport is cancelled.
 teleport-delay: 0
@@ -528,7 +528,7 @@ world-time-permissions: false
 command-cooldowns:
 #  feed: 100 # 100 second cooldown on /feed command
 # 5 Second cooldown on all commands
-  '*': 5
+  '*': 3
 
 # Whether command cooldowns should be persistent past server shutdowns
 command-cooldown-persistence: true

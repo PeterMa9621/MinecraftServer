@@ -29,3 +29,5 @@ MythicMobs:
     - VeryFriendlyMob
 Residence:
   Enabled: true
+PlotSquared:
+  Enabled: true
