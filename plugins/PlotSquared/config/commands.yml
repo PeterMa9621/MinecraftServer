@@ -18,7 +18,7 @@ buy:
   aliases:
   - buy
   usage: /plot buy
-  description: Buy the plot you are standing on
+  description: 购买脚下的地皮
   confirmation: false
 save:
   aliases:
@@ -38,7 +38,7 @@ confirm:
   aliases:
   - confirm
   usage: ''
-  description: Confirm an action
+  description: 确认一个指令
   confirmation: false
 template:
   aliases:
@@ -105,14 +105,14 @@ claim:
   - claim
   - c
   usage: /plot claim
-  description: Claim the current plot you're standing on
+  description: 领取脚下的地皮
   confirmation: false
 auto:
   aliases:
   - auto
   - a
   usage: /plot auto [length,width]
-  description: Claim the nearest plot
+  description: 自动领取最近的地皮
   confirmation: false
 visit:
   aliases:
@@ -124,22 +124,22 @@ visit:
   - home
   - h
   - warp
-  usage: /plot visit [<player>|<alias>|<world>|<id>] [#]
-  description: Visit someones plot
+  usage: /plot visit [<玩家名>|<别称>|<世界名>|<地皮Id>] [#]
+  description: 访问该地皮
   confirmation: false
 set:
   aliases:
   - set
   - s
   usage: /plot set <biome|alias|home|flag> <value...>
-  description: Set a plot value
+  description: 设置地皮信息
   confirmation: false
 clear:
   aliases:
   - clear
   - reset
   usage: /plot clear
-  description: Clear the plot you stand on
+  description: 清空脚下的地皮
   confirmation: true
 delete:
   aliases:
@@ -148,21 +148,20 @@ delete:
   - del
   - unclaim
   usage: /plot delete
-  description: Delete the plot you stand on
+  description: 删除脚下的地皮
   confirmation: true
 trust:
   aliases:
   - trust
   - t
-  usage: /plot trust <player|*>
-  description: Allow a user to build in a plot and use WorldEdit while the plot owner
-    is offline.
+  usage: /plot trust <玩家名|*>
+  description: 允许一位玩家在地皮主人不在线时也可以该地皮上建造.
   confirmation: false
 add:
   aliases:
   - add
-  usage: /plot add <player|*>
-  description: Allow a user to build in a plot while the plot owner is online.
+  usage: /plot add <玩家名|*>
+  description: 允许一位玩家只能在地皮主人在线时才可以该地皮上建造.
   confirmation: false
 leave:
   aliases:
@@ -175,8 +174,8 @@ deny:
   - deny
   - d
   - ban
-  usage: /plot deny <player|*>
-  description: Deny a user from entering a plot
+  usage: /plot deny <玩家名|*>
+  description: 禁止一位玩家进入该地皮
   confirmation: false
 remove:
   aliases:
@@ -187,15 +186,15 @@ remove:
   - undeny
   - unban
   - ud
-  usage: /plot remove <player|*>
-  description: Remove a player from a plot
+  usage: /plot remove <玩家名|*>
+  description: 从该地皮中移除一位玩家
   confirmation: false
 info:
   aliases:
   - info
   - i
   usage: /plot info <id> [-f, to force info]
-  description: Display plot info
+  description: 显示地皮信息
   confirmation: false
 near:
   aliases:
@@ -212,7 +211,7 @@ list:
   - search
   usage: /plot list <forsale|mine|shared|world|top|all|unowned|unknown|player|world|done|fuzzy
     <search...>> [#]
-  description: List plots
+  description: 搜索满足条件的地皮
   confirmation: false
 debug:
   aliases:
@@ -282,8 +281,8 @@ kick:
   aliases:
   - kick
   - k
-  usage: /plot kick <player|*>
-  description: Kick a player from your plot
+  usage: /plot kick <玩家名|*>
+  description: 将玩家踢出该地皮
   confirmation: false
 debugclaimtest:
   aliases:
@@ -347,7 +346,7 @@ setflag:
   - flag
   - setflag
   usage: /plot flag <set|remove|add|list|info> <flag> <value>
-  description: Set plot flags
+  description: 设置地皮权限
   confirmation: false
 target:
   aliases:
@@ -384,7 +383,7 @@ chat:
   aliases:
   - chat
   usage: /plot chat [on|off]
-  description: Toggle plot chat on or off
+  description: 开启/关闭地皮聊天
   confirmation: false
 trim:
   aliases:
@@ -467,7 +466,7 @@ sethome:
   - sh
   - seth
   usage: /plot sethome [none]
-  description: Set the plot home to your current position
+  description: 将小区的家设置为当前位置
   confirmation: false
 cluster:
   aliases:
@@ -494,19 +493,19 @@ toggle:
   - toggle
   - attribute
   usage: /plot toggle <chat|chatspy|clear-confirmation|time|titles|worldedit>
-  description: Toggle per user settings
+  description: 开关玩家个人设置
   confirmation: false
   time:
     aliases:
     - time
     usage: ''
-    description: Toggle plot time settings
+    description: 开关地皮时间
     confirmation: false
   titles:
     aliases:
     - titles
     usage: ''
-    description: Toggle plot title messages
+    description: 开关地皮标题信息
     confirmation: false
   worldedit:
     aliases:
@@ -520,13 +519,13 @@ toggle:
     aliases:
     - clear-confirmation
     usage: ''
-    description: Toggle autoclear confirmation
+    description: 开关自动清理确认信息
     confirmation: false
   chat:
     aliases:
     - chat
     usage: ''
-    description: Toggle plot chat
+    description: 开关地皮聊天
     confirmation: false
   chatspy:
     aliases:
@@ -539,8 +538,8 @@ help:
   aliases:
   - help
   - '?'
-  usage: help [category|#]
-  description: Get this help menu
+  usage: help [分类名|#]
+  description: 获取该帮助菜单
   confirmation: false
 uuidconvert:
   aliases:
