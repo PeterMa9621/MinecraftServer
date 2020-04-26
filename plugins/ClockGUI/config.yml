@@ -868,7 +868,7 @@ GUI:
           Command:
             Use: true
             CloseGui: true
-            Content: /plot help all
+            Content: /plot help
       '10':
         Position: 17
         ItemID: 'PAPER'
