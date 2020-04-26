@@ -39,7 +39,7 @@ worlds:
       max-members: 128
     world:
       max_height: 256
-      gamemode: creative
+      gamemode: survival
       min_height: 1
       border: false
     event:
