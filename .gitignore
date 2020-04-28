@@ -98,3 +98,5 @@ plugins/ScoreBoard/config.yml
 plugins/AuthMe/authme.db
 
 plugins/ServerListPlus/PlayerCache.json
+
+plugins/AuthMe/authme.log
