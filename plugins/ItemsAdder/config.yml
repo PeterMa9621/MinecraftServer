@@ -1,14 +1,14 @@
 resource-pack:
   apply-on-join: true
   kick-player-on-decline: true
-  kick-player-on-fail: true
+  kick-player-on-fail: false
   delay-ticks: 1
   self-host:
-    enabled: false
+    enabled: true
     server-ip: 127.0.0.1
     pack-port: 8163
   external-host:
-    enabled: true
+    enabled: false
     url: http://154.8.194.127/pack.zip
   custom-font:
     enabled: false

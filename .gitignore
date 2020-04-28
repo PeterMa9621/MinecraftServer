@@ -94,3 +94,7 @@ run.sh
 run.bat
 
 plugins/ScoreBoard/config.yml
+
+plugins/AuthMe/authme.db
+
+plugins/ServerListPlus/PlayerCache.json
