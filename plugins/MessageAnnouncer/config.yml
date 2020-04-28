@@ -61,7 +61,7 @@ announcements:
   antiXray:
   - '[{"text":"[小提示] ","color":"gold"},{"text":"如果发现挖矿点数不够了，可以通过挖石头或泥土来增加挖矿点数(仅限于矿界)。或者等待自动恢复。","color":"aqua"}]'
   QQ:
-  - '[{"text":"[小提示] ","color":"gold"},{"text":"进群以获取更多信息和最新的公告，QQ群：X。","color":"aqua"}]'
+  - '[{"text":"[小提示] ","color":"gold"},{"text":"进群以获取更多信息和最新的公告，QQ群：571075430。","color":"aqua"}]'
   boss:
   - '[{"text":"[小提示] ","color":"gold"},{"text":"每天晚上8点都有BOSS活动，周末会有不同的BOSS及奖励，参与的时候别忘记带弓箭哦","color":"aqua"}]'
   antiCheat:
