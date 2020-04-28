@@ -390,6 +390,20 @@ GUI:
           Command:
             Use: true
             Content: /paygui 钥匙礼包
+      '12':
+        Position: 22
+        ItemID: 'WRITTEN_BOOK'
+        Name: §a打开VIP手册
+        Lore: §7点击打开VIP手册
+        HideItem: false
+        Enchantment:
+          ID: fortune
+          Level: 1
+        HideEnchant: true
+        Function:
+          Command:
+            Use: true
+            Content: /ob open VIP手册
       '10':
         Position: 10
         ItemID: 'TRIPWIRE_HOOK'
