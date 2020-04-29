@@ -1,391 +1,391 @@
 info:
   namespace: itemsadder
-recipes:
-  crafting_table:
-    ruby_head:
-      permission: itemsadder.ruby_head
-      enabled: true
-      pattern:
-      - rrr
-      - rXr
-      - XXX
-      ingredients:
-        r: itemsadder:ruby
-      result:
-        item: itemsadder:ruby_head
-        amount: 1
-    ruby_chest:
-      permission: itemsadder.ruby_chest
-      enabled: true
-      pattern:
-      - rXr
-      - rrr
-      - rrr
-      ingredients:
-        r: itemsadder:ruby
-      result:
-        item: itemsadder:ruby_chest
-        amount: 1
-    ruby_legs:
-      permission: itemsadder.ruby_legs
-      enabled: true
-      pattern:
-      - rrr
-      - rXr
-      - rXr
-      ingredients:
-        r: itemsadder:ruby
-      result:
-        item: itemsadder:ruby_legs
-        amount: 1
-    ruby_boots:
-      permission: itemsadder.ruby_boots
-      enabled: true
-      pattern:
-      - XXX
-      - rXr
-      - rXr
-      ingredients:
-        r: itemsadder:ruby
-      result:
-        item: itemsadder:ruby_boots
-        amount: 1
-    spinel_head:
-      permission: itemsadder.spinel_head
-      enabled: true
-      pattern:
-      - rrr
-      - rXr
-      - XXX
-      ingredients:
-        r: itemsadder:spinel
-      result:
-        item: itemsadder:spinel_head
-        amount: 1
-    spinel_chest:
-      permission: itemsadder.spinel_chest
-      enabled: true
-      pattern:
-      - rXr
-      - rrr
-      - rrr
-      ingredients:
-        r: itemsadder:spinel
-      result:
-        item: itemsadder:spinel_chest
-        amount: 1
-    spinel_legs:
-      permission: itemsadder.spinel_legs
-      enabled: true
-      pattern:
-      - rrr
-      - rXr
-      - rXr
-      ingredients:
-        r: itemsadder:spinel
-      result:
-        item: itemsadder:spinel_legs
-        amount: 1
-    spinel_boots:
-      permission: itemsadder.spinel_boots
-      enabled: true
-      pattern:
-      - XXX
-      - rXr
-      - rXr
-      ingredients:
-        r: itemsadder:spinel
-      result:
-        item: itemsadder:spinel_boots
-        amount: 1
-    turquoise_head:
-      permission: itemsadder.turquoise_head
-      enabled: true
-      pattern:
-      - rrr
-      - rXr
-      - XXX
-      ingredients:
-        r: itemsadder:turquoise
-      result:
-        item: itemsadder:turquoise_head
-        amount: 1
-    turquoise_chest:
-      permission: itemsadder.turquoise_chest
-      enabled: true
-      pattern:
-      - rXr
-      - rrr
-      - rrr
-      ingredients:
-        r: itemsadder:turquoise
-      result:
-        item: itemsadder:turquoise_chest
-        amount: 1
-    turquoise_legs:
-      permission: itemsadder.turquoise_legs
-      enabled: true
-      pattern:
-      - rrr
-      - rXr
-      - rXr
-      ingredients:
-        r: itemsadder:turquoise
-      result:
-        item: itemsadder:turquoise_legs
-        amount: 1
-    turquoise_boots:
-      permission: itemsadder.turquoise_boots
-      enabled: true
-      pattern:
-      - XXX
-      - rXr
-      - rXr
-      ingredients:
-        r: itemsadder:turquoise
-      result:
-        item: itemsadder:turquoise_boots
-        amount: 1
-    aqua_head:
-      permission: itemsadder.aqua_head
-      enabled: true
-      pattern:
-      - rrr
-      - rXr
-      - XXX
-      ingredients:
-        r: itemsadder:aqua_aura
-      result:
-        item: itemsadder:aqua_head
-        amount: 1
-    aqua_chest:
-      permission: itemsadder.aqua_chest
-      enabled: true
-      pattern:
-      - rXr
-      - rrr
-      - rrr
-      ingredients:
-        r: itemsadder:aqua_aura
-      result:
-        item: itemsadder:aqua_chest
-        amount: 1
-    aqua_legs:
-      permission: itemsadder.aqua_legs
-      enabled: true
-      pattern:
-      - rrr
-      - rXr
-      - rXr
-      ingredients:
-        r: itemsadder:aqua_aura
-      result:
-        item: itemsadder:aqua_legs
-        amount: 1
-    aqua_boots:
-      permission: itemsadder.aqua_boots
-      enabled: true
-      pattern:
-      - XXX
-      - rXr
-      - rXr
-      ingredients:
-        r: itemsadder:aqua_aura
-      result:
-        item: itemsadder:aqua_boots
-        amount: 1
-    amethyst_head:
-      permission: itemsadder.amethyst_head
-      enabled: true
-      pattern:
-      - rrr
-      - rXr
-      - XXX
-      ingredients:
-        r: itemsadder:amethyst
-      result:
-        item: itemsadder:amethyst_head
-        amount: 1
-    amethyst_chest:
-      permission: itemsadder.amethyst_chest
-      enabled: true
-      pattern:
-      - rXr
-      - rrr
-      - rrr
-      ingredients:
-        r: itemsadder:amethyst
-      result:
-        item: itemsadder:amethyst_chest
-        amount: 1
-    amethyst_legs:
-      permission: itemsadder.amethyst_legs
-      enabled: true
-      pattern:
-      - rrr
-      - rXr
-      - rXr
-      ingredients:
-        r: itemsadder:amethyst
-      result:
-        item: itemsadder:amethyst_legs
-        amount: 1
-    amethyst_boots:
-      permission: itemsadder.amethyst_boots
-      enabled: true
-      pattern:
-      - XXX
-      - rXr
-      - rXr
-      ingredients:
-        r: itemsadder:amethyst
-      result:
-        item: itemsadder:amethyst_boots
-        amount: 1
-    emerald_head:
-      permission: itemsadder.emerald_head
-      enabled: true
-      pattern:
-      - rrr
-      - rXr
-      - XXX
-      ingredients:
-        r: EMERALD
-      result:
-        item: itemsadder:emerald_head
-        amount: 1
-    emerald_chest:
-      permission: itemsadder.emerald_chest
-      enabled: true
-      pattern:
-      - rXr
-      - rrr
-      - rrr
-      ingredients:
-        r: EMERALD
-      result:
-        item: itemsadder:emerald_chest
-        amount: 1
-    emerald_legs:
-      permission: itemsadder.emerald_legs
-      enabled: true
-      pattern:
-      - rrr
-      - rXr
-      - rXr
-      ingredients:
-        r: EMERALD
-      result:
-        item: itemsadder:emerald_legs
-        amount: 1
-    emerald_boots:
-      permission: itemsadder.emerald_boots
-      enabled: true
-      pattern:
-      - XXX
-      - rXr
-      - rXr
-      ingredients:
-        r: EMERALD
-      result:
-        item: itemsadder:emerald_boots
-        amount: 1
-    obsidian_head:
-      permission: itemsadder.obsidian_head
-      enabled: true
-      pattern:
-      - rrr
-      - rXr
-      - XXX
-      ingredients:
-        r: OBSIDIAN
-      result:
-        item: itemsadder:obsidian_head
-        amount: 1
-    obsidian_chest:
-      permission: itemsadder.obsidian_chest
-      enabled: true
-      pattern:
-      - rXr
-      - rrr
-      - rrr
-      ingredients:
-        r: OBSIDIAN
-      result:
-        item: itemsadder:obsidian_chest
-        amount: 1
-    obsidian_legs:
-      permission: itemsadder.obsidian_legs
-      enabled: true
-      pattern:
-      - rrr
-      - rXr
-      - rXr
-      ingredients:
-        r: OBSIDIAN
-      result:
-        item: itemsadder:obsidian_legs
-        amount: 1
-    obsidian_boots:
-      permission: itemsadder.obsidian_boots
-      enabled: true
-      pattern:
-      - XXX
-      - rXr
-      - rXr
-      ingredients:
-        r: OBSIDIAN
-      result:
-        item: itemsadder:obsidian_boots
-        amount: 1
-    bronze_head:
-      permission: itemsadder.bronze_head
-      enabled: true
-      pattern:
-      - rrr
-      - rXr
-      - XXX
-      ingredients:
-        r: itemsadder:bronze_ingot
-      result:
-        item: itemsadder:bronze_head
-        amount: 1
-    bronze_chest:
-      permission: itemsadder.bronze_chest
-      enabled: true
-      pattern:
-      - rXr
-      - rrr
-      - rrr
-      ingredients:
-        r: itemsadder:bronze_ingot
-      result:
-        item: itemsadder:bronze_chest
-        amount: 1
-    bronze_legs:
-      permission: itemsadder.bronze_legs
-      enabled: true
-      pattern:
-      - rrr
-      - rXr
-      - rXr
-      ingredients:
-        r: itemsadder:bronze_ingot
-      result:
-        item: itemsadder:bronze_legs
-        amount: 1
-    bronze_boots:
-      permission: itemsadder.bronze_boots
-      enabled: true
-      pattern:
-      - XXX
-      - rXr
-      - rXr
-      ingredients:
-        r: itemsadder:bronze_ingot
-      result:
-        item: itemsadder:bronze_boots
-        amount: 1
+# recipes:
+  # crafting_table:
+    # ruby_head:
+      # permission: itemsadder.ruby_head
+      # enabled: true
+      # pattern:
+      # - rrr
+      # - rXr
+      # - XXX
+      # ingredients:
+        # r: itemsadder:ruby
+      # result:
+        # item: itemsadder:ruby_head
+        # amount: 1
+    # ruby_chest:
+      # permission: itemsadder.ruby_chest
+      # enabled: true
+      # pattern:
+      # - rXr
+      # - rrr
+      # - rrr
+      # ingredients:
+        # r: itemsadder:ruby
+      # result:
+        # item: itemsadder:ruby_chest
+        # amount: 1
+    # ruby_legs:
+      # permission: itemsadder.ruby_legs
+      # enabled: true
+      # pattern:
+      # - rrr
+      # - rXr
+      # - rXr
+      # ingredients:
+        # r: itemsadder:ruby
+      # result:
+        # item: itemsadder:ruby_legs
+        # amount: 1
+    # ruby_boots:
+      # permission: itemsadder.ruby_boots
+      # enabled: true
+      # pattern:
+      # - XXX
+      # - rXr
+      # - rXr
+      # ingredients:
+        # r: itemsadder:ruby
+      # result:
+        # item: itemsadder:ruby_boots
+        # amount: 1
+    # spinel_head:
+      # permission: itemsadder.spinel_head
+      # enabled: true
+      # pattern:
+      # - rrr
+      # - rXr
+      # - XXX
+      # ingredients:
+        # r: itemsadder:spinel
+      # result:
+        # item: itemsadder:spinel_head
+        # amount: 1
+    # spinel_chest:
+      # permission: itemsadder.spinel_chest
+      # enabled: true
+      # pattern:
+      # - rXr
+      # - rrr
+      # - rrr
+      # ingredients:
+        # r: itemsadder:spinel
+      # result:
+        # item: itemsadder:spinel_chest
+        # amount: 1
+    # spinel_legs:
+      # permission: itemsadder.spinel_legs
+      # enabled: true
+      # pattern:
+      # - rrr
+      # - rXr
+      # - rXr
+      # ingredients:
+        # r: itemsadder:spinel
+      # result:
+        # item: itemsadder:spinel_legs
+        # amount: 1
+    # spinel_boots:
+      # permission: itemsadder.spinel_boots
+      # enabled: true
+      # pattern:
+      # - XXX
+      # - rXr
+      # - rXr
+      # ingredients:
+        # r: itemsadder:spinel
+      # result:
+        # item: itemsadder:spinel_boots
+        # amount: 1
+    # turquoise_head:
+      # permission: itemsadder.turquoise_head
+      # enabled: true
+      # pattern:
+      # - rrr
+      # - rXr
+      # - XXX
+      # ingredients:
+        # r: itemsadder:turquoise
+      # result:
+        # item: itemsadder:turquoise_head
+        # amount: 1
+    # turquoise_chest:
+      # permission: itemsadder.turquoise_chest
+      # enabled: true
+      # pattern:
+      # - rXr
+      # - rrr
+      # - rrr
+      # ingredients:
+        # r: itemsadder:turquoise
+      # result:
+        # item: itemsadder:turquoise_chest
+        # amount: 1
+    # turquoise_legs:
+      # permission: itemsadder.turquoise_legs
+      # enabled: true
+      # pattern:
+      # - rrr
+      # - rXr
+      # - rXr
+      # ingredients:
+        # r: itemsadder:turquoise
+      # result:
+        # item: itemsadder:turquoise_legs
+        # amount: 1
+    # turquoise_boots:
+      # permission: itemsadder.turquoise_boots
+      # enabled: true
+      # pattern:
+      # - XXX
+      # - rXr
+      # - rXr
+      # ingredients:
+        # r: itemsadder:turquoise
+      # result:
+        # item: itemsadder:turquoise_boots
+        # amount: 1
+    # aqua_head:
+      # permission: itemsadder.aqua_head
+      # enabled: true
+      # pattern:
+      # - rrr
+      # - rXr
+      # - XXX
+      # ingredients:
+        # r: itemsadder:aqua_aura
+      # result:
+        # item: itemsadder:aqua_head
+        # amount: 1
+    # aqua_chest:
+      # permission: itemsadder.aqua_chest
+      # enabled: true
+      # pattern:
+      # - rXr
+      # - rrr
+      # - rrr
+      # ingredients:
+        # r: itemsadder:aqua_aura
+      # result:
+        # item: itemsadder:aqua_chest
+        # amount: 1
+    # aqua_legs:
+      # permission: itemsadder.aqua_legs
+      # enabled: true
+      # pattern:
+      # - rrr
+      # - rXr
+      # - rXr
+      # ingredients:
+        # r: itemsadder:aqua_aura
+      # result:
+        # item: itemsadder:aqua_legs
+        # amount: 1
+    # aqua_boots:
+      # permission: itemsadder.aqua_boots
+      # enabled: true
+      # pattern:
+      # - XXX
+      # - rXr
+      # - rXr
+      # ingredients:
+        # r: itemsadder:aqua_aura
+      # result:
+        # item: itemsadder:aqua_boots
+        # amount: 1
+    # amethyst_head:
+      # permission: itemsadder.amethyst_head
+      # enabled: true
+      # pattern:
+      # - rrr
+      # - rXr
+      # - XXX
+      # ingredients:
+        # r: itemsadder:amethyst
+      # result:
+        # item: itemsadder:amethyst_head
+        # amount: 1
+    # amethyst_chest:
+      # permission: itemsadder.amethyst_chest
+      # enabled: true
+      # pattern:
+      # - rXr
+      # - rrr
+      # - rrr
+      # ingredients:
+        # r: itemsadder:amethyst
+      # result:
+        # item: itemsadder:amethyst_chest
+        # amount: 1
+    # amethyst_legs:
+      # permission: itemsadder.amethyst_legs
+      # enabled: true
+      # pattern:
+      # - rrr
+      # - rXr
+      # - rXr
+      # ingredients:
+        # r: itemsadder:amethyst
+      # result:
+        # item: itemsadder:amethyst_legs
+        # amount: 1
+    # amethyst_boots:
+      # permission: itemsadder.amethyst_boots
+      # enabled: true
+      # pattern:
+      # - XXX
+      # - rXr
+      # - rXr
+      # ingredients:
+        # r: itemsadder:amethyst
+      # result:
+        # item: itemsadder:amethyst_boots
+        # amount: 1
+    # emerald_head:
+      # permission: itemsadder.emerald_head
+      # enabled: true
+      # pattern:
+      # - rrr
+      # - rXr
+      # - XXX
+      # ingredients:
+        # r: EMERALD
+      # result:
+        # item: itemsadder:emerald_head
+        # amount: 1
+    # emerald_chest:
+      # permission: itemsadder.emerald_chest
+      # enabled: true
+      # pattern:
+      # - rXr
+      # - rrr
+      # - rrr
+      # ingredients:
+        # r: EMERALD
+      # result:
+        # item: itemsadder:emerald_chest
+        # amount: 1
+    # emerald_legs:
+      # permission: itemsadder.emerald_legs
+      # enabled: true
+      # pattern:
+      # - rrr
+      # - rXr
+      # - rXr
+      # ingredients:
+        # r: EMERALD
+      # result:
+        # item: itemsadder:emerald_legs
+        # amount: 1
+    # emerald_boots:
+      # permission: itemsadder.emerald_boots
+      # enabled: true
+      # pattern:
+      # - XXX
+      # - rXr
+      # - rXr
+      # ingredients:
+        # r: EMERALD
+      # result:
+        # item: itemsadder:emerald_boots
+        # amount: 1
+    # obsidian_head:
+      # permission: itemsadder.obsidian_head
+      # enabled: true
+      # pattern:
+      # - rrr
+      # - rXr
+      # - XXX
+      # ingredients:
+        # r: OBSIDIAN
+      # result:
+        # item: itemsadder:obsidian_head
+        # amount: 1
+    # obsidian_chest:
+      # permission: itemsadder.obsidian_chest
+      # enabled: true
+      # pattern:
+      # - rXr
+      # - rrr
+      # - rrr
+      # ingredients:
+        # r: OBSIDIAN
+      # result:
+        # item: itemsadder:obsidian_chest
+        # amount: 1
+    # obsidian_legs:
+      # permission: itemsadder.obsidian_legs
+      # enabled: true
+      # pattern:
+      # - rrr
+      # - rXr
+      # - rXr
+      # ingredients:
+        # r: OBSIDIAN
+      # result:
+        # item: itemsadder:obsidian_legs
+        # amount: 1
+    # obsidian_boots:
+      # permission: itemsadder.obsidian_boots
+      # enabled: true
+      # pattern:
+      # - XXX
+      # - rXr
+      # - rXr
+      # ingredients:
+        # r: OBSIDIAN
+      # result:
+        # item: itemsadder:obsidian_boots
+        # amount: 1
+    # bronze_head:
+      # permission: itemsadder.bronze_head
+      # enabled: true
+      # pattern:
+      # - rrr
+      # - rXr
+      # - XXX
+      # ingredients:
+        # r: itemsadder:bronze_ingot
+      # result:
+        # item: itemsadder:bronze_head
+        # amount: 1
+    # bronze_chest:
+      # permission: itemsadder.bronze_chest
+      # enabled: true
+      # pattern:
+      # - rXr
+      # - rrr
+      # - rrr
+      # ingredients:
+        # r: itemsadder:bronze_ingot
+      # result:
+        # item: itemsadder:bronze_chest
+        # amount: 1
+    # bronze_legs:
+      # permission: itemsadder.bronze_legs
+      # enabled: true
+      # pattern:
+      # - rrr
+      # - rXr
+      # - rXr
+      # ingredients:
+        # r: itemsadder:bronze_ingot
+      # result:
+        # item: itemsadder:bronze_legs
+        # amount: 1
+    # bronze_boots:
+      # permission: itemsadder.bronze_boots
+      # enabled: true
+      # pattern:
+      # - XXX
+      # - rXr
+      # - rXr
+      # ingredients:
+        # r: itemsadder:bronze_ingot
+      # result:
+        # item: itemsadder:bronze_boots
+        # amount: 1
 items:
   ruby_head:
     display_name: Ruby helmet

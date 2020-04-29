@@ -1,120 +1,120 @@
 info:
   namespace: itemsadder
-recipes:
-  crafting_table:
-    cola:
-      permission: itemsadder.cola
-      enabled: true
-      pattern:
-      - XXX
-      - PSP
-      - PPP
-      ingredients:
-        S: SOUL_SAND
-        P: itemsadder:plastic_plate
-      result:
-        item: itemsadder:cola
-        amount: 1
-    hot_chocolate:
-      permission: itemsadder.hot_chocolate
-      enabled: true
-      pattern:
-      - XXX
-      - XsX
-      - XbX
-      ingredients:
-        s: SOUL_SAND
-        b: LAVA_BUCKET
-      result:
-        item: itemsadder:hot_chocolate
-        amount: 1
-      return_items:
-        replace:
-          LAVA_BUCKET: BUCKET
-    coffee:
-      permission: itemsadder.coffee
-      enabled: true
-      pattern:
-      - XXX
-      - XOX
-      - XCX
-      ingredients:
-        C: itemsadder:cup_of_hot_water
-        O: COCOA_BEANS
-      result:
-        item: itemsadder:coffee
-        amount: 1
-    diamonds_finder_potion:
-      permission: itemsadder.diamonds_finder_potion
-      enabled: true
-      pattern:
-      - XDX
-      - XAX
-      - XBX
-      ingredients:
-        D: DIAMOND
-        A: BEETROOT
-        B: GLASS_BOTTLE
-      result:
-        item: itemsadder:diamonds_finder_potion
-        amount: 1
-    emeralds_finder_potion:
-      permission: itemsadder.emeralds_finder_potion
-      enabled: true
-      pattern:
-      - XDX
-      - XAX
-      - XBX
-      ingredients:
-        D: EMERALD
-        A: BEETROOT
-        B: GLASS_BOTTLE
-      result:
-        item: itemsadder:emeralds_finder_potion
-        amount: 1
-    strange_potion:
-      permission: itemsadder.strange_potion
-      enabled: true
-      pattern:
-      - XIX
-      - XBX
-      - XAX
-      ingredients:
-        I: INK_SAC
-        B: BEETROOT
-        A: POTION
-      result:
-        item: itemsadder:strange_potion
-        amount: 1
-    antidote:
-      permission: itemsadder.antidote
-      enabled: true
-      pattern:
-      - XIX
-      - XBX
-      - XAX
-      ingredients:
-        I: SUGAR
-        B: BEETROOT
-        A: itemsadder:strange_potion
-      result:
-        item: itemsadder:antidote
-        amount: 1
-    bloody_mary:
-      permission: itemsadder.bloody_mary
-      enabled: true
-      pattern:
-      - XCL
-      - TGT
-      - XXX
-      ingredients:
-        C: itemsadder:chili_powder
-        L: itemsadder:lettuce
-        T: itemsadder:tomato
-        G: itemsadder:drink_glass
-      result:
-        item: itemsadder:bloody_mary
-        amount: 1
+# recipes:
+  # crafting_table:
+    # cola:
+      # permission: itemsadder.cola
+      # enabled: true
+      # pattern:
+      # - XXX
+      # - PSP
+      # - PPP
+      # ingredients:
+        # S: SOUL_SAND
+        # P: itemsadder:plastic_plate
+      # result:
+        # item: itemsadder:cola
+        # amount: 1
+    # hot_chocolate:
+      # permission: itemsadder.hot_chocolate
+      # enabled: true
+      # pattern:
+      # - XXX
+      # - XsX
+      # - XbX
+      # ingredients:
+        # s: SOUL_SAND
+        # b: LAVA_BUCKET
+      # result:
+        # item: itemsadder:hot_chocolate
+        # amount: 1
+      # return_items:
+        # replace:
+          # LAVA_BUCKET: BUCKET
+    # coffee:
+      # permission: itemsadder.coffee
+      # enabled: true
+      # pattern:
+      # - XXX
+      # - XOX
+      # - XCX
+      # ingredients:
+        # C: itemsadder:cup_of_hot_water
+        # O: COCOA_BEANS
+      # result:
+        # item: itemsadder:coffee
+        # amount: 1
+    # diamonds_finder_potion:
+      # permission: itemsadder.diamonds_finder_potion
+      # enabled: true
+      # pattern:
+      # - XDX
+      # - XAX
+      # - XBX
+      # ingredients:
+        # D: DIAMOND
+        # A: BEETROOT
+        # B: GLASS_BOTTLE
+      # result:
+        # item: itemsadder:diamonds_finder_potion
+        # amount: 1
+    # emeralds_finder_potion:
+      # permission: itemsadder.emeralds_finder_potion
+      # enabled: true
+      # pattern:
+      # - XDX
+      # - XAX
+      # - XBX
+      # ingredients:
+        # D: EMERALD
+        # A: BEETROOT
+        # B: GLASS_BOTTLE
+      # result:
+        # item: itemsadder:emeralds_finder_potion
+        # amount: 1
+    # strange_potion:
+      # permission: itemsadder.strange_potion
+      # enabled: true
+      # pattern:
+      # - XIX
+      # - XBX
+      # - XAX
+      # ingredients:
+        # I: INK_SAC
+        # B: BEETROOT
+        # A: POTION
+      # result:
+        # item: itemsadder:strange_potion
+        # amount: 1
+    # antidote:
+      # permission: itemsadder.antidote
+      # enabled: true
+      # pattern:
+      # - XIX
+      # - XBX
+      # - XAX
+      # ingredients:
+        # I: SUGAR
+        # B: BEETROOT
+        # A: itemsadder:strange_potion
+      # result:
+        # item: itemsadder:antidote
+        # amount: 1
+    # bloody_mary:
+      # permission: itemsadder.bloody_mary
+      # enabled: true
+      # pattern:
+      # - XCL
+      # - TGT
+      # - XXX
+      # ingredients:
+        # C: itemsadder:chili_powder
+        # L: itemsadder:lettuce
+        # T: itemsadder:tomato
+        # G: itemsadder:drink_glass
+      # result:
+        # item: itemsadder:bloody_mary
+        # amount: 1
 items:
   cola:
     display_name: Cola

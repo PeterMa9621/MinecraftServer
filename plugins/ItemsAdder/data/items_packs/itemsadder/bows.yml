@@ -1,34 +1,34 @@
 info:
   namespace: itemsadder
-recipes:
-  crafting_table:
-    astral_bow:
-      permission: itemsadder.astral_bow
-      enabled: true
-      pattern:
-      - XBS
-      - BXS
-      - XBS
-      ingredients:
-        B: BLAZE_ROD
-        S: STRING
-      result:
-        item: itemsadder:astral_bow
-        amount: 1
-    cross_bow:
-      permission: itemsadder.cross_bow
-      enabled: true
-      pattern:
-      - FXF
-      - XBX
-      - RXR
-      ingredients:
-        F: REDSTONE_BLOCK
-        R: REDSTONE
-        B: BOW
-      result:
-        item: itemsadder:cross_bow
-        amount: 1
+# recipes:
+  # crafting_table:
+    # astral_bow:
+      # permission: itemsadder.astral_bow
+      # enabled: true
+      # pattern:
+      # - XBS
+      # - BXS
+      # - XBS
+      # ingredients:
+        # B: BLAZE_ROD
+        # S: STRING
+      # result:
+        # item: itemsadder:astral_bow
+        # amount: 1
+    # cross_bow:
+      # permission: itemsadder.cross_bow
+      # enabled: true
+      # pattern:
+      # - FXF
+      # - XBX
+      # - RXR
+      # ingredients:
+        # F: REDSTONE_BLOCK
+        # R: REDSTONE
+        # B: BOW
+      # result:
+        # item: itemsadder:cross_bow
+        # amount: 1
 items:
   astral_bow:
     display_name: Astral bow

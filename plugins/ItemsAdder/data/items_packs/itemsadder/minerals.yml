@@ -1,152 +1,152 @@
 info:
   namespace: itemsadder
-recipes:
-  crafting_table:
-    ruby:
-      permission: itemsadder.ruby
-      enabled: true
-      pattern:
-      - XXX
-      - XBX
-      - XXX
-      ingredients:
-        B: itemsadder:ruby_block
-      result:
-        item: itemsadder:ruby
-        amount: 9
-    crystal:
-      permission: itemsadder.crystal
-      enabled: true
-      pattern:
-      - XXX
-      - XBX
-      - XXX
-      ingredients:
-        B: itemsadder:crystal_block
-      result:
-        item: itemsadder:crystal
-        amount: 9
-    spinel:
-      permission: itemsadder.spinel
-      enabled: true
-      pattern:
-      - XXX
-      - XBX
-      - XXX
-      ingredients:
-        B: itemsadder:spinel_block
-      result:
-        item: itemsadder:spinel
-        amount: 9
-    turquoise:
-      permission: itemsadder.turquoise
-      enabled: true
-      pattern:
-      - XXX
-      - XBX
-      - XXX
-      ingredients:
-        B: itemsadder:turquoise_block
-      result:
-        item: itemsadder:turquoise
-        amount: 9
-    aqua_aura:
-      permission: itemsadder.aqua_aura
-      enabled: true
-      pattern:
-      - XXX
-      - XBX
-      - XXX
-      ingredients:
-        B: itemsadder:aqua_aura_block
-      result:
-        item: itemsadder:aqua_aura
-        amount: 9
-    amethyst:
-      permission: itemsadder.amethyst
-      enabled: true
-      pattern:
-      - XXX
-      - XBX
-      - XXX
-      ingredients:
-        B: itemsadder:amethyst_block
-      result:
-        item: itemsadder:amethyst
-        amount: 9
-    fossil_1:
-      enabled: true
-      permission: itemsadder.fossil
-      pattern:
-      - FFF
-      - FFF
-      - FFF
-      ingredients:
-        F: itemsadder:fossil
-      result:
-        item: BONE_BLOCK
-        amount: 1
-    end_crystals:
-      permission: itemsadder.end_crystals
-      enabled: true
-      pattern:
-      - XXX
-      - XXX
-      - EEE
-      ingredients:
-        E: itemsadder:end_shard
-      result:
-        item: itemsadder:end_crystals
-        amount: 1
-    coal_nugget:
-      enabled: true
-      permission: itemsadder.coal_nugget
-      pattern:
-      - EEE
-      - EEE
-      - EEE
-      ingredients:
-        E: itemsadder:coal_nugget
-      result:
-        item: COAL
-        amount: 1
-  cooking:
-    bronze_ingot:
-      permission: itemsadder.bronze_ingot
-      ingredient:
-        item: itemsadder:bronze_ore
-      machines:
-      - FURNACE
-      - BLAST_FURNACE
-      exp: 1
-      cook_time: 200
-      result:
-        item: itemsadder:bronze_ingot
-        amount: 1
-    mysterious_material:
-      permission: itemsadder.mysterious_material
-      ingredient:
-        item: itemsadder:mysterious_ore
-      machines:
-      - FURNACE
-      - BLAST_FURNACE
-      exp: 1
-      cook_time: 200
-      result:
-        item: itemsadder:mysterious_material
-        amount: 1
-    end_ingot:
-      permission: itemsadder.end_ingot
-      ingredient:
-        item: itemsadder:end_crystals
-      machines:
-      - FURNACE
-      - BLAST_FURNACE
-      exp: 1
-      cook_time: 200
-      result:
-        item: itemsadder:end_ingot
-        amount: 1
+# recipes:
+  # crafting_table:
+    # ruby:
+      # permission: itemsadder.ruby
+      # enabled: true
+      # pattern:
+      # - XXX
+      # - XBX
+      # - XXX
+      # ingredients:
+        # B: itemsadder:ruby_block
+      # result:
+        # item: itemsadder:ruby
+        # amount: 9
+    # crystal:
+      # permission: itemsadder.crystal
+      # enabled: true
+      # pattern:
+      # - XXX
+      # - XBX
+      # - XXX
+      # ingredients:
+        # B: itemsadder:crystal_block
+      # result:
+        # item: itemsadder:crystal
+        # amount: 9
+    # spinel:
+      # permission: itemsadder.spinel
+      # enabled: true
+      # pattern:
+      # - XXX
+      # - XBX
+      # - XXX
+      # ingredients:
+        # B: itemsadder:spinel_block
+      # result:
+        # item: itemsadder:spinel
+        # amount: 9
+    # turquoise:
+      # permission: itemsadder.turquoise
+      # enabled: true
+      # pattern:
+      # - XXX
+      # - XBX
+      # - XXX
+      # ingredients:
+        # B: itemsadder:turquoise_block
+      # result:
+        # item: itemsadder:turquoise
+        # amount: 9
+    # aqua_aura:
+      # permission: itemsadder.aqua_aura
+      # enabled: true
+      # pattern:
+      # - XXX
+      # - XBX
+      # - XXX
+      # ingredients:
+        # B: itemsadder:aqua_aura_block
+      # result:
+        # item: itemsadder:aqua_aura
+        # amount: 9
+    # amethyst:
+      # permission: itemsadder.amethyst
+      # enabled: true
+      # pattern:
+      # - XXX
+      # - XBX
+      # - XXX
+      # ingredients:
+        # B: itemsadder:amethyst_block
+      # result:
+        # item: itemsadder:amethyst
+        # amount: 9
+    # fossil_1:
+      # enabled: true
+      # permission: itemsadder.fossil
+      # pattern:
+      # - FFF
+      # - FFF
+      # - FFF
+      # ingredients:
+        # F: itemsadder:fossil
+      # result:
+        # item: BONE_BLOCK
+        # amount: 1
+    # end_crystals:
+      # permission: itemsadder.end_crystals
+      # enabled: true
+      # pattern:
+      # - XXX
+      # - XXX
+      # - EEE
+      # ingredients:
+        # E: itemsadder:end_shard
+      # result:
+        # item: itemsadder:end_crystals
+        # amount: 1
+    # coal_nugget:
+      # enabled: true
+      # permission: itemsadder.coal_nugget
+      # pattern:
+      # - EEE
+      # - EEE
+      # - EEE
+      # ingredients:
+        # E: itemsadder:coal_nugget
+      # result:
+        # item: COAL
+        # amount: 1
+  # cooking:
+    # bronze_ingot:
+      # permission: itemsadder.bronze_ingot
+      # ingredient:
+        # item: itemsadder:bronze_ore
+      # machines:
+      # - FURNACE
+      # - BLAST_FURNACE
+      # exp: 1
+      # cook_time: 200
+      # result:
+        # item: itemsadder:bronze_ingot
+        # amount: 1
+    # mysterious_material:
+      # permission: itemsadder.mysterious_material
+      # ingredient:
+        # item: itemsadder:mysterious_ore
+      # machines:
+      # - FURNACE
+      # - BLAST_FURNACE
+      # exp: 1
+      # cook_time: 200
+      # result:
+        # item: itemsadder:mysterious_material
+        # amount: 1
+    # end_ingot:
+      # permission: itemsadder.end_ingot
+      # ingredient:
+        # item: itemsadder:end_crystals
+      # machines:
+      # - FURNACE
+      # - BLAST_FURNACE
+      # exp: 1
+      # cook_time: 200
+      # result:
+        # item: itemsadder:end_ingot
+        # amount: 1
 # loots:
   # blocks:
     # ruby_ore:

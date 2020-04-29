@@ -1,402 +1,402 @@
 info:
   namespace: itemsadder
-recipes:
-  crafting_table:
-    empty_cup:
-      permission: itemsadder.empty_cup
-      enabled: true
-      pattern:
-      - XXX
-      - CXC
-      - CCC
-      ingredients:
-        C: CLAY
-      result:
-        item: itemsadder:empty_cup
-        amount: 1
-    flour:
-      permission: itemsadder.flour
-      enabled: true
-      pattern:
-      - XXX
-      - XWX
-      - XXX
-      ingredients:
-        W: WHEAT
-      result:
-        item: itemsadder:flour
-        amount: 4
-    dough:
-      permission: itemsadder.dough
-      enabled: true
-      pattern:
-      - XFX
-      - XFX
-      - XWX
-      ingredients:
-        F: itemsadder:flour
-        W: WATER_BUCKET
-      result:
-        item: itemsadder:dough
-        amount: 8
-      return_items:
-        replace:
-          WATER_BUCKET: BUCKET
-    cup_of_water:
-      permission: itemsadder.cup_of_water
-      enabled: true
-      pattern:
-      - XXX
-      - XWX
-      - XCX
-      ingredients:
-        C: itemsadder:empty_cup
-        W: WATER_BUCKET
-      result:
-        item: itemsadder:cup_of_water
-        amount: 1
-      return_items:
-        replace:
-          WATER_BUCKET: BUCKET
-    projectile:
-      permission: itemsadder.projectile
-      enabled: true
-      pattern:
-      - XXX
-      - XRX
-      - XGX
-      ingredients:
-        R: REDSTONE
-        G: GOLD_INGOT
-      result:
-        item: itemsadder:projectile
-        amount: 16
-    plastic_plate:
-      permission: itemsadder.plastic_plate
-      enabled: true
-      pattern:
-      - XXX
-      - XXX
-      - PPP
-      ingredients:
-        P: itemsadder:plastic
-      result:
-        item: itemsadder:plastic_plate
-        amount: 1
-    clip:
-      permission: itemsadder.clip
-      enabled: true
-      pattern:
-      - XRX
-      - XGX
-      - XPX
-      ingredients:
-        R: REDSTONE
-        G: GOLD_INGOT
-        P: itemsadder:plastic_plate
-      result:
-        item: itemsadder:clip
-        amount: 16
-    blank_disc:
-      permission: itemsadder.blank_disc
-      enabled: true
-      pattern:
-      - PPP
-      - PXP
-      - PPP
-      ingredients:
-        P: itemsadder:plastic
-      result:
-        item: itemsadder:blank_disc
-        amount: 1
-    music_disc_electric_keys:
-      permission: itemsadder.music_disc_electric_keys
-      enabled: true
-      pattern:
-      - XXX
-      - XBD
-      - XXX
-      ingredients:
-        B: itemsadder:blank_disc
-        D: DIAMOND
-      result:
-        item: itemsadder:music_disc_electric_keys
-        amount: 1
-    music_disc_cdk_sunday:
-      permission: itemsadder.music_disc_cdk_sunday
-      enabled: true
-      pattern:
-      - XXX
-      - XBD
-      - XXX
-      ingredients:
-        B: itemsadder:blank_disc
-        D: itemsadder:amethyst_prism
-      result:
-        item: itemsadder:music_disc_cdk_sunday
-        amount: 1
-    music_disc_vidian_aether_theories:
-      permission: itemsadder.music_disc_vidian_aether_theories
-      enabled: true
-      pattern:
-      - XXX
-      - XBD
-      - XXX
-      ingredients:
-        B: itemsadder:blank_disc
-        D: itemsadder:ruby
-      result:
-        item: itemsadder:music_disc_vidian_aether_theories
-        amount: 1
-    ketchup_bottle:
-      permission: itemsadder.ketchup_bottle
-      enabled: true
-      pattern:
-      - PTP
-      - PTP
-      - PTP
-      ingredients:
-        P: itemsadder:plastic_plate
-        T: itemsadder:tomato
-      result:
-        item: itemsadder:ketchup_bottle
-        amount: 1
-    ketchup:
-      permission: itemsadder.ketchup
-      enabled: true
-      pattern:
-      - XXX
-      - XBX
-      - XXX
-      ingredients:
-        B: itemsadder:ketchup_bottle
-      result:
-        item: itemsadder:ketchup
-        amount: 16
-    chili_powder:
-      permission: itemsadder.chili_powder
-      enabled: true
-      pattern:
-      - XXX
-      - XXX
-      - XBX
-      ingredients:
-        B: itemsadder:chili_pepper
-      result:
-        item: itemsadder:chili_powder
-        amount: 4
-    drink_glass:
-      permission: itemsadder.drink_glass
-      enabled: true
-      pattern:
-      - XXX
-      - XGX
-      - XXX
-      ingredients:
-        G: GLASS
-      result:
-        item: itemsadder:drink_glass
-        amount: 4
-    energy_orb:
-      permission: itemsadder.energy_orb
-      enabled: true
-      pattern:
-      - XXX
-      - XGX
-      - XXX
-      ingredients:
-        G: itemsadder:energy_capsule
-      result:
-        item: itemsadder:energy_orb
-        amount: 64
-    energy_orb_1:
-      enabled: true
-      permission: itemsadder.energy_orb
-      pattern:
-      - XXX
-      - XSX
-      - XXX
-      ingredients:
-        S: itemsadder:small_energy_capsule
-      result:
-        item: itemsadder:energy_orb
-        amount: 8
-    energy_orb_2:
-      enabled: true
-      permission: itemsadder.energy_orb
-      pattern:
-      - XXX
-      - XSX
-      - XXX
-      ingredients:
-        S: itemsadder:energy_capsule
-      result:
-        item: itemsadder:energy_orb
-        amount: 64
-    small_energy_capsule:
-      permission: itemsadder.small_energy_capsule
-      enabled: true
-      pattern:
-      - GGG
-      - GXG
-      - GGG
-      ingredients:
-        G: itemsadder:energy_orb
-      result:
-        item: itemsadder:small_energy_capsule
-        amount: 1
-    energy_capsule:
-      permission: itemsadder.energy_capsule
-      enabled: true
-      pattern:
-      - GGG
-      - GXG
-      - GGG
-      ingredients:
-        G: itemsadder:small_energy_capsule
-      result:
-        item: itemsadder:energy_capsule
-        amount: 1
-    iron_plate:
-      permission: itemsadder.iron_plate
-      enabled: true
-      pattern:
-      - XXX
-      - XIX
-      - XIX
-      ingredients:
-        I: IRON_INGOT
-      result:
-        item: itemsadder:iron_plate
-        amount: 1
-    EGGS:
-      permission: itemsadder.eggs_nest
-      enabled: true
-      pattern:
-      - XXX
-      - XNX
-      - XXX
-      ingredients:
-        N: itemsadder:eggs_nest
-      result:
-        item: EGG
-        amount: 3
-      return_items:
-        replace:
-          eggs_nest: nest
-    eggs_nest:
-      permission: itemsadder.eggs_nest
-      enabled: true
-      pattern:
-      - XXX
-      - EEE
-      - XNX
-      ingredients:
-        N: itemsadder:nest
-        E: EGG
-      result:
-        item: "itemsadder:eggs_nest"
-        amount: 1
-    mysterious_artifact:
-      permission: itemsadder.mysterious_artifact
-      enabled: true
-      pattern:
-      - XXL
-      - XCM
-      - XXL
-      ingredients:
-        C: itemsadder:chisel
-        M: itemsadder:mysterious_ore
-        L: LAPIS_LAZULI
-      result:
-        item: itemsadder:mysterious_artifact
-        amount: 1
-      return_items:
-        decrement_durability:
-          chisel:
-            item: "itemsadder:chisel"
-            amount: 3
-        play_sound:
-          name: itemsadder:ambient.angelic
-          volume: 1
-          pitch: 1
-    jar:
-      permission: itemsadder.jar
-      enabled: true
-      pattern:
-      - PPP
-      - XGX
-      - XXX
-      ingredients:
-        G: GLASS
-        P: itemsadder:plastic_plate
-      result:
-        item: itemsadder:jar
-        amount: 1
-    carton_box:
-      permission: itemsadder.carton_box
-      enabled: true
-      pattern:
-      - OOO
-      - PPP
-      - PPP
-      ingredients:
-        P: PAPER
-        O: itemsadder:plastic_plate
-      result:
-        item: itemsadder:carton_box
-        amount: 1
-    cut_spruce_log:
-      permission: itemsadder.cut_spruce_log
-      enabled: true
-      pattern:
-      - XXX
-      - XWX
-      - XWX
-      ingredients:
-        W: SPRUCE_LOG
-      result:
-        item: itemsadder:cut_spruce_log
-        amount: 6
-    shotgun_cartridge:
-      permission: itemsadder.shotgun_cartridge
-      enabled: true
-      pattern:
-      - XXX
-      - PRP
-      - XGX
-      ingredients:
-        R: REDSTONE
-        G: GOLD_INGOT
-        P: itemsadder:plastic_plate
-      result:
-        item: itemsadder:shotgun_cartridge
-        amount: 1
-  cooking:
-    cup_of_hot_water:
-      permission: itemsadder.cup_of_hot_water
-      ingredient:
-        item: itemsadder:cup_of_water
-      machines:
-      - FURNACE
-      - BLAST_FURNACE
-      exp: 1
-      cook_time: 200
-      result:
-        item: itemsadder:cup_of_hot_water
-        amount: 1
-    plastic:
-      permission: itemsadder.plastic
-      ingredient:
-        item: itemsadder:fossil
-      machines:
-      - FURNACE
-      - BLAST_FURNACE
-      exp: 1
-      cook_time: 200
-      result:
-        item: itemsadder:plastic
-        amount: 2
+# recipes:
+  # crafting_table:
+    # empty_cup:
+      # permission: itemsadder.empty_cup
+      # enabled: true
+      # pattern:
+      # - XXX
+      # - CXC
+      # - CCC
+      # ingredients:
+        # C: CLAY
+      # result:
+        # item: itemsadder:empty_cup
+        # amount: 1
+    # flour:
+      # permission: itemsadder.flour
+      # enabled: true
+      # pattern:
+      # - XXX
+      # - XWX
+      # - XXX
+      # ingredients:
+        # W: WHEAT
+      # result:
+        # item: itemsadder:flour
+        # amount: 4
+    # dough:
+      # permission: itemsadder.dough
+      # enabled: true
+      # pattern:
+      # - XFX
+      # - XFX
+      # - XWX
+      # ingredients:
+        # F: itemsadder:flour
+        # W: WATER_BUCKET
+      # result:
+        # item: itemsadder:dough
+        # amount: 8
+      # return_items:
+        # replace:
+          # WATER_BUCKET: BUCKET
+    # cup_of_water:
+      # permission: itemsadder.cup_of_water
+      # enabled: true
+      # pattern:
+      # - XXX
+      # - XWX
+      # - XCX
+      # ingredients:
+        # C: itemsadder:empty_cup
+        # W: WATER_BUCKET
+      # result:
+        # item: itemsadder:cup_of_water
+        # amount: 1
+      # return_items:
+        # replace:
+          # WATER_BUCKET: BUCKET
+    # projectile:
+      # permission: itemsadder.projectile
+      # enabled: true
+      # pattern:
+      # - XXX
+      # - XRX
+      # - XGX
+      # ingredients:
+        # R: REDSTONE
+        # G: GOLD_INGOT
+      # result:
+        # item: itemsadder:projectile
+        # amount: 16
+    # plastic_plate:
+      # permission: itemsadder.plastic_plate
+      # enabled: true
+      # pattern:
+      # - XXX
+      # - XXX
+      # - PPP
+      # ingredients:
+        # P: itemsadder:plastic
+      # result:
+        # item: itemsadder:plastic_plate
+        # amount: 1
+    # clip:
+      # permission: itemsadder.clip
+      # enabled: true
+      # pattern:
+      # - XRX
+      # - XGX
+      # - XPX
+      # ingredients:
+        # R: REDSTONE
+        # G: GOLD_INGOT
+        # P: itemsadder:plastic_plate
+      # result:
+        # item: itemsadder:clip
+        # amount: 16
+    # blank_disc:
+      # permission: itemsadder.blank_disc
+      # enabled: true
+      # pattern:
+      # - PPP
+      # - PXP
+      # - PPP
+      # ingredients:
+        # P: itemsadder:plastic
+      # result:
+        # item: itemsadder:blank_disc
+        # amount: 1
+    # music_disc_electric_keys:
+      # permission: itemsadder.music_disc_electric_keys
+      # enabled: true
+      # pattern:
+      # - XXX
+      # - XBD
+      # - XXX
+      # ingredients:
+        # B: itemsadder:blank_disc
+        # D: DIAMOND
+      # result:
+        # item: itemsadder:music_disc_electric_keys
+        # amount: 1
+    # music_disc_cdk_sunday:
+      # permission: itemsadder.music_disc_cdk_sunday
+      # enabled: true
+      # pattern:
+      # - XXX
+      # - XBD
+      # - XXX
+      # ingredients:
+        # B: itemsadder:blank_disc
+        # D: itemsadder:amethyst_prism
+      # result:
+        # item: itemsadder:music_disc_cdk_sunday
+        # amount: 1
+    # music_disc_vidian_aether_theories:
+      # permission: itemsadder.music_disc_vidian_aether_theories
+      # enabled: true
+      # pattern:
+      # - XXX
+      # - XBD
+      # - XXX
+      # ingredients:
+        # B: itemsadder:blank_disc
+        # D: itemsadder:ruby
+      # result:
+        # item: itemsadder:music_disc_vidian_aether_theories
+        # amount: 1
+    # ketchup_bottle:
+      # permission: itemsadder.ketchup_bottle
+      # enabled: true
+      # pattern:
+      # - PTP
+      # - PTP
+      # - PTP
+      # ingredients:
+        # P: itemsadder:plastic_plate
+        # T: itemsadder:tomato
+      # result:
+        # item: itemsadder:ketchup_bottle
+        # amount: 1
+    # ketchup:
+      # permission: itemsadder.ketchup
+      # enabled: true
+      # pattern:
+      # - XXX
+      # - XBX
+      # - XXX
+      # ingredients:
+        # B: itemsadder:ketchup_bottle
+      # result:
+        # item: itemsadder:ketchup
+        # amount: 16
+    # chili_powder:
+      # permission: itemsadder.chili_powder
+      # enabled: true
+      # pattern:
+      # - XXX
+      # - XXX
+      # - XBX
+      # ingredients:
+        # B: itemsadder:chili_pepper
+      # result:
+        # item: itemsadder:chili_powder
+        # amount: 4
+    # drink_glass:
+      # permission: itemsadder.drink_glass
+      # enabled: true
+      # pattern:
+      # - XXX
+      # - XGX
+      # - XXX
+      # ingredients:
+        # G: GLASS
+      # result:
+        # item: itemsadder:drink_glass
+        # amount: 4
+    # energy_orb:
+      # permission: itemsadder.energy_orb
+      # enabled: true
+      # pattern:
+      # - XXX
+      # - XGX
+      # - XXX
+      # ingredients:
+        # G: itemsadder:energy_capsule
+      # result:
+        # item: itemsadder:energy_orb
+        # amount: 64
+    # energy_orb_1:
+      # enabled: true
+      # permission: itemsadder.energy_orb
+      # pattern:
+      # - XXX
+      # - XSX
+      # - XXX
+      # ingredients:
+        # S: itemsadder:small_energy_capsule
+      # result:
+        # item: itemsadder:energy_orb
+        # amount: 8
+    # energy_orb_2:
+      # enabled: true
+      # permission: itemsadder.energy_orb
+      # pattern:
+      # - XXX
+      # - XSX
+      # - XXX
+      # ingredients:
+        # S: itemsadder:energy_capsule
+      # result:
+        # item: itemsadder:energy_orb
+        # amount: 64
+    # small_energy_capsule:
+      # permission: itemsadder.small_energy_capsule
+      # enabled: true
+      # pattern:
+      # - GGG
+      # - GXG
+      # - GGG
+      # ingredients:
+        # G: itemsadder:energy_orb
+      # result:
+        # item: itemsadder:small_energy_capsule
+        # amount: 1
+    # energy_capsule:
+      # permission: itemsadder.energy_capsule
+      # enabled: true
+      # pattern:
+      # - GGG
+      # - GXG
+      # - GGG
+      # ingredients:
+        # G: itemsadder:small_energy_capsule
+      # result:
+        # item: itemsadder:energy_capsule
+        # amount: 1
+    # iron_plate:
+      # permission: itemsadder.iron_plate
+      # enabled: true
+      # pattern:
+      # - XXX
+      # - XIX
+      # - XIX
+      # ingredients:
+        # I: IRON_INGOT
+      # result:
+        # item: itemsadder:iron_plate
+        # amount: 1
+    # EGGS:
+      # permission: itemsadder.eggs_nest
+      # enabled: true
+      # pattern:
+      # - XXX
+      # - XNX
+      # - XXX
+      # ingredients:
+        # N: itemsadder:eggs_nest
+      # result:
+        # item: EGG
+        # amount: 3
+      # return_items:
+        # replace:
+          # eggs_nest: nest
+    # eggs_nest:
+      # permission: itemsadder.eggs_nest
+      # enabled: true
+      # pattern:
+      # - XXX
+      # - EEE
+      # - XNX
+      # ingredients:
+        # N: itemsadder:nest
+        # E: EGG
+      # result:
+        # item: "itemsadder:eggs_nest"
+        # amount: 1
+    # mysterious_artifact:
+      # permission: itemsadder.mysterious_artifact
+      # enabled: true
+      # pattern:
+      # - XXL
+      # - XCM
+      # - XXL
+      # ingredients:
+        # C: itemsadder:chisel
+        # M: itemsadder:mysterious_ore
+        # L: LAPIS_LAZULI
+      # result:
+        # item: itemsadder:mysterious_artifact
+        # amount: 1
+      # return_items:
+        # decrement_durability:
+          # chisel:
+            # item: "itemsadder:chisel"
+            # amount: 3
+        # play_sound:
+          # name: itemsadder:ambient.angelic
+          # volume: 1
+          # pitch: 1
+    # jar:
+      # permission: itemsadder.jar
+      # enabled: true
+      # pattern:
+      # - PPP
+      # - XGX
+      # - XXX
+      # ingredients:
+        # G: GLASS
+        # P: itemsadder:plastic_plate
+      # result:
+        # item: itemsadder:jar
+        # amount: 1
+    # carton_box:
+      # permission: itemsadder.carton_box
+      # enabled: true
+      # pattern:
+      # - OOO
+      # - PPP
+      # - PPP
+      # ingredients:
+        # P: PAPER
+        # O: itemsadder:plastic_plate
+      # result:
+        # item: itemsadder:carton_box
+        # amount: 1
+    # cut_spruce_log:
+      # permission: itemsadder.cut_spruce_log
+      # enabled: true
+      # pattern:
+      # - XXX
+      # - XWX
+      # - XWX
+      # ingredients:
+        # W: SPRUCE_LOG
+      # result:
+        # item: itemsadder:cut_spruce_log
+        # amount: 6
+    # shotgun_cartridge:
+      # permission: itemsadder.shotgun_cartridge
+      # enabled: true
+      # pattern:
+      # - XXX
+      # - PRP
+      # - XGX
+      # ingredients:
+        # R: REDSTONE
+        # G: GOLD_INGOT
+        # P: itemsadder:plastic_plate
+      # result:
+        # item: itemsadder:shotgun_cartridge
+        # amount: 1
+  # cooking:
+    # cup_of_hot_water:
+      # permission: itemsadder.cup_of_hot_water
+      # ingredient:
+        # item: itemsadder:cup_of_water
+      # machines:
+      # - FURNACE
+      # - BLAST_FURNACE
+      # exp: 1
+      # cook_time: 200
+      # result:
+        # item: itemsadder:cup_of_hot_water
+        # amount: 1
+    # plastic:
+      # permission: itemsadder.plastic
+      # ingredient:
+        # item: itemsadder:fossil
+      # machines:
+      # - FURNACE
+      # - BLAST_FURNACE
+      # exp: 1
+      # cook_time: 200
+      # result:
+        # item: itemsadder:plastic
+        # amount: 2
 items:
   empty_cup:
     display_name: Empty cup

@@ -1,656 +1,656 @@
 info:
   namespace: itemsadder
-recipes:
-  crafting_table:
-    blue_lightsaber:
-      permission: itemsadder.blue_lightsaber
-      enabled: true
-      pattern:
-      - XLX
-      - DLR
-      - XSX
-      ingredients:
-        L: LAPIS_BLOCK
-        S: BLAZE_ROD
-        R: REDSTONE
-        D: DIAMOND
-      result:
-        item: itemsadder:blue_lightsaber
-        amount: 1
-    green_lightsaber:
-      permission: itemsadder.green_lightsaber
-      enabled: true
-      pattern:
-      - XLX
-      - DLR
-      - XSX
-      ingredients:
-        L: EMERALD_BLOCK
-        S: BLAZE_ROD
-        R: REDSTONE
-        D: DIAMOND
-      result:
-        item: itemsadder:green_lightsaber
-        amount: 1
-    red_lightsaber:
-      permission: itemsadder.red_lightsaber
-      enabled: true
-      pattern:
-      - XLX
-      - DLR
-      - XSX
-      ingredients:
-        L: REDSTONE_BLOCK
-        S: BLAZE_ROD
-        R: REDSTONE
-        D: DIAMOND
-      result:
-        item: itemsadder:red_lightsaber
-        amount: 1
-    masters_sword:
-      permission: itemsadder.masters_sword
-      enabled: true
-      pattern:
-      - XdX
-      - sds
-      - sss
-      ingredients:
-        s: LAPIS_BLOCK
-        d: DIAMOND
-      result:
-        item: itemsadder:masters_sword
-        amount: 1
-    floating_sword:
-      permission: itemsadder.floating_sword
-      enabled: true
-      pattern:
-      - XdX
-      - sds
-      - sss
-      ingredients:
-        s: OAK_PLANKS
-        d: DIAMOND
-      result:
-        item: itemsadder:floating_sword
-        amount: 1
-    baseball_bat:
-      permission: itemsadder.baseball_bat
-      enabled: true
-      pattern:
-      - XwX
-      - XwX
-      - XwX
-      ingredients:
-        w: OAK_PLANKS
-      result:
-        item: itemsadder:baseball_bat
-        amount: 1
-    gandalf_stick:
-      permission: itemsadder.gandalf_stick
-      enabled: true
-      pattern:
-      - XDX
-      - XAX
-      - XSX
-      ingredients:
-        D: DIAMOND
-        S: STICK
-        A: STRING
-      result:
-        item: itemsadder:gandalf_stick
-        amount: 1
-    emerald_sword:
-      permission: itemsadder.emerald_sword
-      enabled: true
-      pattern:
-      - XeX
-      - XeX
-      - XsX
-      ingredients:
-        e: EMERALD
-        s: STICK
-      result:
-        item: itemsadder:emerald_sword
-        amount: 1
-    elucidator_sword:
-      permission: itemsadder.elucidator_sword
-      enabled: true
-      pattern:
-      - XoX
-      - XoX
-      - XbX
-      ingredients:
-        o: OBSIDIAN
-        b: BLAZE_ROD
-      result:
-        item: itemsadder:elucidator_sword
-        amount: 1
-    repulser_sword:
-      permission: itemsadder.repulser_sword
-      enabled: true
-      pattern:
-      - XdX
-      - ddd
-      - XbX
-      ingredients:
-        d: DIAMOND
-        b: BLAZE_ROD
-      result:
-        item: itemsadder:repulser_sword
-        amount: 1
-    firesword_sword:
-      permission: itemsadder.firesword_sword
-      enabled: true
-      pattern:
-      - XdX
-      - XdX
-      - XbX
-      ingredients:
-        d: BLAZE_POWDER
-        b: BLAZE_ROD
-      result:
-        item: itemsadder:firesword_sword
-        amount: 1
-    aqualight_sword:
-      permission: itemsadder.aqualight_sword
-      enabled: true
-      pattern:
-      - XdX
-      - dbd
-      - XsX
-      ingredients:
-        d: DIAMOND
-        b: DIAMOND_BLOCK
-        s: STICK
-      result:
-        item: itemsadder:aqualight_sword
-        amount: 1
-    rusteroth_sword:
-      permission: itemsadder.rusteroth_sword
-      enabled: true
-      pattern:
-      - XdX
-      - dbd
-      - XsX
-      ingredients:
-        d: REDSTONE
-        b: REDSTONE_BLOCK
-        s: STICK
-      result:
-        item: itemsadder:rusteroth_sword
-        amount: 1
-    bloodnite_sword:
-      permission: itemsadder.bloodnite_sword
-      enabled: true
-      pattern:
-      - XdX
-      - dbd
-      - XsX
-      ingredients:
-        d: REDSTONE
-        b: BLAZE_POWDER
-        s: STICK
-      result:
-        item: itemsadder:bloodnite_sword
-        amount: 1
-    vyderlight_sword:
-      permission: itemsadder.vyderlight_sword
-      enabled: true
-      pattern:
-      - XdX
-      - dbd
-      - XsX
-      ingredients:
-        d: EMERALD
-        b: EMERALD_BLOCK
-        s: STICK
-      result:
-        item: itemsadder:vyderlight_sword
-        amount: 1
-    ruby_sword:
-      permission: itemsadder.ruby_sword
-      enabled: true
-      pattern:
-      - XRX
-      - XRX
-      - XSX
-      ingredients:
-        R: itemsadder:ruby
-        S: STICK
-      result:
-        item: itemsadder:ruby_sword
-        amount: 1
-    crystal_sword:
-      permission: itemsadder.crystal_sword
-      enabled: true
-      pattern:
-      - XRX
-      - XRX
-      - XSX
-      ingredients:
-        R: itemsadder:crystal
-        S: STICK
-      result:
-        item: itemsadder:crystal_sword
-        amount: 1
-    spinel_sword:
-      permission: itemsadder.spinel_sword
-      enabled: true
-      pattern:
-      - XRX
-      - XRX
-      - XSX
-      ingredients:
-        R: itemsadder:spinel
-        S: STICK
-      result:
-        item: itemsadder:spinel_sword
-        amount: 1
-    turquoise_sword:
-      permission: itemsadder.turquoise_sword
-      enabled: true
-      pattern:
-      - XRX
-      - XRX
-      - XSX
-      ingredients:
-        R: itemsadder:turquoise
-        S: STICK
-      result:
-        item: itemsadder:turquoise_sword
-        amount: 1
-    aqua_sword:
-      permission: itemsadder.aqua_sword
-      enabled: true
-      pattern:
-      - XRX
-      - XRX
-      - XSX
-      ingredients:
-        R: itemsadder:aqua_aura
-        S: STICK
-      result:
-        item: itemsadder:aqua_sword
-        amount: 1
-    amethyst_sword:
-      permission: itemsadder.amethyst_sword
-      enabled: true
-      pattern:
-      - XRX
-      - XRX
-      - XSX
-      ingredients:
-        R: itemsadder:amethyst
-        S: STICK
-      result:
-        item: itemsadder:amethyst_sword
-        amount: 1
-    guitar_sword:
-      permission: itemsadder.guitar_sword
-      enabled: true
-      pattern:
-      - XXD
-      - WRX
-      - WWX
-      ingredients:
-        W: OAK_PLANKS
-        R: REDSTONE
-        D: DIAMOND
-      result:
-        item: itemsadder:guitar_sword
-        amount: 1
-    ruby_dagger:
-      permission: itemsadder.ruby_dagger
-      enabled: true
-      pattern:
-      - XXX
-      - XRX
-      - XSX
-      ingredients:
-        R: itemsadder:ruby
-        S: STICK
-      result:
-        item: itemsadder:ruby_dagger
-        amount: 1
-    sweets_sword:
-      permission: itemsadder.sweets_sword
-      enabled: true
-      pattern:
-      - XDX
-      - XDX
-      - XSX
-      ingredients:
-        D: itemsadder:sweet
-        S: itemsadder:sweet_stick
-      result:
-        item: itemsadder:sweets_sword
-        amount: 1
-    knife:
-      permission: itemsadder.knife
-      enabled: true
-      pattern:
-      - XXX
-      - XDX
-      - XSX
-      ingredients:
-        D: IRON_NUGGET
-        S: STICK
-      result:
-        item: itemsadder:knife
-        amount: 1
-    philosopher_stone:
-      permission: itemsadder.philosopher_stone
-      enabled: true
-      pattern:
-      - GRG
-      - RDR
-      - GRG
-      ingredients:
-        D: DIAMOND_BLOCK
-        R: REDSTONE
-        G: GLOWSTONE_DUST
-      result:
-        item: itemsadder:philosopher_stone
-        amount: 1
-    philosopher_stone_1:
-      enabled: true
-      permission: itemsadder.philosopher_stone
-      pattern:
-      - XXX
-      - XPE
-      - XXX
-      ingredients:
-        P: itemsadder:philosopher_stone
-        E: itemsadder:energy_orb
-      result:
-        item: DIRT
-        amount: 1
-      return_items:
-        increment_durability:
-          philosopher_stone:
-            item: philosopher_stone
-            amount: 1
-    philosopher_stone_2:
-      enabled: true
-      permission: itemsadder.philosopher_stone
-      pattern:
-      - XXX
-      - XPE
-      - XXX
-      ingredients:
-        P: itemsadder:philosopher_stone
-        E: itemsadder:small_energy_capsule
-      result:
-        item: DIRT
-        amount: 1
-      return_items:
-        increment_durability:
-          philosopher_stone:
-            item: philosopher_stone
-            amount: 8
-    philosopher_stone_3:
-      enabled: true
-      permission: itemsadder.philosopher_stone
-      pattern:
-      - XXX
-      - XPE
-      - XXX
-      ingredients:
-        P: itemsadder:philosopher_stone
-        E: itemsadder:energy_capsule
-      result:
-        item: DIRT
-        amount: 1
-      return_items:
-        increment_durability:
-          philosopher_stone:
-            item: philosopher_stone
-            amount: 64
-    chisel:
-      permission: itemsadder.chisel
-      enabled: true
-      pattern:
-      - XXX
-      - XXI
-      - XSX
-      ingredients:
-        I: IRON_INGOT
-        S: STICK
-      result:
-        item: itemsadder:chisel
-        amount: 1
-    end_sword:
-      permission: itemsadder.end_sword
-      enabled: true
-      pattern:
-      - XEX
-      - XEX
-      - XSX
-      ingredients:
-        E: itemsadder:end_ingot
-        S: STICK
-      result:
-        item: itemsadder:end_sword
-        amount: 1
-    bronze_sword:
-      permission: itemsadder.bronze_sword
-      enabled: true
-      pattern:
-      - XeX
-      - XeX
-      - XsX
-      ingredients:
-        e: itemsadder:bronze_ingot
-        s: STICK
-      result:
-        item: itemsadder:bronze_sword
-        amount: 1
-    sweet_berries_jam_jar:
-      permission: itemsadder.sweet_berries_jam_jar
-      enabled: true
-      pattern:
-      - PPP
-      - PPP
-      - PJP
-      ingredients:
-        P: SWEET_BERRIES
-        J: itemsadder:jar
-      result:
-        item: itemsadder:sweet_berries_jam_jar
-        amount: 1
-    sweet_berries_jam_jar_1:
-      enabled: true
-      permission: itemsadder.sweet_berries_jam_jar
-      pattern:
-      - SSS
-      - XJX
-      - XXX
-      ingredients:
-        J: itemsadder:sweet_berries_jam_jar
-        S: SWEET_BERRIES
-      result:
-        item: SWEET_BERRIES
-        amount: 1
-      return_items:
-        increment_durability:
-          sweet_berries_jam_jar:
-            item: sweet_berries_jam_jar
-            amount: 2
-    pear_jam_jar:
-      permission: itemsadder.pear_jam_jar
-      enabled: true
-      pattern:
-      - PPP
-      - PPP
-      - PJP
-      ingredients:
-        P: itemsadder:pear
-        J: itemsadder:jar
-      result:
-        item: itemsadder:pear_jam_jar
-        amount: 1
-    pear_jam_jar_1:
-      enabled: true
-      permission: itemsadder.pear_jam_jar
-      pattern:
-      - SSS
-      - XJX
-      - XXX
-      ingredients:
-        J: itemsadder:pear_jam_jar
-        S: itemsadder:pear
-      result:
-        item: itemsadder:pear
-        amount: 1
-      return_items:
-        increment_durability:
-          pear_jam_jar:
-            item: pear_jam_jar
-            amount: 2
-    apple_jam_jar:
-      permission: itemsadder.apple_jam_jar
-      enabled: true
-      pattern:
-      - PPP
-      - PPP
-      - PJP
-      ingredients:
-        P: APPLE
-        J: itemsadder:jar
-      result:
-        item: itemsadder:apple_jam_jar
-        amount: 1
-    apple_jam_jar_1:
-      enabled: true
-      permission: itemsadder.apple_jam_jar
-      pattern:
-      - SSS
-      - XJX
-      - XXX
-      ingredients:
-        J: itemsadder:apple_jam_jar
-        S: APPLE
-      result:
-        item: APPLE
-        amount: 1
-      return_items:
-        increment_durability:
-          apple_jam_jar:
-            item: apple_jam_jar
-            amount: 2
-  anvil_repair:
-    blue_lightsaber:
-      permission: itemsadder.blue_lightsaber
-      ingredient: DIAMOND
-      item: itemsadder:blue_lightsaber
-    green_lightsaber:
-      permission: itemsadder.green_lightsaber
-      ingredient: EMERALD
-      item: itemsadder:green_lightsaber
-    red_lightsaber:
-      permission: itemsadder.red_lightsaber
-      ingredient: REDSTONE_BLOCK
-      item: itemsadder:red_lightsaber
-    masters_sword:
-      permission: itemsadder.masters_sword
-      ingredient: DIAMOND
-      item: itemsadder:masters_sword
-    floating_sword:
-      permission: itemsadder.floating_sword
-      ingredient: DIAMOND
-      item: itemsadder:floating_sword
-    baseball_bat:
-      permission: itemsadder.baseball_bat
-      ingredient: OAK_PLANKS
-      item: itemsadder:baseball_bat
-    gandalf_stick:
-      permission: itemsadder.gandalf_stick
-      ingredient: STICK
-      item: itemsadder:gandalf_stick
-    emerald_sword:
-      permission: itemsadder.emerald_sword
-      ingredient: EMERALD
-      item: itemsadder:emerald_sword
-    elucidator_sword:
-      permission: itemsadder.elucidator_sword
-      ingredient: OBSIDIAN
-      item: itemsadder:elucidator_sword
-    repulser_sword:
-      permission: itemsadder.repulser_sword
-      ingredient: DIAMOND
-      item: itemsadder:repulser_sword
-    firesword_sword:
-      permission: itemsadder.firesword_sword
-      ingredient: BLAZE_POWDER
-      item: itemsadder:firesword_sword
-    aqualight_sword:
-      permission: itemsadder.aqualight_sword
-      ingredient: DIAMOND
-      item: itemsadder:aqualight_sword
-    rusteroth_sword:
-      permission: itemsadder.rusteroth_sword
-      ingredient: REDSTONE_BLOCK
-      item: itemsadder:rusteroth_sword
-    bloodnite_sword:
-      permission: itemsadder.bloodnite_sword
-      ingredient: BLAZE_POWDER
-      item: itemsadder:bloodnite_sword
-    vyderlight_sword:
-      permission: itemsadder.vyderlight_sword
-      ingredient: EMERALD
-      item: itemsadder:vyderlight_sword
-    ruby_sword:
-      permission: itemsadder.ruby_sword
-      ingredient: itemsadder:ruby
-      item: itemsadder:ruby_sword
-    crystal_sword:
-      permission: itemsadder.crystal_sword
-      ingredient: itemsadder:crystal
-      item: itemsadder:crystal_sword
-    spinel_sword:
-      permission: itemsadder.spinel_sword
-      ingredient: itemsadder:spinel
-      item: itemsadder:spinel_sword
-    turquoise_sword:
-      permission: itemsadder.turquoise_sword
-      ingredient: itemsadder:turquoise
-      item: itemsadder:turquoise_sword
-    aqua_sword:
-      permission: itemsadder.aqua_sword
-      ingredient: itemsadder:aqua_aura
-      item: itemsadder:aqua_sword
-    amethyst_sword:
-      permission: itemsadder.amethyst_sword
-      ingredient: itemsadder:amethyst
-      item: itemsadder:amethyst_sword
-    guitar_sword:
-      permission: itemsadder.guitar_sword
-      ingredient: REDSTONE
-      item: itemsadder:guitar_sword
-    ruby_dagger:
-      permission: itemsadder.ruby_dagger
-      ingredient: itemsadder:ruby
-      item: itemsadder:ruby_dagger
-    sweets_sword:
-      permission: itemsadder.sweets_sword
-      ingredient: itemsadder:sweet
-      item: itemsadder:sweets_sword
-    knife:
-      permission: itemsadder.knife
-      ingredient: IRON_NUGGET
-      item: itemsadder:knife
-    chisel:
-      permission: itemsadder.chisel
-      ingredient: IRON_INGOT
-      item: itemsadder:chisel
-    end_sword:
-      permission: itemsadder.end_sword
-      ingredient: itemsadder:end_ingot
-      item: itemsadder:end_sword
-    bronze_sword:
-      permission: itemsadder.bronze_sword
-      ingredient: itemsadder:bronze_ingot
-      item: itemsadder:bronze_sword
+# recipes:
+  # crafting_table:
+    # blue_lightsaber:
+      # permission: itemsadder.blue_lightsaber
+      # enabled: true
+      # pattern:
+      # - XLX
+      # - DLR
+      # - XSX
+      # ingredients:
+        # L: LAPIS_BLOCK
+        # S: BLAZE_ROD
+        # R: REDSTONE
+        # D: DIAMOND
+      # result:
+        # item: itemsadder:blue_lightsaber
+        # amount: 1
+    # green_lightsaber:
+      # permission: itemsadder.green_lightsaber
+      # enabled: true
+      # pattern:
+      # - XLX
+      # - DLR
+      # - XSX
+      # ingredients:
+        # L: EMERALD_BLOCK
+        # S: BLAZE_ROD
+        # R: REDSTONE
+        # D: DIAMOND
+      # result:
+        # item: itemsadder:green_lightsaber
+        # amount: 1
+    # red_lightsaber:
+      # permission: itemsadder.red_lightsaber
+      # enabled: true
+      # pattern:
+      # - XLX
+      # - DLR
+      # - XSX
+      # ingredients:
+        # L: REDSTONE_BLOCK
+        # S: BLAZE_ROD
+        # R: REDSTONE
+        # D: DIAMOND
+      # result:
+        # item: itemsadder:red_lightsaber
+        # amount: 1
+    # masters_sword:
+      # permission: itemsadder.masters_sword
+      # enabled: true
+      # pattern:
+      # - XdX
+      # - sds
+      # - sss
+      # ingredients:
+        # s: LAPIS_BLOCK
+        # d: DIAMOND
+      # result:
+        # item: itemsadder:masters_sword
+        # amount: 1
+    # floating_sword:
+      # permission: itemsadder.floating_sword
+      # enabled: true
+      # pattern:
+      # - XdX
+      # - sds
+      # - sss
+      # ingredients:
+        # s: OAK_PLANKS
+        # d: DIAMOND
+      # result:
+        # item: itemsadder:floating_sword
+        # amount: 1
+    # baseball_bat:
+      # permission: itemsadder.baseball_bat
+      # enabled: true
+      # pattern:
+      # - XwX
+      # - XwX
+      # - XwX
+      # ingredients:
+        # w: OAK_PLANKS
+      # result:
+        # item: itemsadder:baseball_bat
+        # amount: 1
+    # gandalf_stick:
+      # permission: itemsadder.gandalf_stick
+      # enabled: true
+      # pattern:
+      # - XDX
+      # - XAX
+      # - XSX
+      # ingredients:
+        # D: DIAMOND
+        # S: STICK
+        # A: STRING
+      # result:
+        # item: itemsadder:gandalf_stick
+        # amount: 1
+    # emerald_sword:
+      # permission: itemsadder.emerald_sword
+      # enabled: true
+      # pattern:
+      # - XeX
+      # - XeX
+      # - XsX
+      # ingredients:
+        # e: EMERALD
+        # s: STICK
+      # result:
+        # item: itemsadder:emerald_sword
+        # amount: 1
+    # elucidator_sword:
+      # permission: itemsadder.elucidator_sword
+      # enabled: true
+      # pattern:
+      # - XoX
+      # - XoX
+      # - XbX
+      # ingredients:
+        # o: OBSIDIAN
+        # b: BLAZE_ROD
+      # result:
+        # item: itemsadder:elucidator_sword
+        # amount: 1
+    # repulser_sword:
+      # permission: itemsadder.repulser_sword
+      # enabled: true
+      # pattern:
+      # - XdX
+      # - ddd
+      # - XbX
+      # ingredients:
+        # d: DIAMOND
+        # b: BLAZE_ROD
+      # result:
+        # item: itemsadder:repulser_sword
+        # amount: 1
+    # firesword_sword:
+      # permission: itemsadder.firesword_sword
+      # enabled: true
+      # pattern:
+      # - XdX
+      # - XdX
+      # - XbX
+      # ingredients:
+        # d: BLAZE_POWDER
+        # b: BLAZE_ROD
+      # result:
+        # item: itemsadder:firesword_sword
+        # amount: 1
+    # aqualight_sword:
+      # permission: itemsadder.aqualight_sword
+      # enabled: true
+      # pattern:
+      # - XdX
+      # - dbd
+      # - XsX
+      # ingredients:
+        # d: DIAMOND
+        # b: DIAMOND_BLOCK
+        # s: STICK
+      # result:
+        # item: itemsadder:aqualight_sword
+        # amount: 1
+    # rusteroth_sword:
+      # permission: itemsadder.rusteroth_sword
+      # enabled: true
+      # pattern:
+      # - XdX
+      # - dbd
+      # - XsX
+      # ingredients:
+        # d: REDSTONE
+        # b: REDSTONE_BLOCK
+        # s: STICK
+      # result:
+        # item: itemsadder:rusteroth_sword
+        # amount: 1
+    # bloodnite_sword:
+      # permission: itemsadder.bloodnite_sword
+      # enabled: true
+      # pattern:
+      # - XdX
+      # - dbd
+      # - XsX
+      # ingredients:
+        # d: REDSTONE
+        # b: BLAZE_POWDER
+        # s: STICK
+      # result:
+        # item: itemsadder:bloodnite_sword
+        # amount: 1
+    # vyderlight_sword:
+      # permission: itemsadder.vyderlight_sword
+      # enabled: true
+      # pattern:
+      # - XdX
+      # - dbd
+      # - XsX
+      # ingredients:
+        # d: EMERALD
+        # b: EMERALD_BLOCK
+        # s: STICK
+      # result:
+        # item: itemsadder:vyderlight_sword
+        # amount: 1
+    # ruby_sword:
+      # permission: itemsadder.ruby_sword
+      # enabled: true
+      # pattern:
+      # - XRX
+      # - XRX
+      # - XSX
+      # ingredients:
+        # R: itemsadder:ruby
+        # S: STICK
+      # result:
+        # item: itemsadder:ruby_sword
+        # amount: 1
+    # crystal_sword:
+      # permission: itemsadder.crystal_sword
+      # enabled: true
+      # pattern:
+      # - XRX
+      # - XRX
+      # - XSX
+      # ingredients:
+        # R: itemsadder:crystal
+        # S: STICK
+      # result:
+        # item: itemsadder:crystal_sword
+        # amount: 1
+    # spinel_sword:
+      # permission: itemsadder.spinel_sword
+      # enabled: true
+      # pattern:
+      # - XRX
+      # - XRX
+      # - XSX
+      # ingredients:
+        # R: itemsadder:spinel
+        # S: STICK
+      # result:
+        # item: itemsadder:spinel_sword
+        # amount: 1
+    # turquoise_sword:
+      # permission: itemsadder.turquoise_sword
+      # enabled: true
+      # pattern:
+      # - XRX
+      # - XRX
+      # - XSX
+      # ingredients:
+        # R: itemsadder:turquoise
+        # S: STICK
+      # result:
+        # item: itemsadder:turquoise_sword
+        # amount: 1
+    # aqua_sword:
+      # permission: itemsadder.aqua_sword
+      # enabled: true
+      # pattern:
+      # - XRX
+      # - XRX
+      # - XSX
+      # ingredients:
+        # R: itemsadder:aqua_aura
+        # S: STICK
+      # result:
+        # item: itemsadder:aqua_sword
+        # amount: 1
+    # amethyst_sword:
+      # permission: itemsadder.amethyst_sword
+      # enabled: true
+      # pattern:
+      # - XRX
+      # - XRX
+      # - XSX
+      # ingredients:
+        # R: itemsadder:amethyst
+        # S: STICK
+      # result:
+        # item: itemsadder:amethyst_sword
+        # amount: 1
+    # guitar_sword:
+      # permission: itemsadder.guitar_sword
+      # enabled: true
+      # pattern:
+      # - XXD
+      # - WRX
+      # - WWX
+      # ingredients:
+        # W: OAK_PLANKS
+        # R: REDSTONE
+        # D: DIAMOND
+      # result:
+        # item: itemsadder:guitar_sword
+        # amount: 1
+    # ruby_dagger:
+      # permission: itemsadder.ruby_dagger
+      # enabled: true
+      # pattern:
+      # - XXX
+      # - XRX
+      # - XSX
+      # ingredients:
+        # R: itemsadder:ruby
+        # S: STICK
+      # result:
+        # item: itemsadder:ruby_dagger
+        # amount: 1
+    # sweets_sword:
+      # permission: itemsadder.sweets_sword
+      # enabled: true
+      # pattern:
+      # - XDX
+      # - XDX
+      # - XSX
+      # ingredients:
+        # D: itemsadder:sweet
+        # S: itemsadder:sweet_stick
+      # result:
+        # item: itemsadder:sweets_sword
+        # amount: 1
+    # knife:
+      # permission: itemsadder.knife
+      # enabled: true
+      # pattern:
+      # - XXX
+      # - XDX
+      # - XSX
+      # ingredients:
+        # D: IRON_NUGGET
+        # S: STICK
+      # result:
+        # item: itemsadder:knife
+        # amount: 1
+    # philosopher_stone:
+      # permission: itemsadder.philosopher_stone
+      # enabled: true
+      # pattern:
+      # - GRG
+      # - RDR
+      # - GRG
+      # ingredients:
+        # D: DIAMOND_BLOCK
+        # R: REDSTONE
+        # G: GLOWSTONE_DUST
+      # result:
+        # item: itemsadder:philosopher_stone
+        # amount: 1
+    # philosopher_stone_1:
+      # enabled: true
+      # permission: itemsadder.philosopher_stone
+      # pattern:
+      # - XXX
+      # - XPE
+      # - XXX
+      # ingredients:
+        # P: itemsadder:philosopher_stone
+        # E: itemsadder:energy_orb
+      # result:
+        # item: DIRT
+        # amount: 1
+      # return_items:
+        # increment_durability:
+          # philosopher_stone:
+            # item: philosopher_stone
+            # amount: 1
+    # philosopher_stone_2:
+      # enabled: true
+      # permission: itemsadder.philosopher_stone
+      # pattern:
+      # - XXX
+      # - XPE
+      # - XXX
+      # ingredients:
+        # P: itemsadder:philosopher_stone
+        # E: itemsadder:small_energy_capsule
+      # result:
+        # item: DIRT
+        # amount: 1
+      # return_items:
+        # increment_durability:
+          # philosopher_stone:
+            # item: philosopher_stone
+            # amount: 8
+    # philosopher_stone_3:
+      # enabled: true
+      # permission: itemsadder.philosopher_stone
+      # pattern:
+      # - XXX
+      # - XPE
+      # - XXX
+      # ingredients:
+        # P: itemsadder:philosopher_stone
+        # E: itemsadder:energy_capsule
+      # result:
+        # item: DIRT
+        # amount: 1
+      # return_items:
+        # increment_durability:
+          # philosopher_stone:
+            # item: philosopher_stone
+            # amount: 64
+    # chisel:
+      # permission: itemsadder.chisel
+      # enabled: true
+      # pattern:
+      # - XXX
+      # - XXI
+      # - XSX
+      # ingredients:
+        # I: IRON_INGOT
+        # S: STICK
+      # result:
+        # item: itemsadder:chisel
+        # amount: 1
+    # end_sword:
+      # permission: itemsadder.end_sword
+      # enabled: true
+      # pattern:
+      # - XEX
+      # - XEX
+      # - XSX
+      # ingredients:
+        # E: itemsadder:end_ingot
+        # S: STICK
+      # result:
+        # item: itemsadder:end_sword
+        # amount: 1
+    # bronze_sword:
+      # permission: itemsadder.bronze_sword
+      # enabled: true
+      # pattern:
+      # - XeX
+      # - XeX
+      # - XsX
+      # ingredients:
+        # e: itemsadder:bronze_ingot
+        # s: STICK
+      # result:
+        # item: itemsadder:bronze_sword
+        # amount: 1
+    # sweet_berries_jam_jar:
+      # permission: itemsadder.sweet_berries_jam_jar
+      # enabled: true
+      # pattern:
+      # - PPP
+      # - PPP
+      # - PJP
+      # ingredients:
+        # P: SWEET_BERRIES
+        # J: itemsadder:jar
+      # result:
+        # item: itemsadder:sweet_berries_jam_jar
+        # amount: 1
+    # sweet_berries_jam_jar_1:
+      # enabled: true
+      # permission: itemsadder.sweet_berries_jam_jar
+      # pattern:
+      # - SSS
+      # - XJX
+      # - XXX
+      # ingredients:
+        # J: itemsadder:sweet_berries_jam_jar
+        # S: SWEET_BERRIES
+      # result:
+        # item: SWEET_BERRIES
+        # amount: 1
+      # return_items:
+        # increment_durability:
+          # sweet_berries_jam_jar:
+            # item: sweet_berries_jam_jar
+            # amount: 2
+    # pear_jam_jar:
+      # permission: itemsadder.pear_jam_jar
+      # enabled: true
+      # pattern:
+      # - PPP
+      # - PPP
+      # - PJP
+      # ingredients:
+        # P: itemsadder:pear
+        # J: itemsadder:jar
+      # result:
+        # item: itemsadder:pear_jam_jar
+        # amount: 1
+    # pear_jam_jar_1:
+      # enabled: true
+      # permission: itemsadder.pear_jam_jar
+      # pattern:
+      # - SSS
+      # - XJX
+      # - XXX
+      # ingredients:
+        # J: itemsadder:pear_jam_jar
+        # S: itemsadder:pear
+      # result:
+        # item: itemsadder:pear
+        # amount: 1
+      # return_items:
+        # increment_durability:
+          # pear_jam_jar:
+            # item: pear_jam_jar
+            # amount: 2
+    # apple_jam_jar:
+      # permission: itemsadder.apple_jam_jar
+      # enabled: true
+      # pattern:
+      # - PPP
+      # - PPP
+      # - PJP
+      # ingredients:
+        # P: APPLE
+        # J: itemsadder:jar
+      # result:
+        # item: itemsadder:apple_jam_jar
+        # amount: 1
+    # apple_jam_jar_1:
+      # enabled: true
+      # permission: itemsadder.apple_jam_jar
+      # pattern:
+      # - SSS
+      # - XJX
+      # - XXX
+      # ingredients:
+        # J: itemsadder:apple_jam_jar
+        # S: APPLE
+      # result:
+        # item: APPLE
+        # amount: 1
+      # return_items:
+        # increment_durability:
+          # apple_jam_jar:
+            # item: apple_jam_jar
+            # amount: 2
+  # anvil_repair:
+    # blue_lightsaber:
+      # permission: itemsadder.blue_lightsaber
+      # ingredient: DIAMOND
+      # item: itemsadder:blue_lightsaber
+    # green_lightsaber:
+      # permission: itemsadder.green_lightsaber
+      # ingredient: EMERALD
+      # item: itemsadder:green_lightsaber
+    # red_lightsaber:
+      # permission: itemsadder.red_lightsaber
+      # ingredient: REDSTONE_BLOCK
+      # item: itemsadder:red_lightsaber
+    # masters_sword:
+      # permission: itemsadder.masters_sword
+      # ingredient: DIAMOND
+      # item: itemsadder:masters_sword
+    # floating_sword:
+      # permission: itemsadder.floating_sword
+      # ingredient: DIAMOND
+      # item: itemsadder:floating_sword
+    # baseball_bat:
+      # permission: itemsadder.baseball_bat
+      # ingredient: OAK_PLANKS
+      # item: itemsadder:baseball_bat
+    # gandalf_stick:
+      # permission: itemsadder.gandalf_stick
+      # ingredient: STICK
+      # item: itemsadder:gandalf_stick
+    # emerald_sword:
+      # permission: itemsadder.emerald_sword
+      # ingredient: EMERALD
+      # item: itemsadder:emerald_sword
+    # elucidator_sword:
+      # permission: itemsadder.elucidator_sword
+      # ingredient: OBSIDIAN
+      # item: itemsadder:elucidator_sword
+    # repulser_sword:
+      # permission: itemsadder.repulser_sword
+      # ingredient: DIAMOND
+      # item: itemsadder:repulser_sword
+    # firesword_sword:
+      # permission: itemsadder.firesword_sword
+      # ingredient: BLAZE_POWDER
+      # item: itemsadder:firesword_sword
+    # aqualight_sword:
+      # permission: itemsadder.aqualight_sword
+      # ingredient: DIAMOND
+      # item: itemsadder:aqualight_sword
+    # rusteroth_sword:
+      # permission: itemsadder.rusteroth_sword
+      # ingredient: REDSTONE_BLOCK
+      # item: itemsadder:rusteroth_sword
+    # bloodnite_sword:
+      # permission: itemsadder.bloodnite_sword
+      # ingredient: BLAZE_POWDER
+      # item: itemsadder:bloodnite_sword
+    # vyderlight_sword:
+      # permission: itemsadder.vyderlight_sword
+      # ingredient: EMERALD
+      # item: itemsadder:vyderlight_sword
+    # ruby_sword:
+      # permission: itemsadder.ruby_sword
+      # ingredient: itemsadder:ruby
+      # item: itemsadder:ruby_sword
+    # crystal_sword:
+      # permission: itemsadder.crystal_sword
+      # ingredient: itemsadder:crystal
+      # item: itemsadder:crystal_sword
+    # spinel_sword:
+      # permission: itemsadder.spinel_sword
+      # ingredient: itemsadder:spinel
+      # item: itemsadder:spinel_sword
+    # turquoise_sword:
+      # permission: itemsadder.turquoise_sword
+      # ingredient: itemsadder:turquoise
+      # item: itemsadder:turquoise_sword
+    # aqua_sword:
+      # permission: itemsadder.aqua_sword
+      # ingredient: itemsadder:aqua_aura
+      # item: itemsadder:aqua_sword
+    # amethyst_sword:
+      # permission: itemsadder.amethyst_sword
+      # ingredient: itemsadder:amethyst
+      # item: itemsadder:amethyst_sword
+    # guitar_sword:
+      # permission: itemsadder.guitar_sword
+      # ingredient: REDSTONE
+      # item: itemsadder:guitar_sword
+    # ruby_dagger:
+      # permission: itemsadder.ruby_dagger
+      # ingredient: itemsadder:ruby
+      # item: itemsadder:ruby_dagger
+    # sweets_sword:
+      # permission: itemsadder.sweets_sword
+      # ingredient: itemsadder:sweet
+      # item: itemsadder:sweets_sword
+    # knife:
+      # permission: itemsadder.knife
+      # ingredient: IRON_NUGGET
+      # item: itemsadder:knife
+    # chisel:
+      # permission: itemsadder.chisel
+      # ingredient: IRON_INGOT
+      # item: itemsadder:chisel
+    # end_sword:
+      # permission: itemsadder.end_sword
+      # ingredient: itemsadder:end_ingot
+      # item: itemsadder:end_sword
+    # bronze_sword:
+      # permission: itemsadder.bronze_sword
+      # ingredient: itemsadder:bronze_ingot
+      # item: itemsadder:bronze_sword
 items:
   closed_lightsaber:
     enabled: true
