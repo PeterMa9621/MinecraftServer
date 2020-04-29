@@ -8,10 +8,10 @@ chatFormat:
   group: '&2%group_color%[%group_name%] %player_name%: &r'
   spy: '&2[Chat Spy] %player_name%: &r'
 tutorial:
-  activated: false
+  activated: true
   dungeon: tutorial
   startGroup: default
-  endgroup: player
+  endgroup: default
 groupColorPriority:
 - DARK_BLUE
 - LIGHT_RED
