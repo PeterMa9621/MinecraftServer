@@ -1,0 +1,22 @@
+database: MYSQL
+databaseName: minecraft
+test:
+  date: '2020-05-01'
+  displayName: '&6五一劳动节'
+  numReward: 2
+  describe:
+  - '&f劳动节快乐！'
+  - '&f为辛苦劳动的人民致敬！'
+  reward:
+  - cc give p 疯狂 1 %player%
+  - cc give p 九选一 1 %player%
+  - cc give p 快速 1 %player%
+  - cc give p 烟花 1 %player%
+  - cc give p 老虎机 1 %player%
+  - cc give p 跑马灯 1 %player%
+  - iagive %player% itemsadder:demoniac_red_wings
+  - iagive %player% itemsadder:demoniac_black_wings
+  - iagive %player% itemsadder:biker_helmet
+  - iagive %player% itemsadder:ruby_pickaxe_hat
+  - iagive %player% itemsadder:welding_mask
+  - iagive %player% itemsadder:dog_mask

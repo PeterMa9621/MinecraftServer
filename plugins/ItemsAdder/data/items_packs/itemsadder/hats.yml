@@ -1,163 +1,163 @@
 info:
   namespace: itemsadder
-recipes:
-  crafting_table:
-    deadmau5_hat:
-      permission: itemsadder.deadmau5_hat
-      enabled: true
-      pattern:
-      - BXB
-      - XBX
-      - XXX
-      ingredients:
-        B: LIGHT_BLUE_WOOL
-      result:
-        item: itemsadder:deadmau5_hat
-        amount: 1
-    top_hat:
-      permission: itemsadder.top_hat
-      enabled: true
-      pattern:
-      - XWX
-      - XWX
-      - WWW
-      ingredients:
-        W: BLACK_WOOL
-      result:
-        item: itemsadder:top_hat
-        amount: 1
-    welding_mask:
-      permission: itemsadder.welding_mask
-      enabled: true
-      pattern:
-      - GGG
-      - GTG
-      - XXX
-      ingredients:
-        G: IRON_INGOT
-        T: OBSIDIAN
-      result:
-        item: itemsadder:welding_mask
-        amount: 1
-    mining_helmet:
-      permission: itemsadder.mining_helmet
-      enabled: true
-      pattern:
-      - GGG
-      - GTG
-      - XXX
-      ingredients:
-        G: GOLD_INGOT
-        T: TORCH
-      result:
-        item: itemsadder:mining_helmet
-        amount: 1
-    dog_mask:
-      permission: itemsadder.dog_mask
-      enabled: true
-      pattern:
-      - WWW
-      - WIW
-      - WWW
-      ingredients:
-        W: YELLOW_WOOL
-        I: BONE
-      result:
-        item: itemsadder:dog_mask
-        amount: 1
-    ruby_pickaxe_hat:
-      permission: itemsadder.ruby_pickaxe_hat
-      enabled: true
-      pattern:
-      - RRR
-      - LSL
-      - XSX
-      ingredients:
-        R: itemsadder:ruby
-        S: STICK
-        L: LEATHER
-      result:
-        item: itemsadder:ruby_pickaxe_hat
-        amount: 1
-    straw_hat:
-      permission: itemsadder.straw_hat
-      enabled: true
-      pattern:
-      - XWX
-      - XSX
-      - WWW
-      ingredients:
-        W: WHEAT
-        S: STRING
-      result:
-        item: itemsadder:straw_hat
-        amount: 1
-    cool_sunglasses:
-      permission: itemsadder.cool_sunglasses
-      enabled: true
-      pattern:
-      - XXX
-      - GSG
-      - XXX
-      ingredients:
-        G: BLACK_STAINED_GLASS_PANE
-        S: STICK
-      result:
-        item: itemsadder:cool_sunglasses
-        amount: 1
-    cigar:
-      permission: itemsadder.cigar
-      enabled: true
-      pattern:
-      - XXX
-      - TTT
-      - PPP
-      ingredients:
-        P: PAPER
-        T: itemsadder:tobacco
-      result:
-        item: itemsadder:cigar
-        amount: 1
-    glasses:
-      permission: itemsadder.glasses
-      enabled: true
-      pattern:
-      - XXX
-      - GSG
-      - XXX
-      ingredients:
-        G: GLASS_PANE
-        S: STICK
-      result:
-        item: itemsadder:glasses
-        amount: 1
-    biker_helmet:
-      permission: itemsadder.biker_helmet
-      enabled: true
-      pattern:
-      - PPP
-      - BBB
-      - PPP
-      ingredients:
-        P: itemsadder:plastic_plate
-        B: BLACK_STAINED_GLASS_PANE
-      result:
-        item: itemsadder:biker_helmet
-        amount: 1
-    cat_ears:
-      permission: itemsadder.cat_ears
-      enabled: true
-      pattern:
-      - BWB
-      - PWP
-      - XXX
-      ingredients:
-        P: PINK_WOOL
-        B: BLACK_WOOL
-        W: WHITE_WOOL
-      result:
-        item: itemsadder:cat_ears
-        amount: 1
+# recipes:
+  # crafting_table:
+    # deadmau5_hat:
+      # permission: itemsadder.deadmau5_hat
+      # enabled: true
+      # pattern:
+      # - BXB
+      # - XBX
+      # - XXX
+      # ingredients:
+        # B: LIGHT_BLUE_WOOL
+      # result:
+        # item: itemsadder:deadmau5_hat
+        # amount: 1
+    # top_hat:
+      # permission: itemsadder.top_hat
+      # enabled: true
+      # pattern:
+      # - XWX
+      # - XWX
+      # - WWW
+      # ingredients:
+        # W: BLACK_WOOL
+      # result:
+        # item: itemsadder:top_hat
+        # amount: 1
+    # welding_mask:
+      # permission: itemsadder.welding_mask
+      # enabled: true
+      # pattern:
+      # - GGG
+      # - GTG
+      # - XXX
+      # ingredients:
+        # G: IRON_INGOT
+        # T: OBSIDIAN
+      # result:
+        # item: itemsadder:welding_mask
+        # amount: 1
+    # mining_helmet:
+      # permission: itemsadder.mining_helmet
+      # enabled: true
+      # pattern:
+      # - GGG
+      # - GTG
+      # - XXX
+      # ingredients:
+        # G: GOLD_INGOT
+        # T: TORCH
+      # result:
+        # item: itemsadder:mining_helmet
+        # amount: 1
+    # dog_mask:
+      # permission: itemsadder.dog_mask
+      # enabled: true
+      # pattern:
+      # - WWW
+      # - WIW
+      # - WWW
+      # ingredients:
+        # W: YELLOW_WOOL
+        # I: BONE
+      # result:
+        # item: itemsadder:dog_mask
+        # amount: 1
+    # ruby_pickaxe_hat:
+      # permission: itemsadder.ruby_pickaxe_hat
+      # enabled: true
+      # pattern:
+      # - RRR
+      # - LSL
+      # - XSX
+      # ingredients:
+        # R: itemsadder:ruby
+        # S: STICK
+        # L: LEATHER
+      # result:
+        # item: itemsadder:ruby_pickaxe_hat
+        # amount: 1
+    # straw_hat:
+      # permission: itemsadder.straw_hat
+      # enabled: true
+      # pattern:
+      # - XWX
+      # - XSX
+      # - WWW
+      # ingredients:
+        # W: WHEAT
+        # S: STRING
+      # result:
+        # item: itemsadder:straw_hat
+        # amount: 1
+    # cool_sunglasses:
+      # permission: itemsadder.cool_sunglasses
+      # enabled: true
+      # pattern:
+      # - XXX
+      # - GSG
+      # - XXX
+      # ingredients:
+        # G: BLACK_STAINED_GLASS_PANE
+        # S: STICK
+      # result:
+        # item: itemsadder:cool_sunglasses
+        # amount: 1
+    # cigar:
+      # permission: itemsadder.cigar
+      # enabled: true
+      # pattern:
+      # - XXX
+      # - TTT
+      # - PPP
+      # ingredients:
+        # P: PAPER
+        # T: itemsadder:tobacco
+      # result:
+        # item: itemsadder:cigar
+        # amount: 1
+    # glasses:
+      # permission: itemsadder.glasses
+      # enabled: true
+      # pattern:
+      # - XXX
+      # - GSG
+      # - XXX
+      # ingredients:
+        # G: GLASS_PANE
+        # S: STICK
+      # result:
+        # item: itemsadder:glasses
+        # amount: 1
+    # biker_helmet:
+      # permission: itemsadder.biker_helmet
+      # enabled: true
+      # pattern:
+      # - PPP
+      # - BBB
+      # - PPP
+      # ingredients:
+        # P: itemsadder:plastic_plate
+        # B: BLACK_STAINED_GLASS_PANE
+      # result:
+        # item: itemsadder:biker_helmet
+        # amount: 1
+    # cat_ears:
+      # permission: itemsadder.cat_ears
+      # enabled: true
+      # pattern:
+      # - BWB
+      # - PWP
+      # - XXX
+      # ingredients:
+        # P: PINK_WOOL
+        # B: BLACK_WOOL
+        # W: WHITE_WOOL
+      # result:
+        # item: itemsadder:cat_ears
+        # amount: 1
 items:
   deadmau5_hat:
     display_name: '&9deadmau5_hat'
@@ -184,7 +184,7 @@ items:
     behaviours:
       hat: true
   welding_mask:
-    display_name: Welding Mask
+    display_name: 电焊面具
     permission: welding_mask
     resource:
       material: FEATHER
@@ -202,7 +202,7 @@ items:
     behaviours:
       hat: true
   dog_mask:
-    display_name: Dog Mask
+    display_name: 狗狗面具
     permission: dog_mask
     resource:
       material: FEATHER
@@ -211,7 +211,7 @@ items:
     behaviours:
       hat: true
   ruby_pickaxe_hat:
-    display_name: Ruby Pickaxe Hat
+    display_name: 红水晶镐帽子
     permission: ruby_pickaxe_hat
     resource:
       material: FEATHER
@@ -272,7 +272,7 @@ items:
     behaviours:
       hat: true
   biker_helmet:
-    display_name: Biker Helmet
+    display_name: 机车头盔
     permission: biker_helmet
     resource:
       material: FEATHER
@@ -281,7 +281,7 @@ items:
     behaviours:
       hat: true
   cat_ears:
-    display_name: Cat Ears
+    display_name: 猫耳朵
     permission: cat_ears
     resource:
       material: FEATHER
@@ -338,7 +338,7 @@ items:
         play_particle:
           name: ENCHANTMENT_TABLE
   demoniac_red_wings:
-    display_name: Demoniac Red Wings
+    display_name: 红恶魔翅膀
     permission: demoniac_red_wings
     resource:
       material: FEATHER
@@ -374,7 +374,7 @@ items:
     behaviours:
       hat: true
   demoniac_black_wings:
-    display_name: Demoniac Black Wings
+    display_name: 黑恶魔翅膀
     permission: demoniac_black_wings
     resource:
       material: FEATHER
