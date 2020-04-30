@@ -285,6 +285,32 @@ GUI:
           OpenAnotherGUI:
             Use: false
             Number: 2
+      '22':
+        Position: 12
+        # 物品ID为 "主ID:附加值"
+        ItemID: 'PLAYER_HEAD'
+        Name: §6传送至任务使者
+        Lore: §2点击传送至任务使者
+        Function:
+          Command:
+            Use: true
+            Content: /warp quest
+          OpenAnotherGUI:
+            Use: false
+            Number: 2
+      '23':
+        Position: 13
+        # 物品ID为 "主ID:附加值"
+        ItemID: 'PLAYER_HEAD'
+        Name: §6传送至日常任务使者
+        Lore: §2点击传送至日常任务使者
+        Function:
+          Command:
+            Use: true
+            Content: /warp daily
+          OpenAnotherGUI:
+            Use: false
+            Number: 2
       '18':
         Position: 11
         # 物品ID为 "主ID:附加值"
