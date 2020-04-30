@@ -24,7 +24,7 @@ settings:
   suggest-player-names-when-null-tab-completions: true
   bungee-online-mode: true
   async-chunks:
-    enable: true
+    enable: false
     load-threads: -1
   book-size:
     page-max: 2560
