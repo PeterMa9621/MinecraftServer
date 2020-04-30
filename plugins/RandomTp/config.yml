@@ -8,7 +8,7 @@ bounds:
     world: "-300,400"
     world_test: "-100,100"
 # 默认冷却时间（秒），拥有randomtp.nocool权限的玩家无视冷却.
-defaultCooldown: 30
+defaultCooldown: 10
 # 权限冷却时间
 # 当玩家拥有“randomtp.vip1”时冷却时间为8秒。
 # 玩家拥有多个权限节点时，冷却时间取最低的那个。
@@ -30,4 +30,3 @@ tpcooldown: "&6[随机传送]&c传送冷却&e@s&c秒"
 notallowworld: "&6[随机传送]&c当前世界&8(@world)&c无法随机传送!"
 # 上天啊
 # 删除此行的话只会随机传送到地面上
-y: 255
