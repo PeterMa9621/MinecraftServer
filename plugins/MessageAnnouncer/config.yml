@@ -24,6 +24,7 @@ interval_announcement_list:
 - antiCheat
 - level
 - dungeon
+- festival
 announcements:
   donate:
   - '[{"text":"[服务器公告] ","color":"light_purple"},{"text":"如果你喜欢我们服务器，欢迎赞助我们。","color":"green"},{"text":"点击打开赞助界面","color":"gold","bold":true,"underlined":true,"clickEvent":{"action":"run_command","value":"/clock
@@ -77,3 +78,6 @@ announcements:
   dungeon:
   - '[{"text":"[小提示] ","color":"gold"},{"text":"这里有详细的副本信息介绍，","color":"white"},{"text":"请点击了解更多","color":"dark_purple","bold":true,"underlined":true,"clickEvent":{"action":"run_command","value":"/ob
     open 副本手册"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"点击查看更多内容","color":"yellow"}]}}}]'
+  festival:
+  - '[{"text":"[小提示] ","color":"gold"},{"text":"今天是五一劳动节，可以去找礼物使者领取节日礼物哦！","color":"white"},{"text":"点击传送到礼物使者","color":"dark_purple","bold":true,"underlined":true,"clickEvent":{"action":"run_command","value":"/warp
+    gift"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"点击传送","color":"yellow"}]}}}]'
