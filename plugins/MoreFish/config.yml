@@ -44,7 +44,7 @@ auto-running:
 
 fish-shop:
   enable: true
-  multiplier: 0.2
+  multiplier: 0.4
   round-decimal-points: true
   sign:
     title: "&b&l[鱼店]"
