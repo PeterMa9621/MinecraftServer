@@ -397,7 +397,7 @@ GUI:
         Position: 4
         ItemID: 'PAPER'
         Model: 47
-        Name: §a购买Vip2
+        Name: §a购买Vip2(31天)
         Lore: §3特权请查看Vip手册%§5价格:25元%§6点击选择支付方式
         HideEnchant: true
         Function:
@@ -408,7 +408,7 @@ GUI:
         Position: 6
         ItemID: 'PAPER'
         Model: 48
-        Name: §a购买Vip3
+        Name: §a购买Vip3(31天)
         Lore: §3特权请查看Vip手册%§5价格:40元%§6点击选择支付方式
         HideEnchant: true
         Function:
