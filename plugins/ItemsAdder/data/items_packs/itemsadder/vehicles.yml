@@ -1,142 +1,142 @@
 info:
   namespace: itemsadder
-recipes:
-  crafting_table:
-    shopping_cart:
-      permission: itemsadder.shopping_cart
-      enabled: true
-      pattern:
-      - OXO
-      - OOO
-      - WBW
-      ingredients:
-        O: IRON_BARS
-        W: itemsadder:plastic_plate
-        B: BLACK_DYE
-      result:
-        item: itemsadder:shopping_cart
-        amount: 1
-    white_go_cart:
-      permission: itemsadder.white_go_cart
-      enabled: true
-      pattern:
-      - ORO
-      - OOO
-      - WBW
-      ingredients:
-        O: IRON_BLOCK
-        W: itemsadder:plastic_plate
-        B: BLACK_DYE
-        R: REDSTONE_BLOCK
-      result:
-        item: itemsadder:white_go_cart
-        amount: 1
-    oak_wood_plane:
-      permission: itemsadder.oak_wood_plane
-      enabled: true
-      pattern:
-      - WRW
-      - FBF
-      - WQW
-      ingredients:
-        W: OAK_PLANKS
-        R: REDSTONE_BLOCK
-        F: FEATHER
-        Q: REPEATER
-      result:
-        item: itemsadder:oak_wood_plane
-        amount: 1
-    spruce_wood_plane:
-      permission: itemsadder.spruce_wood_plane
-      enabled: true
-      pattern:
-      - WRW
-      - FBF
-      - WQW
-      ingredients:
-        W: SPRUCE_PLANKS
-        R: REDSTONE_BLOCK
-        F: FEATHER
-        Q: REPEATER
-      result:
-        item: itemsadder:spruce_wood_plane
-        amount: 1
-    birch_wood_plane:
-      permission: itemsadder.birch_wood_plane
-      enabled: true
-      pattern:
-      - WRW
-      - FBF
-      - WQW
-      ingredients:
-        W: BIRCH_PLANKS
-        R: REDSTONE_BLOCK
-        F: FEATHER
-        Q: REPEATER
-      result:
-        item: itemsadder:birch_wood_plane
-        amount: 1
-    jungle_wood_plane:
-      permission: itemsadder.jungle_wood_plane
-      enabled: true
-      pattern:
-      - WRW
-      - FBF
-      - WQW
-      ingredients:
-        W: JUNGLE_PLANKS
-        R: REDSTONE_BLOCK
-        F: FEATHER
-        Q: REPEATER
-      result:
-        item: itemsadder:jungle_wood_plane
-        amount: 1
-    acacia_wood_plane:
-      permission: itemsadder.acacia_wood_plane
-      enabled: true
-      pattern:
-      - WRW
-      - FBF
-      - WQW
-      ingredients:
-        W: ACACIA_PLANKS
-        R: REDSTONE_BLOCK
-        F: FEATHER
-        Q: REPEATER
-      result:
-        item: itemsadder:acacia_wood_plane
-        amount: 1
-    dark_oak_wood_plane:
-      permission: itemsadder.dark_oak_wood_plane
-      enabled: true
-      pattern:
-      - WRW
-      - FBF
-      - WQW
-      ingredients:
-        W: DARK_OAK_PLANKS
-        R: REDSTONE_BLOCK
-        F: FEATHER
-        Q: REPEATER
-      result:
-        item: itemsadder:dark_oak_wood_plane
-        amount: 1
-    ufo:
-      permission: itemsadder.ufo
-      enabled: true
-      pattern:
-      - ELE
-      - RSR
-      - BXB
-      ingredients:
-        S: SLIME_BLOCK
-        R: REDSTONE_BLOCK
-        B: SLIME_BALL
-        L: LEVER
-        E: itemsadder:small_energy_capsule
-      result:
-        item: itemsadder:ufo
-        amount: 1
+# recipes:
+  # crafting_table:
+    # shopping_cart:
+      # permission: itemsadder.shopping_cart
+      # enabled: true
+      # pattern:
+      # - OXO
+      # - OOO
+      # - WBW
+      # ingredients:
+        # O: IRON_BARS
+        # W: itemsadder:plastic_plate
+        # B: BLACK_DYE
+      # result:
+        # item: itemsadder:shopping_cart
+        # amount: 1
+    # white_go_cart:
+      # permission: itemsadder.white_go_cart
+      # enabled: true
+      # pattern:
+      # - ORO
+      # - OOO
+      # - WBW
+      # ingredients:
+        # O: IRON_BLOCK
+        # W: itemsadder:plastic_plate
+        # B: BLACK_DYE
+        # R: REDSTONE_BLOCK
+      # result:
+        # item: itemsadder:white_go_cart
+        # amount: 1
+    # oak_wood_plane:
+      # permission: itemsadder.oak_wood_plane
+      # enabled: true
+      # pattern:
+      # - WRW
+      # - FBF
+      # - WQW
+      # ingredients:
+        # W: OAK_PLANKS
+        # R: REDSTONE_BLOCK
+        # F: FEATHER
+        # Q: REPEATER
+      # result:
+        # item: itemsadder:oak_wood_plane
+        # amount: 1
+    # spruce_wood_plane:
+      # permission: itemsadder.spruce_wood_plane
+      # enabled: true
+      # pattern:
+      # - WRW
+      # - FBF
+      # - WQW
+      # ingredients:
+        # W: SPRUCE_PLANKS
+        # R: REDSTONE_BLOCK
+        # F: FEATHER
+        # Q: REPEATER
+      # result:
+        # item: itemsadder:spruce_wood_plane
+        # amount: 1
+    # birch_wood_plane:
+      # permission: itemsadder.birch_wood_plane
+      # enabled: true
+      # pattern:
+      # - WRW
+      # - FBF
+      # - WQW
+      # ingredients:
+        # W: BIRCH_PLANKS
+        # R: REDSTONE_BLOCK
+        # F: FEATHER
+        # Q: REPEATER
+      # result:
+        # item: itemsadder:birch_wood_plane
+        # amount: 1
+    # jungle_wood_plane:
+      # permission: itemsadder.jungle_wood_plane
+      # enabled: true
+      # pattern:
+      # - WRW
+      # - FBF
+      # - WQW
+      # ingredients:
+        # W: JUNGLE_PLANKS
+        # R: REDSTONE_BLOCK
+        # F: FEATHER
+        # Q: REPEATER
+      # result:
+        # item: itemsadder:jungle_wood_plane
+        # amount: 1
+    # acacia_wood_plane:
+      # permission: itemsadder.acacia_wood_plane
+      # enabled: true
+      # pattern:
+      # - WRW
+      # - FBF
+      # - WQW
+      # ingredients:
+        # W: ACACIA_PLANKS
+        # R: REDSTONE_BLOCK
+        # F: FEATHER
+        # Q: REPEATER
+      # result:
+        # item: itemsadder:acacia_wood_plane
+        # amount: 1
+    # dark_oak_wood_plane:
+      # permission: itemsadder.dark_oak_wood_plane
+      # enabled: true
+      # pattern:
+      # - WRW
+      # - FBF
+      # - WQW
+      # ingredients:
+        # W: DARK_OAK_PLANKS
+        # R: REDSTONE_BLOCK
+        # F: FEATHER
+        # Q: REPEATER
+      # result:
+        # item: itemsadder:dark_oak_wood_plane
+        # amount: 1
+    # ufo:
+      # permission: itemsadder.ufo
+      # enabled: true
+      # pattern:
+      # - ELE
+      # - RSR
+      # - BXB
+      # ingredients:
+        # S: SLIME_BLOCK
+        # R: REDSTONE_BLOCK
+        # B: SLIME_BALL
+        # L: LEVER
+        # E: itemsadder:small_energy_capsule
+      # result:
+        # item: itemsadder:ufo
+        # amount: 1
 items:
   shopping_cart:
     display_name: Shopping Cart

@@ -59,18 +59,18 @@ items:
           won''t be able to know &8what''s the &rsecret of &8our organization...'
         - We've hidden a lot of artifacts and rare minerals all over the world before
           disappearing... but not every member of us is dead, remember this.
-recipes:
-  crafting_table:
-    letter:
-      permission: itemsadder.letter
-      enabled: true
-      pattern:
-      - XXX
-      - XRP
-      - XPP
-      ingredients:
-        P: PAPER
-        R: RED_DYE
-      result:
-        item: itemsadder:letter
-        amount: 1
+# recipes:
+  # crafting_table:
+    # letter:
+      # permission: itemsadder.letter
+      # enabled: true
+      # pattern:
+      # - XXX
+      # - XRP
+      # - XPP
+      # ingredients:
+        # P: PAPER
+        # R: RED_DYE
+      # result:
+        # item: itemsadder:letter
+        # amount: 1

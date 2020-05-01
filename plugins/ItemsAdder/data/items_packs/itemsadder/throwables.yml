@@ -1,35 +1,35 @@
 info:
   namespace: itemsadder
-recipes:
-  crafting_table:
-    grenade:
-      permission: itemsadder.grenade
-      enabled: true
-      pattern:
-      - XSX
-      - PTP
-      - XPX
-      ingredients:
-        S: STRING
-        T: TNT
-        P: itemsadder:plastic_plate
-      result:
-        item: itemsadder:grenade
-        amount: 4
-    ufo_toy:
-      permission: itemsadder.ufo_toy
-      enabled: true
-      pattern:
-      - PPP
-      - PEL
-      - PRP
-      ingredients:
-        P: itemsadder:plastic_plate
-        R: REDSTONE_BLOCK
-        L: LEVER
-      result:
-        item: itemsadder:ufo_toy
-        amount: 1
+# recipes:
+  # crafting_table:
+    # grenade:
+      # permission: itemsadder.grenade
+      # enabled: true
+      # pattern:
+      # - XSX
+      # - PTP
+      # - XPX
+      # ingredients:
+        # S: STRING
+        # T: TNT
+        # P: itemsadder:plastic_plate
+      # result:
+        # item: itemsadder:grenade
+        # amount: 4
+    # ufo_toy:
+      # permission: itemsadder.ufo_toy
+      # enabled: true
+      # pattern:
+      # - PPP
+      # - PEL
+      # - PRP
+      # ingredients:
+        # P: itemsadder:plastic_plate
+        # R: REDSTONE_BLOCK
+        # L: LEVER
+      # result:
+        # item: itemsadder:ufo_toy
+        # amount: 1
 items:
   grenade:
     display_name: Grenade

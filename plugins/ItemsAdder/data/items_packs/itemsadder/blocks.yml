@@ -1,303 +1,303 @@
 info:
   namespace: itemsadder
-recipes:
-  crafting_table:
-    ruby_block:
-      permission: itemsadder.ruby_block
-      enabled: true
-      pattern:
-      - MMM
-      - MMM
-      - MMM
-      ingredients:
-        M: itemsadder:ruby
-      result:
-        item: itemsadder:ruby_block
-        amount: 1
-    crystal_block:
-      permission: itemsadder.crystal_block
-      enabled: true
-      pattern:
-      - MMM
-      - MMM
-      - MMM
-      ingredients:
-        M: itemsadder:crystal
-      result:
-        item: itemsadder:crystal_block
-        amount: 1
-    spinel_block:
-      permission: itemsadder.spinel_block
-      enabled: true
-      pattern:
-      - MMM
-      - MMM
-      - MMM
-      ingredients:
-        M: itemsadder:spinel
-      result:
-        item: itemsadder:spinel_block
-        amount: 1
-    turquoise_block:
-      permission: itemsadder.turquoise_block
-      enabled: true
-      pattern:
-      - MMM
-      - MMM
-      - MMM
-      ingredients:
-        M: itemsadder:turquoise
-      result:
-        item: itemsadder:turquoise_block
-        amount: 1
-    aqua_aura_block:
-      permission: itemsadder.aqua_aura_block
-      enabled: true
-      pattern:
-      - MMM
-      - MMM
-      - MMM
-      ingredients:
-        M: itemsadder:aqua_aura
-      result:
-        item: itemsadder:aqua_aura_block
-        amount: 1
-    amethyst_block:
-      permission: itemsadder.amethyst_block
-      enabled: true
-      pattern:
-      - MMM
-      - MMM
-      - MMM
-      ingredients:
-        M: itemsadder:amethyst
-      result:
-        item: itemsadder:amethyst_block
-        amount: 1
-    amethyst_prism_block:
-      permission: itemsadder.amethyst_prism_block
-      enabled: true
-      pattern:
-      - MMM
-      - MMM
-      - MMM
-      ingredients:
-        M: itemsadder:amethyst_prism
-      result:
-        item: itemsadder:amethyst_prism_block
-        amount: 1
-    crying_obsidian:
-      permission: itemsadder.crying_obsidian
-      enabled: true
-      pattern:
-      - LLL
-      - XCO
-      - XXX
-      ingredients:
-        O: OBSIDIAN
-        L: LAPIS_LAZULI
-        C: itemsadder:chisel
-      result:
-        item: itemsadder:crying_obsidian
-        amount: 1
-      return_items:
-        decrement_durability:
-          chisel:
-            item: "itemsadder:chisel"
-            amount: 1
-    nice_stone:
-      permission: itemsadder.nice_stone
-      enabled: true
-      pattern:
-      - XXX
-      - XCO
-      - XXX
-      ingredients:
-        O: STONE
-        C: itemsadder:chisel
-      result:
-        item: itemsadder:nice_stone
-        amount: 1
-      return_items:
-        decrement_durability:
-          chisel:
-            item: "itemsadder:chisel"
-            amount: 1
-    nice_wood:
-      permission: itemsadder.nice_wood
-      enabled: true
-      pattern:
-      - XXX
-      - XCO
-      - XXX
-      ingredients:
-        O: OAK_PLANKS
-        C: itemsadder:chisel
-      result:
-        item: itemsadder:nice_wood
-        amount: 1
-      return_items:
-        decrement_durability:
-          chisel:
-            item: "itemsadder:chisel"
-            amount: 1
-    modern_stone:
-      permission: itemsadder.modern_stone
-      enabled: true
-      pattern:
-      - XXX
-      - XCO
-      - XXX
-      ingredients:
-        O: COBBLESTONE
-        C: itemsadder:chisel
-      result:
-        item: itemsadder:modern_stone
-        amount: 1
-      return_items:
-        decrement_durability:
-          chisel:
-            item: "itemsadder:chisel"
-            amount: 1
-    modern_sandstone:
-      permission: itemsadder.modern_sandstone
-      enabled: true
-      pattern:
-      - XXX
-      - XCO
-      - XXX
-      ingredients:
-        O: SANDSTONE
-        C: itemsadder:chisel
-      result:
-        item: itemsadder:modern_sandstone
-        amount: 1
-      return_items:
-        decrement_durability:
-          chisel:
-            item: "itemsadder:chisel"
-            amount: 1
-    modern_quartz:
-      permission: itemsadder.modern_quartz
-      enabled: true
-      pattern:
-      - XXX
-      - XCO
-      - XXX
-      ingredients:
-        O: QUARTZ_BLOCK
-        C: itemsadder:chisel
-      result:
-        item: itemsadder:modern_quartz
-        amount: 1
-      return_items:
-        decrement_durability:
-          chisel:
-            item: "itemsadder:chisel"
-            amount: 1
-    restoration_table:
-      permission: itemsadder.restoration_table
-      enabled: true
-      pattern:
-      - RRR
-      - XCX
-      - XXX
-      ingredients:
-        C: CRAFTING_TABLE
-        R: itemsadder:knowledge_fragment
-      result:
-        item: itemsadder:restoration_table
-        amount: 1
-      return_items:
-        replace:
-          CRAFTING_TABLE: alchemy_candles
-    customization_table:
-      permission: itemsadder.customization_table
-      enabled: true
-      pattern:
-      - RGB
-      - XCX
-      - XXX
-      ingredients:
-        C: CRAFTING_TABLE
-        R: RED_DYE
-        G: GREEN_DYE
-        B: BLUE_DYE
-      result:
-        item: itemsadder:customization_table
-        amount: 1
-    iron_dirt_ore:
-      enabled: true
-      permission: itemsadder.iron_dirt_ore
-      pattern:
-      - XXX
-      - XCO
-      - XXX
-      ingredients:
-        O: itemsadder:iron_dirt_ore
-        C: itemsadder:chisel
-      result:
-        item: IRON_NUGGET
-        amount: 1
-      return_items:
-        decrement_durability:
-          chisel:
-            item: "itemsadder:chisel"
-            amount: 1
-    gold_dirt_ore:
-      enabled: true
-      permission: itemsadder.gold_dirt_ore
-      pattern:
-      - XXX
-      - XCO
-      - XXX
-      ingredients:
-        O: itemsadder:gold_dirt_ore
-        C: itemsadder:chisel
-      result:
-        item: GOLD_NUGGET
-        amount: 1
-      return_items:
-        decrement_durability:
-          chisel:
-            item: "itemsadder:chisel"
-            amount: 1
-    coal_dirt_ore:
-      enabled: true
-      permission: itemsadder.coal_dirt_ore
-      pattern:
-      - XXX
-      - XCO
-      - XXX
-      ingredients:
-        O: itemsadder:coal_dirt_ore
-        C: itemsadder:chisel
-      result:
-        item: itemsadder:coal_nugget
-        amount: 1
-      return_items:
-        decrement_durability:
-          chisel:
-            item: "itemsadder:chisel"
-            amount: 1
-    blaze_powder_ore:
-      enabled: true
-      permission: itemsadder.blaze_powder_ore
-      pattern:
-      - XXX
-      - XCO
-      - XXX
-      ingredients:
-        O: itemsadder:blaze_powder_ore
-        C: itemsadder:chisel
-      result:
-        item: BLAZE_POWDER
-        amount: 1
-      return_items:
-        decrement_durability:
-          chisel:
-            item: "itemsadder:chisel"
-            amount: 1
+# recipes:
+  # crafting_table:
+    # ruby_block:
+      # permission: itemsadder.ruby_block
+      # enabled: true
+      # pattern:
+      # - MMM
+      # - MMM
+      # - MMM
+      # ingredients:
+        # M: itemsadder:ruby
+      # result:
+        # item: itemsadder:ruby_block
+        # amount: 1
+    # crystal_block:
+      # permission: itemsadder.crystal_block
+      # enabled: true
+      # pattern:
+      # - MMM
+      # - MMM
+      # - MMM
+      # ingredients:
+        # M: itemsadder:crystal
+      # result:
+        # item: itemsadder:crystal_block
+        # amount: 1
+    # spinel_block:
+      # permission: itemsadder.spinel_block
+      # enabled: true
+      # pattern:
+      # - MMM
+      # - MMM
+      # - MMM
+      # ingredients:
+        # M: itemsadder:spinel
+      # result:
+        # item: itemsadder:spinel_block
+        # amount: 1
+    # turquoise_block:
+      # permission: itemsadder.turquoise_block
+      # enabled: true
+      # pattern:
+      # - MMM
+      # - MMM
+      # - MMM
+      # ingredients:
+        # M: itemsadder:turquoise
+      # result:
+        # item: itemsadder:turquoise_block
+        # amount: 1
+    # aqua_aura_block:
+      # permission: itemsadder.aqua_aura_block
+      # enabled: true
+      # pattern:
+      # - MMM
+      # - MMM
+      # - MMM
+      # ingredients:
+        # M: itemsadder:aqua_aura
+      # result:
+        # item: itemsadder:aqua_aura_block
+        # amount: 1
+    # amethyst_block:
+      # permission: itemsadder.amethyst_block
+      # enabled: true
+      # pattern:
+      # - MMM
+      # - MMM
+      # - MMM
+      # ingredients:
+        # M: itemsadder:amethyst
+      # result:
+        # item: itemsadder:amethyst_block
+        # amount: 1
+    # amethyst_prism_block:
+      # permission: itemsadder.amethyst_prism_block
+      # enabled: true
+      # pattern:
+      # - MMM
+      # - MMM
+      # - MMM
+      # ingredients:
+        # M: itemsadder:amethyst_prism
+      # result:
+        # item: itemsadder:amethyst_prism_block
+        # amount: 1
+    # crying_obsidian:
+      # permission: itemsadder.crying_obsidian
+      # enabled: true
+      # pattern:
+      # - LLL
+      # - XCO
+      # - XXX
+      # ingredients:
+        # O: OBSIDIAN
+        # L: LAPIS_LAZULI
+        # C: itemsadder:chisel
+      # result:
+        # item: itemsadder:crying_obsidian
+        # amount: 1
+      # return_items:
+        # decrement_durability:
+          # chisel:
+            # item: "itemsadder:chisel"
+            # amount: 1
+    # nice_stone:
+      # permission: itemsadder.nice_stone
+      # enabled: true
+      # pattern:
+      # - XXX
+      # - XCO
+      # - XXX
+      # ingredients:
+        # O: STONE
+        # C: itemsadder:chisel
+      # result:
+        # item: itemsadder:nice_stone
+        # amount: 1
+      # return_items:
+        # decrement_durability:
+          # chisel:
+            # item: "itemsadder:chisel"
+            # amount: 1
+    # nice_wood:
+      # permission: itemsadder.nice_wood
+      # enabled: true
+      # pattern:
+      # - XXX
+      # - XCO
+      # - XXX
+      # ingredients:
+        # O: OAK_PLANKS
+        # C: itemsadder:chisel
+      # result:
+        # item: itemsadder:nice_wood
+        # amount: 1
+      # return_items:
+        # decrement_durability:
+          # chisel:
+            # item: "itemsadder:chisel"
+            # amount: 1
+    # modern_stone:
+      # permission: itemsadder.modern_stone
+      # enabled: true
+      # pattern:
+      # - XXX
+      # - XCO
+      # - XXX
+      # ingredients:
+        # O: COBBLESTONE
+        # C: itemsadder:chisel
+      # result:
+        # item: itemsadder:modern_stone
+        # amount: 1
+      # return_items:
+        # decrement_durability:
+          # chisel:
+            # item: "itemsadder:chisel"
+            # amount: 1
+    # modern_sandstone:
+      # permission: itemsadder.modern_sandstone
+      # enabled: true
+      # pattern:
+      # - XXX
+      # - XCO
+      # - XXX
+      # ingredients:
+        # O: SANDSTONE
+        # C: itemsadder:chisel
+      # result:
+        # item: itemsadder:modern_sandstone
+        # amount: 1
+      # return_items:
+        # decrement_durability:
+          # chisel:
+            # item: "itemsadder:chisel"
+            # amount: 1
+    # modern_quartz:
+      # permission: itemsadder.modern_quartz
+      # enabled: true
+      # pattern:
+      # - XXX
+      # - XCO
+      # - XXX
+      # ingredients:
+        # O: QUARTZ_BLOCK
+        # C: itemsadder:chisel
+      # result:
+        # item: itemsadder:modern_quartz
+        # amount: 1
+      # return_items:
+        # decrement_durability:
+          # chisel:
+            # item: "itemsadder:chisel"
+            # amount: 1
+    # restoration_table:
+      # permission: itemsadder.restoration_table
+      # enabled: true
+      # pattern:
+      # - RRR
+      # - XCX
+      # - XXX
+      # ingredients:
+        # C: CRAFTING_TABLE
+        # R: itemsadder:knowledge_fragment
+      # result:
+        # item: itemsadder:restoration_table
+        # amount: 1
+      # return_items:
+        # replace:
+          # CRAFTING_TABLE: alchemy_candles
+    # customization_table:
+      # permission: itemsadder.customization_table
+      # enabled: true
+      # pattern:
+      # - RGB
+      # - XCX
+      # - XXX
+      # ingredients:
+        # C: CRAFTING_TABLE
+        # R: RED_DYE
+        # G: GREEN_DYE
+        # B: BLUE_DYE
+      # result:
+        # item: itemsadder:customization_table
+        # amount: 1
+    # iron_dirt_ore:
+      # enabled: true
+      # permission: itemsadder.iron_dirt_ore
+      # pattern:
+      # - XXX
+      # - XCO
+      # - XXX
+      # ingredients:
+        # O: itemsadder:iron_dirt_ore
+        # C: itemsadder:chisel
+      # result:
+        # item: IRON_NUGGET
+        # amount: 1
+      # return_items:
+        # decrement_durability:
+          # chisel:
+            # item: "itemsadder:chisel"
+            # amount: 1
+    # gold_dirt_ore:
+      # enabled: true
+      # permission: itemsadder.gold_dirt_ore
+      # pattern:
+      # - XXX
+      # - XCO
+      # - XXX
+      # ingredients:
+        # O: itemsadder:gold_dirt_ore
+        # C: itemsadder:chisel
+      # result:
+        # item: GOLD_NUGGET
+        # amount: 1
+      # return_items:
+        # decrement_durability:
+          # chisel:
+            # item: "itemsadder:chisel"
+            # amount: 1
+    # coal_dirt_ore:
+      # enabled: true
+      # permission: itemsadder.coal_dirt_ore
+      # pattern:
+      # - XXX
+      # - XCO
+      # - XXX
+      # ingredients:
+        # O: itemsadder:coal_dirt_ore
+        # C: itemsadder:chisel
+      # result:
+        # item: itemsadder:coal_nugget
+        # amount: 1
+      # return_items:
+        # decrement_durability:
+          # chisel:
+            # item: "itemsadder:chisel"
+            # amount: 1
+    # blaze_powder_ore:
+      # enabled: true
+      # permission: itemsadder.blaze_powder_ore
+      # pattern:
+      # - XXX
+      # - XCO
+      # - XXX
+      # ingredients:
+        # O: itemsadder:blaze_powder_ore
+        # C: itemsadder:chisel
+      # result:
+        # item: BLAZE_POWDER
+        # amount: 1
+      # return_items:
+        # decrement_durability:
+          # chisel:
+            # item: "itemsadder:chisel"
+            # amount: 1
 items:
   ruby_block:
     display_name: Block of Ruby

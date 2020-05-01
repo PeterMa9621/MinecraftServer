@@ -1,79 +1,79 @@
 info:
   namespace: itemsadder
-recipes:
-  crafting_table:
-    tomato_seeds:
-      permission: itemsadder.tomato_seeds
-      enabled: true
-      pattern:
-      - XXX
-      - XOX
-      - XXX
-      ingredients:
-        O: itemsadder:tomato
-      result:
-        item: itemsadder:tomato_seeds
-        amount: 2
-    garlic_seeds:
-      permission: itemsadder.garlic_seeds
-      enabled: true
-      pattern:
-      - XXX
-      - XOX
-      - XXX
-      ingredients:
-        O: itemsadder:garlic
-      result:
-        item: itemsadder:garlic_seeds
-        amount: 2
-    lettuce_seeds:
-      permission: itemsadder.lettuce_seeds
-      enabled: true
-      pattern:
-      - XXX
-      - XOX
-      - XXX
-      ingredients:
-        O: itemsadder:lettuce
-      result:
-        item: itemsadder:lettuce_seeds
-        amount: 2
-    chili_pepper_seeds:
-      permission: itemsadder.chili_pepper_seeds
-      enabled: true
-      pattern:
-      - XXX
-      - XOX
-      - XXX
-      ingredients:
-        O: itemsadder:chili_pepper
-      result:
-        item: itemsadder:chili_pepper_seeds
-        amount: 2
-    rice_seeds:
-      permission: itemsadder.rice_seeds
-      enabled: true
-      pattern:
-      - XXX
-      - XOX
-      - XXX
-      ingredients:
-        O: itemsadder:rice
-      result:
-        item: itemsadder:rice_seeds
-        amount: 2
-    tobacco_seeds:
-      permission: itemsadder.tobacco_seeds
-      enabled: true
-      pattern:
-      - XXX
-      - XOX
-      - XXX
-      ingredients:
-        O: itemsadder:tobacco
-      result:
-        item: itemsadder:tobacco_seeds
-        amount: 2
+# recipes:
+  # crafting_table:
+    # tomato_seeds:
+      # permission: itemsadder.tomato_seeds
+      # enabled: true
+      # pattern:
+      # - XXX
+      # - XOX
+      # - XXX
+      # ingredients:
+        # O: itemsadder:tomato
+      # result:
+        # item: itemsadder:tomato_seeds
+        # amount: 2
+    # garlic_seeds:
+      # permission: itemsadder.garlic_seeds
+      # enabled: true
+      # pattern:
+      # - XXX
+      # - XOX
+      # - XXX
+      # ingredients:
+        # O: itemsadder:garlic
+      # result:
+        # item: itemsadder:garlic_seeds
+        # amount: 2
+    # lettuce_seeds:
+      # permission: itemsadder.lettuce_seeds
+      # enabled: true
+      # pattern:
+      # - XXX
+      # - XOX
+      # - XXX
+      # ingredients:
+        # O: itemsadder:lettuce
+      # result:
+        # item: itemsadder:lettuce_seeds
+        # amount: 2
+    # chili_pepper_seeds:
+      # permission: itemsadder.chili_pepper_seeds
+      # enabled: true
+      # pattern:
+      # - XXX
+      # - XOX
+      # - XXX
+      # ingredients:
+        # O: itemsadder:chili_pepper
+      # result:
+        # item: itemsadder:chili_pepper_seeds
+        # amount: 2
+    # rice_seeds:
+      # permission: itemsadder.rice_seeds
+      # enabled: true
+      # pattern:
+      # - XXX
+      # - XOX
+      # - XXX
+      # ingredients:
+        # O: itemsadder:rice
+      # result:
+        # item: itemsadder:rice_seeds
+        # amount: 2
+    # tobacco_seeds:
+      # permission: itemsadder.tobacco_seeds
+      # enabled: true
+      # pattern:
+      # - XXX
+      # - XOX
+      # - XXX
+      # ingredients:
+        # O: itemsadder:tobacco
+      # result:
+        # item: itemsadder:tobacco_seeds
+        # amount: 2
 # loots:
   # blocks:
     # grass:
