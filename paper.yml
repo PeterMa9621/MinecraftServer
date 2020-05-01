@@ -51,7 +51,7 @@ timings:
   history-length: 3600
   server-name: Unknown Server
 messages:
-  no-permission: '&c你没有权限这么做.'
+  no-permission: '&c你没有权限这么做!'
   kick:
     connection-throttle: 同时连接数量过多,请稍后再试.
     flying-player: 服务器禁止飞行
