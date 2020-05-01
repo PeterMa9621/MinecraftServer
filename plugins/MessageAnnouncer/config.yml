@@ -34,7 +34,7 @@ announcements:
   - '[{"text":"[小提示] ","color":"gold"},{"text":"拥有一只宠物不仅能给你提供帮助，还能增添无限的乐趣。","color":"aqua"},{"text":"点击了解更多","color":"dark_purple","bold":true,"underlined":true,"clickEvent":{"action":"run_command","value":"/ob
     open 宠物手册 "},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"点击查看更多内容","color":"yellow"}]}}}]'
   dailyQuest:
-  - '[{"text":"[小提示] ","color":"gold"},{"text":"每日任务往往会获得丰厚的奖励，千万不要忘记做哦！","color":"white"},{"text":"点击了解更多","color":"dark_purple","bold":true,"underlined":true,"clickEvent":{"action":"run_command","value":"/ob
+  - '[{"text":"[小提示] ","color":"gold"},{"text":"每日任务会获得丰厚的奖励和经验，千万不要忘记做哦！","color":"white"},{"text":"点击了解更多","color":"dark_purple","bold":true,"underlined":true,"clickEvent":{"action":"run_command","value":"/ob
     open 任务手册"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"点击查看更多内容","color":"yellow"}]}}}]'
   checkIn:
   - '[{"text":"[小提示] ","color":"gold"},{"text":"你今天签到了吗？每天坚持签到，获得丰厚奖励！","color":"white"},{"text":"立刻点击签到","color":"dark_aqua","bold":true,"underlined":true,"clickEvent":{"action":"run_command","value":"/qd
