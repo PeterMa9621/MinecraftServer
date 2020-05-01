@@ -1,5 +1,9 @@
 DefaultDailyLimit: 20
 ChanceGetReward: 0.3
+ExpReward:
+  Max: 20
+  Min: 5
+  LevelMultiplier: 2
 Group:
 - vip1:30
 - vip2:50

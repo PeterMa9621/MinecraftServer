@@ -13,6 +13,7 @@ Clock:
   - shengcun
   - kuangjie
   - plot
+  - boss
 
 # 所有菜单的详细设置
 GUI:
@@ -365,6 +366,19 @@ GUI:
           OpenAnotherGUI:
             Use: true
             Number: 5
+      '24':
+        Position: 8
+        ItemID: 'ZOMBIE_HEAD'
+        Name: §6传送至刷怪场
+        Lore: §2点击传送至刷怪场
+        HideItem: true
+        Function:
+          Command:
+            Use: true
+            Content: /warp shuaguai
+          OpenAnotherGUI:
+            Use: false
+            Number: 2
   '1':
     Name: §5§l赞助商城
     Item:
