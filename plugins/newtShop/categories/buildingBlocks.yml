@@ -505,19 +505,19 @@ items:
       type: NORMAL
       material: CUT_RED_SANDSTONE_SLAB
   PRISMARINE_SLAB:
-    buy: 5
+    buy: 15
     sell: 0
     item:
       type: NORMAL
       material: PRISMARINE_SLAB
   PRISMARINE_BRICK_SLAB:
-    buy: 5
+    buy: 15
     sell: 0
     item:
       type: NORMAL
       material: PRISMARINE_BRICK_SLAB
   DARK_PRISMARINE_SLAB:
-    buy: 5
+    buy: 15
     sell: 0
     item:
       type: NORMAL
