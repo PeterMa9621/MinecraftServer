@@ -175,7 +175,7 @@ items:
           min_amount: 1
           max_amount: 3
   top_hat:
-    display_name: Top Hat
+    display_name: 高帽
     permission: top_hat
     resource:
       material: FEATHER

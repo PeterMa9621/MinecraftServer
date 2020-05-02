@@ -714,3 +714,468 @@ Crate:
         - 'cc give p 疯狂 1 %Player%'
       Messages:
         - '&7你获得了&e&l疯狂抽奖箱&3&l的钥匙.'
+    ########################################
+    # 装备
+    ########################################
+    50:
+      DisplayName: '&5&l熔岩头盔'
+      DisplayItem: 'LEATHER_HELMET#9'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:rongyan_head'
+      Messages:
+        - '&7恭喜！你获得了&5&l熔岩头盔&7一个'
+    51:
+      DisplayName: '&5&l熔岩护甲'
+      DisplayItem: 'LEATHER_CHESTPLATE#10'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:rongyan_chest'
+      Messages:
+        - '&7恭喜！你获得了&5&l熔岩护甲&7一个'
+    52:
+      DisplayName: '&5&l熔岩护腿'
+      DisplayItem: 'LEATHER_LEGGINGS#10'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:rongyan_leg'
+      Messages:
+        - '&7恭喜！你获得了&5&l熔岩护腿&7一个'
+    53:
+      DisplayName: '&5&l熔岩靴子'
+      DisplayItem: 'LEATHER_BOOTS#10'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:rongyan_feet'
+      Messages:
+        - '&7恭喜！你获得了&5&l熔岩靴子&7一个'
+    54:
+      DisplayName: '&c&l武士头盔'
+      DisplayItem: 'LEATHER_HELMET#10'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:wushi_head'
+      Messages:
+        - '&7恭喜！你获得了&c&l武士头盔&7一个'
+    55:
+      DisplayName: '&3&l武士护甲'
+      DisplayItem: 'LEATHER_CHESTPLATE#11'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:wushi_chest'
+      Messages:
+        - '&7恭喜！你获得了&3&l武士护甲&7一个'
+    56:
+      DisplayName: '&5&l武士护腿'
+      DisplayItem: 'LEATHER_LEGGINGS#11'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:wushi_leg'
+      Messages:
+        - '&7恭喜！你获得了&5&l武士护腿&7一个'
+    57:
+      DisplayName: '&9&l武士靴子'
+      DisplayItem: 'LEATHER_BOOTS#11'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:wushi_feet'
+      Messages:
+        - '&7恭喜！你获得了&9&l武士靴子&7一个'
+    58:
+      DisplayName: '&e血魔(头盔)'
+      DisplayItem: 'LEATHER_HELMET#12'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:xuemo_head'
+      Messages:
+        - '&7恭喜！你获得了&e血魔(头盔)&7一个'
+    59:
+      DisplayName: '&e血魔(盔甲)'
+      DisplayItem: 'LEATHER_CHESTPLATE#13'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:xuemo_chest'
+      Messages:
+        - '&7恭喜！你获得了&e血魔(盔甲)&7一个'
+    60:
+      DisplayName: '&e血魔(护腿)'
+      DisplayItem: 'LEATHER_LEGGINGS#13'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:xuemo_leg'
+      Messages:
+        - '&7恭喜！你获得了&e血魔(护腿)&7一个'
+    61:
+      DisplayName: '&e血魔(战靴)'
+      DisplayItem: 'LEATHER_BOOTS#13'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:xuemo_feet'
+      Messages:
+        - '&7恭喜！你获得了&e血魔(战靴)&7一个'
+    62:
+      DisplayName: '&3百炼头盔'
+      DisplayItem: 'LEATHER_HELMET#14'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:bailian_head'
+      Messages:
+        - '&7恭喜！你获得了&3百炼头盔&7一个'
+    63:
+      DisplayName: '&3百炼铠甲'
+      DisplayItem: 'LEATHER_CHESTPLATE#15'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:bailian_chest'
+      Messages:
+        - '&7恭喜！你获得了&3百炼铠甲&7一个'
+    64:
+      DisplayName: '&3百炼护腿'
+      DisplayItem: 'LEATHER_LEGGINGS#15'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:bailian_leg'
+      Messages:
+        - '&7恭喜！你获得了&3百炼护腿&7一个'
+    65:
+      DisplayName: '&3百炼战靴'
+      DisplayItem: 'LEATHER_BOOTS#15'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:bailian_feet'
+      Messages:
+        - '&7恭喜！你获得了&3百炼战靴&7一个'
+    66:
+      DisplayName: '&3守护者头盔'
+      DisplayItem: 'LEATHER_HELMET#18'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:shouhuzhe_head'
+      Messages:
+        - '&7恭喜！你获得了&3守护者头盔&7一个'
+    67:
+      DisplayName: '&3守护者铠甲'
+      DisplayItem: 'LEATHER_CHESTPLATE#19'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:shouhuzhe_chest'
+      Messages:
+        - '&7恭喜！你获得了&3守护者铠甲&7一个'
+    68:
+      DisplayName: '&3守护者护腿'
+      DisplayItem: 'LEATHER_LEGGINGS#19'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:shouhuzhe_legs'
+      Messages:
+        - '&7恭喜！你获得了&3守护者护腿&7一个'
+    69:
+      DisplayName: '&3守护者战靴'
+      DisplayItem: 'LEATHER_BOOTS#21'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:shouhuzhe_boots'
+      Messages:
+        - '&7恭喜！你获得了&3守护者战靴&7一个'
+    70:
+      DisplayName: '&8永夜(头盔)'
+      DisplayItem: 'LEATHER_HELMET#19'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:yongye_head'
+      Messages:
+        - '&7恭喜！你获得了&8永夜(头盔)&7一个'
+    71:
+      DisplayName: '&8永夜(铠甲)'
+      DisplayItem: 'LEATHER_CHESTPLATE#20'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:yongye_chest'
+      Messages:
+        - '&7恭喜！你获得了&8永夜(铠甲)&7一个'
+    72:
+      DisplayName: '&8永夜(护腿)'
+      DisplayItem: 'LEATHER_LEGGINGS#20'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:yongye_legs'
+      Messages:
+        - '&7恭喜！你获得了&8永夜(护腿)&7一个'
+    73:
+      DisplayName: '&8永夜(战靴)'
+      DisplayItem: 'LEATHER_BOOTS#22'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:yongye_boots'
+      Messages:
+        - '&7恭喜！你获得了&8永夜(战靴)&7一个'
+    74:
+      DisplayName: '&3暗金头盔'
+      DisplayItem: 'LEATHER_HELMET#20'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:anjin_head'
+      Messages:
+        - '&7恭喜！你获得了&3暗金头盔&7一个'
+    75:
+      DisplayName: '&3暗金铠甲'
+      DisplayItem: 'LEATHER_CHESTPLATE#21'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:anjin_chest'
+      Messages:
+        - '&7恭喜！你获得了&3暗金铠甲&7一个'
+    76:
+      DisplayName: '&3暗金护腿'
+      DisplayItem: 'LEATHER_LEGGINGS#21'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:anjin_legs'
+      Messages:
+        - '&7恭喜！你获得了&3暗金护腿&7一个'
+    77:
+      DisplayName: '&3暗金战靴'
+      DisplayItem: 'LEATHER_BOOTS#23'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:anjin_boots'
+      Messages:
+        - '&7恭喜！你获得了&3暗金战靴&7一个'
+    78:
+      DisplayName: '&3普通跑鞋'
+      DisplayItem: 'LEATHER_BOOTS#16'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:putongpaoxie_feet'
+      Messages:
+        - '&7恭喜！你获得了&3普通跑鞋&7一个'
+    79:
+      DisplayName: '&5高级跑鞋'
+      DisplayItem: 'LEATHER_BOOTS#17'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:gaojipaoxie_feet'
+      Messages:
+        - '&7恭喜！你获得了&5高级跑鞋&7一个'
+    ########################################
+    # 饰品
+    ########################################
+    80:
+      DisplayName: '&6黑恶魔翅膀'
+      DisplayItem: 'FEATHER#18'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'iagive %Player% itemsadder:demoniac_black_wings'
+      Messages:
+        - '&7恭喜！你获得了&6黑恶魔翅膀&7一个'
+    81:
+      DisplayName: '&6红恶魔翅膀'
+      DisplayItem: 'FEATHER#14'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'iagive %Player% itemsadder:demoniac_red_wings'
+      Messages:
+        - '&7恭喜！你获得了&6红恶魔翅膀&7一个'
+    82:
+      DisplayName: '&6电焊面具'
+      DisplayItem: 'FEATHER#3'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'iagive %Player% itemsadder:welding_mask'
+      Messages:
+        - '&7恭喜！你获得了&6电焊面具&7一个'
+    83:
+      DisplayName: '&6机车头盔'
+      DisplayItem: 'FEATHER#11'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'iagive %Player% itemsadder:biker_helmet'
+      Messages:
+        - '&7恭喜！你获得了&6机车头盔&7一个'
+    84:
+      DisplayName: '&6猫耳朵'
+      DisplayItem: 'FEATHER#12'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'iagive %Player% itemsadder:cat_ears'
+      Messages:
+        - '&7恭喜！你获得了&6猫耳朵&7一个'
+    85:
+      DisplayName: '&6高帽'
+      DisplayItem: 'FEATHER#2'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'iagive %Player% itemsadder:top_hat'
+      Messages:
+        - '&7恭喜！你获得了&6高帽&7一个'
+    ########################################
+    # 自定义矿物
+    ########################################
+    86:
+      DisplayName: '&f紫水晶'
+      DisplayItem: 'GLOWSTONE#1'
+      DisplayAmount: 8
+      MaxRange: 1000
+      Chance: 300
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:zishuijing'
+      Messages:
+        - '&7恭喜！你获得了&f紫水晶&78个'
+    87:
+      DisplayName: '&f黄水晶'
+      DisplayItem: 'GLOWSTONE#2'
+      DisplayAmount: 8
+      MaxRange: 1000
+      Chance: 300
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:huangshuijing'
+      Messages:
+        - '&7恭喜！你获得了&f黄水晶&78个'
