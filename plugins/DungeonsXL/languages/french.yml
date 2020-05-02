@@ -240,6 +240,13 @@ player:
   unlimitedLives: illimité
 requirement:
   fee: '&6Vous avez été débité de &4&v1 &6pour entrer dans le donjon.'
+  feeLevel: Niveaux
+  feeMoney: Argent
+  forbiddenItems: Objets défendus
+  groupSize: Quantité des joueurs
+  keyItems: Clés
+  permission: Permissions
+  timeframe: Créneau horaire
 reward:
   general: '&6Vous avez reçu &4&v1 &6pour avoir fini le donjon.'
 sign:
@@ -264,3 +271,11 @@ button:
   accept: '&a[ OUI ]'
   deny: '&4[ NON ]'
   okay: '&a[ OK ]'
+dayOfWeek:
+  '0': Dimanche
+  '1': Lundi
+  '2': Mardi
+  '3': Mercredi
+  '4': Jeudi
+  '5': Vendredi
+  '6': Samedi

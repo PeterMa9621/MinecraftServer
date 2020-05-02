@@ -1,4 +1,4 @@
-configVersion: 16
+configVersion: 18
 language: chinese
 enableEconomy: true
 chatEnabled: true
@@ -11,7 +11,7 @@ tutorial:
   activated: false
   dungeon: tutorial
   startGroup: default
-  endgroup: default
+  endgroup: player
 groupColorPriority:
 - DARK_BLUE
 - LIGHT_RED
@@ -41,8 +41,14 @@ secureMode:
   checkInterval: 5.0
 backupMode: ON_DISABLE_AND_SAVE
 default:
+  # Shall players play the dungeon with their own items or do you want to use classes?
   keepInventoryOnEnter: true
+  # Shall players lose their items when they die (do not mix up this with "onEscape"!)?
   keepInventoryOnDeath: true
+  # Shall players keep their inventory when they finish the dungeon?
   keepInventoryOnFinish: true
+  # Shall players keep their inventory when they leave the dungeon without succeeding?
   keepInventoryOnEscape: true
+  
 groupAdaptersEnabled: false
+editInstanceRemovalDelay: 5
