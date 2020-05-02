@@ -1,4 +1,4 @@
-﻿# 
+# 
 # These example files show you some of the basic attributes and
 # skills MythicMobs can use. Far more is possible!
 shiwang:
@@ -76,6 +76,7 @@ shiwang:
   #- summon{type=彩蛋蝙蝠;a=5;r=1} @Self ~onDeath
   Options:
     #Size: 10
+    Despawn: false
     MovementSpeed: 0.3
     PreventOtherDrops: true
     AlwaysShowName: true

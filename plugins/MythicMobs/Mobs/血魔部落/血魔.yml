@@ -1,4 +1,4 @@
-﻿xuemo:
+xuemo:
   Type: WITHER_SKELETON
   Display: '&c血魔'
   Health: 1000
@@ -7,6 +7,7 @@
   Modules:
     ThreatTable: true
   Options:
+    Despawn: false
     AlwaysShowName: true
     KnockbackResistance: 0.6
     MovementSpeed: 0.35

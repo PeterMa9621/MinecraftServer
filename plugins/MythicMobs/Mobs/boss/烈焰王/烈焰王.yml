@@ -1,4 +1,4 @@
-﻿lieyanwang:
+lieyanwang:
   Type: Blaze
   Display: '&c烈焰王'
   Health: 1000
@@ -13,6 +13,7 @@
   Modules:
     ThreatTable: true
   Options:
+    Despawn: false
     AlwaysShowName: true
     KnockbackResistance: 0.1
     PreventOtherDrops: true
@@ -26,6 +27,5 @@
   Equipment:
   - pige4:4
   Skills:
-  - forcepull @PlayersInRadius{r=10} ~onDamaged 0.2
   - potion{type=SLOW;d=40;l=3} @Target ~onTimer:100 0.3
   - skill{s=lieyanwang} @target ~onTimer:40 >0 1

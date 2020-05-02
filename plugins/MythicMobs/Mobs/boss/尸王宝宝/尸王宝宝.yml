@@ -1,4 +1,4 @@
-﻿shiwangbaobao:
+shiwangbaobao:
   Type: BABY_ZOMBIE
   Display: '&c尸王宝宝'
   Health: 1000
@@ -13,6 +13,7 @@
   Modules:
     ThreatTable: true
   Options:
+    Despawn: false
     AlwaysShowName: true
     KnockbackResistance: 0.1
     PreventOtherDrops: true
