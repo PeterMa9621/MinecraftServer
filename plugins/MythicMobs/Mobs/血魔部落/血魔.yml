@@ -12,7 +12,6 @@
     MovementSpeed: 0.35
     PreventOtherDrops: true
     FollowRange: 20
-    Despawn: false
   Disguise:
       Type: Player
       Player: 血魔
