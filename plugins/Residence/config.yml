@@ -38,8 +38,8 @@ Global:
       List:
       - world
       - kuangjie
-      - world_nether
       - world_the_end
+      - boss
       # Disables all listeners in included worlds
       DisableListeners: true
       # Disabled any command usage in included worlds
