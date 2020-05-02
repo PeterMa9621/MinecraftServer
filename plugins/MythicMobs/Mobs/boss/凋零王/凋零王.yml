@@ -48,7 +48,6 @@ diaolingwang:
   - KingsCrown HEAD
   - diaolingwangjian HAND
   Options:
-    Despawn: false
     AlwaysShowName: true
     MovementSpeed: 0.25
     MaxCombatDistance: 25
