@@ -23,7 +23,7 @@ settings:
   restart-on-crash: true
   restart-script: run.sh
   user-cache-size: 1000
-  bungeecord: false
+  bungeecord: true
   netty-threads: 4
   attribute:
     maxHealth:
