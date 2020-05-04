@@ -132,7 +132,7 @@ GUI:
         Function:
           Command:
             Use: true
-            Content: /warp fb
+            Content: /warp fbtp
           OpenAnotherGUI:
             Use: false
             Number: 2
