@@ -127,12 +127,12 @@ GUI:
         Position: 9
         # 物品ID为 "主ID:附加值"
         ItemID: 'PLAYER_HEAD'
-        Name: §6传送至副本使者
-        Lore: §2点击传送至副本使者
+        Name: §6传送至副本世界
+        Lore: §2点击传送至副本世界
         Function:
           Command:
             Use: true
-            Content: /warp fbtp
+            Content: /warp fb
           OpenAnotherGUI:
             Use: false
             Number: 2
