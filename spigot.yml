@@ -20,7 +20,7 @@ settings:
   moved-wrongly-threshold: 0.0625
   player-shuffle: 0
   timeout-time: 60
-  restart-on-crash: true
+  restart-on-crash: false
   restart-script: run.sh
   user-cache-size: 1000
   bungeecord: true
