@@ -66,12 +66,6 @@ items:
     item:
       type: NORMAL
       material: COOKIE
-  MELON_SLICE:
-    buy: 1
-    sell: 0.2
-    item:
-      type: NORMAL
-      material: MELON_SLICE
   DRIED_KELP:
     buy: 1
     sell: 0.25
@@ -102,18 +96,6 @@ items:
     item:
       type: NORMAL
       material: SPIDER_EYE
-  CARROT:
-    buy: 1
-    sell: 0.2
-    item:
-      type: NORMAL
-      material: CARROT
-  POTATO:
-    buy: 1
-    sell: 0.2
-    item:
-      type: NORMAL
-      material: POTATO
   PUMPKIN_PIE:
     buy: 1.5
     sell: 0.6
@@ -132,18 +114,6 @@ items:
     item:
       type: NORMAL
       material: MUTTON
-  BEETROOT:
-    buy: 1
-    sell: 0.2
-    item:
-      type: NORMAL
-      material: BEETROOT
-  SWEET_BERRIES:
-    buy: 2
-    sell: 0.2
-    item:
-      type: NORMAL
-      material: SWEET_BERRIES
   HONEY_BOTTLE:
     buy: 4
     sell: 2

@@ -1318,17 +1318,6 @@ MAGMA_CREAM:
     Amount: 1
   Reward:
     Money: 30:100
-MAP:
-  Type: item
-  Describe: §a§6铁匠§f需要§e1§f个§e空地图§f，你快去帮帮他吧！
-  RewardMessage: §7你完成了任务
-  NPCID: 11
-  Item:
-    ID: MAP
-    Model: 0
-    Amount: 1
-  Reward:
-    Money: 30:100
 MELON_SEEDS:
   Type: item
   Describe: §a§6小花§f需要§e1§f个§e西瓜种子§f，你快去帮帮他吧！
