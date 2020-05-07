@@ -372,7 +372,7 @@ GUI:
         ItemID: 'ZOMBIE_HEAD'
         Name: §6传送至刷怪场
         Lore: §2点击传送至刷怪场
-        HideItem: true
+        HideItem: false
         Function:
           Command:
             Use: true
