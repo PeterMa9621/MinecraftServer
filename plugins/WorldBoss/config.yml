@@ -1,4 +1,4 @@
-minuteBefore: 1
+minuteBefore: 10
 leaveGroup:
   icon:
     id: DIAMOND_SWORD
@@ -25,7 +25,7 @@ groups:
     icon:
       id: WITHER_SKELETON_SKULL
     startGameCmd: dxl play diaolingwang
-    time: '10:08'
+    time: '20:00'
   shiwangbaobao:
     name: shiwangbaobao
     displayName: 尸王宝宝
