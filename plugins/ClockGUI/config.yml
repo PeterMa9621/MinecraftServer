@@ -410,14 +410,14 @@ GUI:
         ItemID: 'PAPER'
         Model: 48
         Name: §a购买Vip3(31天)
-        Lore: §3特权请查看Vip手册%§5价格:40元%§6点击选择支付方式
+        Lore: §3特权请查看Vip手册%§5价格:50元%§6点击选择支付方式
         HideEnchant: true
         Function:
           Command:
             Use: true
             Content: /paygui vip3
       '11':
-        Position: 13
+        Position: 12
         ItemID: 'PAPER'
         Model: 34
         Name: §a购买一个钥匙礼包
@@ -431,8 +431,53 @@ GUI:
           Command:
             Use: true
             Content: /paygui 钥匙礼包
+      '15':
+        Position: 14
+        ItemID: 'PAPER'
+        Model: 34
+        Name: §a购买一个疯狂钥匙礼包
+        Lore: §7内含4把疯狂抽奖钥匙%§5价格:20元%§6点击选择支付方式
+        HideItem: false
+        Enchantment:
+          ID: fortune
+          Level: 1
+        HideEnchant: true
+        Function:
+          Command:
+            Use: true
+            Content: /paygui 疯狂钥匙礼包
+      '13':
+        Position: 21
+        ItemID: 'STICK'
+        Model: 34
+        Name: §a购买一个§52§a倍经验卡(2小时)
+        Lore: §7购买一个§52§7倍经验卡%§5价格:2元%§6点击选择支付方式
+        HideItem: false
+        Enchantment:
+          ID: fortune
+          Level: 1
+        HideEnchant: true
+        Function:
+          Command:
+            Use: true
+            Content: /paygui 2倍经验卡
+      '14':
+        Position: 23
+        ItemID: 'STICK'
+        Model: 35
+        Name: §a购买一个§53§a倍经验卡(2小时)
+        Lore: §7购买一个§53§7倍经验卡%§5价格:3元%§6点击选择支付方式
+        HideItem: false
+        Enchantment:
+          ID: fortune
+          Level: 1
+        HideEnchant: true
+        Function:
+          Command:
+            Use: true
+            Content: /paygui 3倍经验卡
       '12':
-        Position: 22
+        Position: 31
         ItemID: 'WRITTEN_BOOK'
         Name: §a打开VIP手册
         Lore: §7点击打开VIP手册
@@ -548,7 +593,7 @@ GUI:
             Use: true
             Content: /crazycrate give Physical 疯狂 1 {player}
       '9':
-        Position: 26
+        Position: 35
         ItemID: 'PAPER'
         Model: 12
         Name: §a返回主页

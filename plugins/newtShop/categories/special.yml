@@ -1,0 +1,26 @@
+name: '&9特殊物品'
+id: special
+display-item:
+  display-type: ITEM
+  material: BEACON
+slot: 22
+sort-type: FILL
+items:
+  BONUSCARD:
+    item:
+      type: SPECIAL
+      display-name: '&61.5倍经验卡'
+      serial:
+        v: 2230
+        type: STICK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §f1.5倍经验卡
+          lore:
+          - §6使用后所有获得历练经验 × 1.5
+          - '§6有效时长: §215分钟'
+          - §5右键使用
+          custom-model-data: 40
+    buy: 1000.0
+    sell: 0.0

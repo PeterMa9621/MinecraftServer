@@ -2,7 +2,7 @@
 chat-prefix: '&7[&9商店系统&7]'
 
 # Set the number of rows in the main shop GUI
-main-rows: 3
+main-rows: 4
 
 # true = Allow tab complete for the /shop command for quick access to categories
 # false = Disable this feature
