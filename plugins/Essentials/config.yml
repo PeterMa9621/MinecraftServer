@@ -768,7 +768,7 @@ protect:
       # Prevent villagers becoming zombie villagers.
       zombie-villager: false
       # Prevent zombie villagers being cured.
-      villager: true
+      villager: false
       # Prevent villagers becoming witches when struck by lightning.
       witch: false
       # Prevent pigs becoming zombie pigmen when struck by lightning.
@@ -803,7 +803,7 @@ protect:
       snowman: false
       ocelot: false
       iron_golem: false
-      villager: true
+      villager: false
       wither: false
       bat: false
       witch: false
