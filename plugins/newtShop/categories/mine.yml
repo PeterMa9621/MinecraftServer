@@ -37,8 +37,8 @@ items:
       type: NORMAL
       material: GOLD_INGOT
   EMERALD:
-    buy: 70
-    sell: 55
+    buy: 60
+    sell: 0
     item:
       type: NORMAL
       material: EMERALD
