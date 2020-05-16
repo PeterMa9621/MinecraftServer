@@ -110,3 +110,5 @@ plugins/MultiChat/namedata.dat
 runDev.bat
 
 plugins/ItemsAdder/storage/data.yml
+
+plugins/CrazyAuctionsPlus/Database.db

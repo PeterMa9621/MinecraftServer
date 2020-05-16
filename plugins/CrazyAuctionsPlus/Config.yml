@@ -53,7 +53,7 @@ Settings:
     - exampleworld
     #MySQL 数据库设置
     MySQL-Storage:
-        Enabled: true
+        Enabled: false
         #主机名
         Hostname: localhost
         #端口
@@ -85,7 +85,7 @@ Settings:
             Item-Mail: itemMail
     #SQLite 数据库设置
     SQLite-Storage:
-        Enabled: false
+        Enabled: true
         #数据库文件
         Database-File: 'Database.db'
         #数据库文件夹路径
