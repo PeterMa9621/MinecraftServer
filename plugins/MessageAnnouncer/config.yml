@@ -10,6 +10,7 @@ sound:
 interval_announcement_list:
 - dailyQuest
 - test
+- betterWeapon
 - donate
 - pet
 - checkIn
@@ -48,8 +49,7 @@ announcements:
   - '[{"text":"[小提示]","color":"gold"},{"text":" 每天的12:45和19:30是钓鱼竞赛的时间，每次持续15分钟，前三名会有抽奖钥匙作为奖励。","color":"aqua"},{"text":"了解更多","bold":true,"underlined":true,"color":"dark_purple","clickEvent":{"action":"run_command","value":"/ob
     open 钓鱼指南"},"hoverEvent":{"action":"show_text","value":"点击了解更多"}}]'
   betterWeapon:
-  - '[{"text":"[小提示]","color":"gold"},{"text":" "},{"text":"想让武器装备属性更上一层？输入/qh gui
-    使用强化系统吧。","color":"white"},{"text":"了解更多","bold":true,"underlined":true,"color":"dark_purple","clickEvent":{"action":"run_command","value":"/ob
+  - '[{"text":"[小提示]","color":"gold"},{"text":" "},{"text":"想让武器装备属性更上一层？输入/ia查看强化系统的特殊道具吧。","color":"white"},{"text":"点击了解游戏玩法","bold":true,"underlined":true,"color":"dark_purple","clickEvent":{"action":"run_command","value":"/ob
     open 强化系统手册"},"hoverEvent":{"action":"show_text","value":"点击了解更多"}}]'
   choujiang:
   - '[{"text":"[小提示] ","color":"gold"},{"text":"输入/warp cj 即可传送到酷炫的抽奖屋内","color":"aqua"}]'
