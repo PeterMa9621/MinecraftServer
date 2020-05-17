@@ -1212,3 +1212,16 @@ Crate:
         - 'ph giveitem %Player% mjy:qingshuijing_hammer'
       Messages:
         - '&7你获得了1个&f青水晶锤.'
+    92:
+      DisplayName: '&f末影龙翅膀'
+      DisplayItem: 'FEATHER#22'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 15
+      Firework: true
+      Glowing: false
+      Commands:
+        - 'iagive %Player% itemsadder:ender_dragon_wings'
+        - 'broadcast 恭喜&6&l%Player%&7通过抽奖获得了1个&c&l末影龙翅膀！'
+      Messages:
+        - '&7你获得了1个&f末影龙翅膀.'
