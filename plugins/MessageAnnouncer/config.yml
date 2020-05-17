@@ -25,6 +25,7 @@ interval_announcement_list:
 - antiCheat
 - level
 - dungeon
+- clan
 announcements:
   donate:
   - '[{"text":"[服务器公告] ","color":"light_purple"},{"text":"如果你喜欢我们服务器，欢迎赞助我们。","color":"green"},{"text":"点击打开赞助界面","color":"gold","bold":true,"underlined":true,"clickEvent":{"action":"run_command","value":"/clock
@@ -57,7 +58,7 @@ announcements:
   - '[{"text":"[小提示] ","color":"gold"},{"text":"输入/trade <玩家名> 即可与该玩家交易，或者按住Shift右键
     玩家也可以交易哦","color":"aqua"}]'
   residence:
-  - '[{"text":"[小提示] ","color":"gold"},{"text":"你只能在生存区圈地，圈地工具是木棍。","color":"aqua"}]'
+  - '[{"text":"[小提示] ","color":"gold"},{"text":"你只能在生存区圈地，圈地工具是木棍，查询工具是箭。","color":"aqua"}]'
   prefix:
   - '[{"text":"[小提示] ","color":"gold"},{"text":"输入/ch shop可以打开称号商店，输入/ch my可以查看自己
     拥有的称号并自由切换。","color":"aqua"}]'
@@ -80,3 +81,6 @@ announcements:
   festival:
   - '[{"text":"[小提示] ","color":"gold"},{"text":"今天是五一劳动节，可以去找礼物使者领取节日礼物哦！","color":"white"},{"text":"点击传送到礼物使者","color":"dark_purple","bold":true,"underlined":true,"clickEvent":{"action":"run_command","value":"/warp
     gift"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"点击传送","color":"yellow"}]}}}]'
+  clan:
+  - '[{"text":"[小提示] ","color":"gold"},{"text":"拥有一个帮派，结识更多的志同道合之人吧。","color":"white"},{"text":"点击了解更多","color":"dark_purple","bold":true,"underlined":true,"clickEvent":{"action":"run_command","value":"/ob
+    open 帮派手册"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"点击查看更多内容","color":"yellow"}]}}}]'
