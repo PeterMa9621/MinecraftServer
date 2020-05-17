@@ -200,73 +200,55 @@ Crate:
     ########################################
     # 强化物品
     ########################################
-    # 13:
-      # DisplayName: '&a熔炼石'
-      # DisplayItem: '318'
-      # DisplayAmount: 1
-      # Lore:
-        # - '&3一种稀有的石头'
-        # - '&2[使用方法]&a打开熔炼系统'
-        # - '&a熔炼装备'
-      # MaxRange: 1000
-      # Chance: 100
-      # Firework: false
-      # Glowing: false
-      # Items:
-        # - 'Item:318, Amount:1, Name:&a熔炼石, Lore:&3一种稀有的石头,&2[使用方法]&a打开熔炼系统,&a熔炼装备, LUCK:1'
-      # Messages:
-        # - '&7你获得了&e1块熔炼石.'
-    # 14:
-      # DisplayName: '&b金刚石'
-      # DisplayItem: '264'
-      # DisplayAmount: 1
-      # Lore:
-        # - '§3这是一种十分坚硬的石头'
-        # - '§2[用途]§a用于辅助强化装备'
-        # - '§a在装备强化失败时装备'
-        # - '§a不会碎掉'
-      # MaxRange: 1000
-      # Chance: 60
-      # Firework: false
-      # Glowing: false
-      # Items:
-        # - 'Item:318, Amount:1, Name:&b金刚石, Lore:§3这是一种十分坚硬的石头,§2[用途]§a用于辅助强化装备,§a在装备强化失败时装备,§a不会碎掉'
-      # Messages:
-        # - '&7你获得了1个&b金刚石.'
-    # 15:
-      # DisplayName: '§b幸运果'
-      # DisplayItem: '322'
-      # DisplayAmount: 1
-      # Lore:
-        # - '§3幸运果实'
-        # - '§2[用途]§a用于辅助强化装备'
-        # - '§a在下一次强化装备时'
-        # - '§a一定成功'
-      # MaxRange: 1000
-      # Chance: 20
-      # Firework: true
-      # Glowing: false
-      # Commands:
-        # - 'broadcast 恭喜&6&l%Player%&7通过抽奖获得了1个&c&l幸运果！'
-      # Items:
-        # - 'Item:322, Amount:1, Name:§b幸运果, Lore:§3幸运果实,§2[用途]§a用于辅助强化装备,§a在下一次强化装备时,§a一定成功'
-      # Messages:
-        # - '&7你获得了1个§b幸运果.'
-    # 16:
-      # DisplayName: '§f未鉴定的宝石'
-      # DisplayItem: '263:1'
-      # DisplayAmount: 1
-      # Lore:
-        # - '§e[未鉴定]'
-        # - '§6一块看起来普通的石头'
-      # MaxRange: 1000
-      # Chance: 100
-      # Firework: false
-      # Glowing: false
-      # Items:
-        # - 'Item:318, Amount:1, Name:§f未鉴定的宝石, Lore:§e[未鉴定],§6一块看起来普通的石头'
-      # Messages:
-        # - '&7你获得了1个§f未鉴定的宝石.'
+    13:
+      DisplayName: '&f熔炼石'
+      DisplayItem: 'IRON_INGOT#18'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:ronglianshi'
+      Messages:
+        - '&7你获得了1块&f熔炼石.'
+    14:
+      DisplayName: '&3金刚石'
+      DisplayItem: 'IRON_INGOT#20'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 30
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:jingangshi'
+      Messages:
+        - '&7你获得了1个&3金刚石.'
+    15:
+      DisplayName: '&3幸运宝石'
+      DisplayItem: 'IRON_INGOT#22'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 15
+      Firework: true
+      Glowing: false
+      Commands:
+        - 'broadcast 恭喜&6&l%Player%&7通过抽奖获得了1个&3&l幸运宝石！'
+        - 'ph giveitem %Player% mjy:xingyunbaoshi'
+      Messages:
+        - '&7你获得了1个&3幸运宝石.'
+    16:
+      DisplayName: '&f未鉴定的宝石'
+      DisplayItem: 'IRON_INGOT#24'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:baoshi'
+      Messages:
+        - '&7你获得了1个&f未鉴定的宝石.'
     ########################################
     # 中级装备兑换券
     ########################################
@@ -1179,3 +1161,54 @@ Crate:
         - 'iagive %Player% mjy:huangshuijing 8'
       Messages:
         - '&7恭喜！你获得了&f黄水晶&78个'
+    ########################################
+    # 强化物品
+    ########################################
+    88:
+      DisplayName: '&f强化石'
+      DisplayItem: 'IRON_INGOT#16'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 180
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:qianghuashi'
+      Messages:
+        - '&7你获得了1个&f强化石.'
+    89:
+      DisplayName: '&f青水晶'
+      DisplayItem: 'GLOWSTONE#3'
+      DisplayAmount: 8
+      MaxRange: 1000
+      Chance: 130
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'iagive %Player% mjy:qingshuijing 8'
+      Messages:
+        - '&7你获得了8个&f青水晶.'
+    90:
+      DisplayName: '&f青水晶镐'
+      DisplayItem: 'DIAMOND_PICKAXE#11'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 140
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:qingshuijing_pickaxe'
+      Messages:
+        - '&7你获得了1个&f青水晶镐.'
+    91:
+      DisplayName: '&f青水晶锤'
+      DisplayItem: 'WOODEN_PICKAXE#2'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 140
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:qingshuijing_hammer'
+      Messages:
+        - '&7你获得了1个&f青水晶锤.'
