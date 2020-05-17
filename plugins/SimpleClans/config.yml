@@ -123,12 +123,12 @@ tag:
   separator:
     color: '8'
     leader-color: '4'
-    char: ' .'
+    char: ''
   bracket:
-    color: '8'
-    leader-color: '4'
-    left: ''
-    right: ''
+    color: f
+    leader-color: '6'
+    left: '['
+    right: ']'
 allychat:
   enable: true
   format: '&b[Ally Chat] &4<%clan%&4> <%nick-color%%player%&4> %rank%: &b%message%'
