@@ -1139,7 +1139,7 @@ Crate:
     ########################################
     86:
       DisplayName: '&f紫水晶'
-      DisplayItem: 'GLOWSTONE#1'
+      DisplayItem: 'GLOWSTONE_DUST#1'
       DisplayAmount: 8
       MaxRange: 1000
       Chance: 300
@@ -1151,7 +1151,7 @@ Crate:
         - '&7恭喜！你获得了&f紫水晶&78个'
     87:
       DisplayName: '&f黄水晶'
-      DisplayItem: 'GLOWSTONE#2'
+      DisplayItem: 'GLOWSTONE_DUST#2'
       DisplayAmount: 8
       MaxRange: 1000
       Chance: 300
@@ -1178,7 +1178,7 @@ Crate:
         - '&7你获得了1个&f强化石.'
     89:
       DisplayName: '&f青水晶'
-      DisplayItem: 'GLOWSTONE#3'
+      DisplayItem: 'GLOWSTONE_DUST#3'
       DisplayAmount: 8
       MaxRange: 1000
       Chance: 130
