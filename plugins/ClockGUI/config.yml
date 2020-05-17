@@ -1038,6 +1038,7 @@ GUI:
         Function:
           Command:
             Use: true
+            CloseGui: true
             Content: /clan verify
       '3':
         Position: 4
@@ -1051,6 +1052,7 @@ GUI:
         Function:
           Command:
             Use: true
+            CloseGui: true
             Content: /clan resign
       '4':
         Position: 8
