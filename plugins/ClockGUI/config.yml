@@ -206,18 +206,18 @@ GUI:
       '12':
         Position: 27
         # 物品ID为 "主ID:附加值"
-        ItemID: 'STICK'
-        Model: 70
-        Name: §6副本菜单
-        Lore: §2点击打开副本菜单
-        HideItem: true
+        ItemID: 'MAGENTA_BANNER'
+        Model: 0
+        Name: §6帮派助手
+        Lore: §2点击打开帮派助手
+        HideItem: false
         Function:
           Command:
-            Use: true
+            Use: false
             Content: /dm
           OpenAnotherGUI:
-            Use: false
-            Number: 2
+            Use: true
+            Number: 6
       '13':
         Position: 20
         # 物品ID为 "主ID:附加值"
@@ -998,6 +998,62 @@ GUI:
             Content: /plot sethome
       '12':
         Position: 26
+        ItemID: 'PAPER'
+        Model: 12
+        Name: §a返回主页
+        Lore: §2点击返回主页
+        Cost:
+          Type: Money
+          Price: 0
+        Function:
+          OpenAnotherGUI:
+            Use: true
+            Number: 0
+  '6':
+    Name: §e§l帮派助手
+    Item:
+      '1':
+        Position: 0
+        ItemID: 'ORANGE_BANNER'
+        Model: 0
+        Name: §6创建一个帮派(需花费1000金币)
+        Lore: §3点击创建一个帮派
+        Cost:
+          Type: Money
+          Price: 0
+        Function:
+          Command:
+            Use: true
+            CloseGui: true
+            Content: /clan create
+      '2':
+        Position: 2
+        ItemID: 'PAPER'
+        Model: 14
+        Name: §6认证一个帮派(需花费9000金币)
+        Lore: §3点击认证一个帮派
+        Cost:
+          Type: Money
+          Price: 0
+        Function:
+          Command:
+            Use: true
+            Content: /clan verify
+      '3':
+        Position: 4
+        ItemID: 'PAPER'
+        Model: 13
+        Name: §6退出帮派
+        Lore: §3点击退出帮派
+        Cost:
+          Type: Money
+          Price: 0
+        Function:
+          Command:
+            Use: true
+            Content: /clan resign
+      '4':
+        Position: 8
         ItemID: 'PAPER'
         Model: 12
         Name: §a返回主页
