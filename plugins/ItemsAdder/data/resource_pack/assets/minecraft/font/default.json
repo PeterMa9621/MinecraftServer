@@ -103,33 +103,6 @@
     {
       "file": "font/base/black.png",
       "chars": [
-        "\uF82D"
-      ],
-      "height": 256,
-      "ascent": -5000,
-      "type": "bitmap"
-    },
-    {
-      "file": "font/base/black.png",
-      "chars": [
-        "\uF82E"
-      ],
-      "height": 512,
-      "ascent": -5000,
-      "type": "bitmap"
-    },
-    {
-      "file": "font/base/black.png",
-      "chars": [
-        "\uF82F"
-      ],
-      "height": 1024,
-      "ascent": -5000,
-      "type": "bitmap"
-    },
-    {
-      "file": "font/base/black.png",
-      "chars": [
         "\uF82F"
       ],
       "height": 1023,
@@ -247,27 +220,9 @@
     {
       "file": "font/base/black.png",
       "chars": [
-        "\uF80D"
-      ],
-      "height": -259,
-      "ascent": -5000,
-      "type": "bitmap"
-    },
-    {
-      "file": "font/base/black.png",
-      "chars": [
-        "\uF80E"
-      ],
-      "height": -515,
-      "ascent": -5000,
-      "type": "bitmap"
-    },
-    {
-      "file": "font/base/black.png",
-      "chars": [
         "\uF80F"
       ],
-      "height": -1027,
+      "height": -1026,
       "ascent": -5000,
       "type": "bitmap"
     },

@@ -37,7 +37,7 @@ recipes:
       - WWW
       - SXS
       ingredients:
-        R: REDSTONE
+        R: REDSTONE_BLOCK
         W: OAK_PLANKS
         S: STICK
       result:
@@ -47,11 +47,13 @@ recipes:
       permission: itemsadder.player
       enabled: true
       pattern:
-      - XXX
+      - QXB
       - WWW
       - WXW
       ingredients:
         W: OAK_PLANKS
+        Q: QUARTZ
+        B: BOOK
       result:
         item: itemsadder:table
         amount: 1
@@ -64,7 +66,7 @@ recipes:
       - XSX
       ingredients:
         Q: QUARTZ_BLOCK
-        T: TORCH
+        T: GLOWSTONE
         S: STICK
       result:
         item: itemsadder:lamp
@@ -87,12 +89,13 @@ recipes:
       permission: itemsadder.player
       enabled: true
       pattern:
-      - XXX
+      - XNX
       - XLX
-      - XIX
+      - III
       ingredients:
         L: LAVA_BUCKET
         I: itemsadder:iron_plate
+        N: IRON_INGOT
       result:
         item: itemsadder:lava_lamp
         amount: 1
@@ -117,8 +120,8 @@ recipes:
       permission: itemsadder.player
       enabled: true
       pattern:
-      - XXX
       - GGG
+      - XIX
       - IXI
       ingredients:
         G: GLASS_PANE
@@ -130,12 +133,13 @@ recipes:
       permission: itemsadder.player
       enabled: true
       pattern:
-      - XXX
       - WWW
       - SXS
+      - PPP
       ingredients:
         W: WHITE_WOOL
         S: STICK
+        P: itemsadder:plastic
       result:
         item: itemsadder:computer_chair
         amount: 1
@@ -143,13 +147,13 @@ recipes:
       permission: itemsadder.player
       enabled: true
       pattern:
-      - XXX
-      - POP
-      - XIX
+      - III
+      - IOI
+      - PPP
       ingredients:
         P: itemsadder:plastic_plate
-        O: REDSTONE
-        I: IRON_INGOT
+        O: REDSTONE_BLOCK
+        I: itemsadder:iron_plate
       result:
         item: itemsadder:monitor
         amount: 1
@@ -157,13 +161,14 @@ recipes:
       permission: itemsadder.player
       enabled: true
       pattern:
-      - PPP
-      - POP
-      - XIX
+      - III
+      - IOI
+      - PRP
       ingredients:
         P: itemsadder:plastic_plate
-        O: REDSTONE
-        I: IRON_INGOT
+        O: REDSTONE_BLOCK
+        I: itemsadder:iron_plate
+        R: IRON_BLOCK
       result:
         item: itemsadder:tv
         amount: 1
@@ -171,9 +176,9 @@ recipes:
       permission: itemsadder.player
       enabled: true
       pattern:
-      - POP
+      - PPP
       - ROB
-      - POP
+      - PPP
       ingredients:
         P: itemsadder:iron_plate
         B: STONE_BUTTON
@@ -789,12 +794,12 @@ recipes:
       permission: itemsadder.player
       enabled: true
       pattern:
-      - XXO
-      - OOO
-      - SSO
+      - XXX
+      - XDC
+      - XXX
       ingredients:
-        O: DARK_OAK_PLANKS
-        S: STICK
+        D: itemsadder:table
+        C: itemsadder:brown_wood_chair
       result:
         item: itemsadder:school_chair
         amount: 1
@@ -802,12 +807,11 @@ recipes:
       permission: itemsadder.player
       enabled: true
       pattern:
-      - PCO
-      - OOO
-      - SSO
+      - PCX
+      - XTX
+      - XXX
       ingredients:
-        O: DARK_OAK_PLANKS
-        S: STICK
+        T: itemsadder:school_chair
         C: CREEPER_HEAD
         P: PAPER
       result:
@@ -817,15 +821,46 @@ recipes:
       permission: itemsadder.player
       enabled: true
       pattern:
-      - XBX
+      - TBT
       - PWP
-      - PXP
+      - PCP
       ingredients:
         P: itemsadder:plastic
         B: IRON_BARS
         W: IRON_BLOCK
+        T: TORCH
+        C: WHITE_WOOL
       result:
         item: itemsadder:white_chandeliers
+        amount: 1
+    black_chandeliers:
+      permission: itemsadder.player
+      enabled: true
+      pattern:
+      - TBT
+      - PWP
+      - PCP
+      ingredients:
+        P: itemsadder:plastic
+        B: IRON_BARS
+        W: IRON_BLOCK
+        T: TORCH
+        C: BLACK_WOOL
+      result:
+        item: itemsadder:black_chandeliers
+        amount: 1
+    black_and_red_chandeliers:
+      permission: itemsadder.player
+      enabled: true
+      pattern:
+      - XXX
+      - RCR
+      - XXX
+      ingredients:
+        C: itemsadder:black_chandeliers
+        R: RED_WOOL
+      result:
+        item: itemsadder:black_and_red_chandeliers
         amount: 1
     small_fountain:
       permission: itemsadder.player
@@ -840,19 +875,19 @@ recipes:
       result:
         item: itemsadder:small_fountain
         amount: 1
-    # lit_campfire:
-      # permission: itemsadder.player
-      # enabled: false
-      # pattern:
-      # - XXX
-      # - SFS
-      # - SSS
-      # ingredients:
-        # S: itemsadder:cut_spruce_log
-        # F: FLINT_AND_STEEL
-      # result:
-        # item: itemsadder:lit_campfire
-        # amount: 1
+    lit_campfire:
+      permission: itemsadder.player
+      enabled: false
+      pattern:
+      - XXX
+      - SFS
+      - SSS
+      ingredients:
+        S: itemsadder:cut_spruce_log
+        F: FLINT_AND_STEEL
+      result:
+        item: itemsadder:lit_campfire
+        amount: 1
 items:
   old_clock:
     display_name: 老旧的钟
@@ -924,7 +959,7 @@ items:
     display_name: 椅子
     permission: itemsadder.player
     lore:
-    - '&7Rightclick to sit'
+    - '&7右键坐下'
     resource:
       material: OAK_WOOD
       generate: false
@@ -953,7 +988,7 @@ items:
     display_name: 白色椅子
     permission: itemsadder.player
     lore:
-    - '&7Rightclick to sit'
+    - '&7右键坐下'
     resource:
       material: OAK_WOOD
       generate: false
@@ -981,7 +1016,7 @@ items:
     display_name: 电脑椅
     permission: itemsadder.player
     lore:
-    - '&7Rightclick to sit'
+    - '&7右键坐下'
     resource:
       material: OAK_WOOD
       generate: false
@@ -1032,264 +1067,264 @@ items:
         gravity: false
         small_hitbox: true
         fixed_rotation: true
-  # energy_extractor:
-    # display_name: Energy Extractor
-    # permission: itemsadder.player
-    # lore:
-    # - '&7Use it to convert items'
-    # - '&7into energy'
-    # resource:
-      # material: OAK_WOOD
-      # generate: false
-      # model_path: item/energy_extractor
-    # behaviours:
-      # furniture:
-        # small_hitbox: true
-        # light_level: 7
-      # furniture_trade_machine:
-        # trades_list:
-          # cobblestone:
-            # ingredients:
-              # slot1:
-                # item: COBBLESTONE
-                # amount: 64
-            # result:
-              # item: energy_orb
-              # amount: 6
-          # cobblestone_slab:
-            # ingredients:
-              # slot1:
-                # item: COBBLESTONE_SLAB
-                # amount: 64
-            # result:
-              # item: energy_orb
-              # amount: 3
-          # dirt:
-            # ingredients:
-              # slot1:
-                # item: DIRT
-                # amount: 64
-            # result:
-              # item: energy_orb
-              # amount: 6
-          # netherrack:
-            # ingredients:
-              # slot1:
-                # item: NETHERRACK
-                # amount: 64
-            # result:
-              # item: energy_orb
-              # amount: 6
-          # coal:
-            # ingredients:
-              # slot1:
-                # item: COAL
-                # amount: 32
-            # result:
-              # item: energy_orb
-              # amount: 16
-          # oak_planks:
-            # ingredients:
-              # slot1:
-                # item: OAK_PLANKS
-                # amount: 64
-            # result:
-              # item: energy_orb
-              # amount: 8
-          # OAK_PLANKS:
-            # ingredients:
-              # slot1:
-                # item: OAK_PLANKS
-                # amount: 64
-            # result:
-              # item: energy_orb
-              # amount: 8
-          # birch_planks:
-            # ingredients:
-              # slot1:
-                # item: BIRCH_PLANKS
-                # amount: 64
-            # result:
-              # item: energy_orb
-              # amount: 8
-          # redstone:
-            # ingredients:
-              # slot1:
-                # item: REDSTONE
-                # amount: 64
-            # result:
-              # item: energy_orb
-              # amount: 4
-          # iron_ingot:
-            # ingredients:
-              # slot1:
-                # item: IRON_INGOT
-                # amount: 2
-            # result:
-              # item: energy_orb
-              # amount: 32
-          # emerald:
-            # ingredients:
-              # slot1:
-                # item: EMERALD
-                # amount: 1
-            # result:
-              # item: energy_capsule
-              # amount: 1
-          # diamond:
-            # ingredients:
-              # slot1:
-                # item: DIAMOND
-                # amount: 1
-            # result:
-              # item: energy_capsule
-              # amount: 8
-          # bronze_ingot:
-            # ingredients:
-              # slot1:
-                # item: bronze_ingot
-                # amount: 1
-            # result:
-              # item: energy_capsule
-              # amount: 1
-  # energy_converter:
-    # display_name: Energy Converter
-    # permission: itemsadder.player
-    # lore:
-    # - '&7Use it to convert energy'
-    # - '&7into items'
-    # resource:
-      # material: OAK_WOOD
-      # generate: false
-      # model_path: item/energy_converter
-    # behaviours:
-      # furniture:
-        # small_hitbox: true
-        # light_level: 7
-      # furniture_trade_machine:
-        # trades_list:
-          # dirt:
-            # ingredients:
-              # slot1:
-                # item: energy_orb
-                # amount: 6
-            # result:
-              # item: DIRT
-              # amount: 64
-          # cobblestone:
-            # ingredients:
-              # slot1:
-                # item: energy_orb
-                # amount: 6
-            # result:
-              # item: COBBLESTONE
-              # amount: 64
-          # cobblestone_stairs:
-            # ingredients:
-              # slot1:
-                # item: energy_orb
-                # amount: 6
-            # result:
-              # item: COBBLESTONE_STAIRS
-              # amount: 64
-          # iron_ingot:
-            # ingredients:
-              # slot1:
-                # item: energy_orb
-                # amount: 32
-            # result:
-              # item: IRON_INGOT
-              # amount: 2
-          # emerald_energy:
-            # ingredients:
-              # slot1:
-                # item: energy_orb
-                # amount: 64
-            # result:
-              # item: EMERALD
-              # amount: 1
-          # emerald_small_energy:
-            # ingredients:
-              # slot1:
-                # item: small_energy_capsule
-                # amount: 8
-            # result:
-              # item: EMERALD
-              # amount: 1
-          # diamond_energy:
-            # ingredients:
-              # slot1:
-                # item: energy_capsule
-                # amount: 8
-            # result:
-              # item: DIAMOND
-              # amount: 1
-          # diamond_small_energy:
-            # ingredients:
-              # slot1:
-                # item: small_energy_capsule
-                # amount: 64
-            # result:
-              # item: DIAMOND
-              # amount: 1
-  # vending_machine:
-    # display_name: Vending Machine
-    # permission: itemsadder.player
-    # lore:
-    # - '&7Use it to get cool items'
-    # resource:
-      # material: OAK_WOOD
-      # generate: false
-      # model_path: item/vending_machine
-    # behaviours:
-      # furniture_trade_machine:
-        # trades_list:
-          # hamburger:
-            # ingredients:
-              # slot1:
-                # item: COBBLESTONE
-                # amount: 64
-            # result:
-              # item: hamburger
-              # amount: 1
-          # hotdog:
-            # ingredients:
-              # slot1:
-                # item: COBBLESTONE
-                # amount: 64
-              # slot2:
-                # item: GRANITE
-                # amount: 8
-            # result:
-              # item: hotdog
-              # amount: 1
-      # furniture:
-        # small_hitbox: false
-  # coffee_machine:
-    # display_name: Coffee Machine
-    # permission: itemsadder.player
-    # lore:
-    # - '&7Makes a really good coffee'
-    # resource:
-      # material: OAK_WOOD
-      # generate: false
-      # model_path: item/coffee_machine
-    # behaviours:
-      # furniture:
-        # small_hitbox: true
-      # furniture_trade_machine:
-        # trades_list:
-          # hamburger:
-            # ingredients:
-              # slot1:
-                # item: COCOA_BEANS
-                # amount: 4
-              # slot2:
-                # item: empty_cup
-                # amount: 1
-            # result:
-              # item: coffee
-              # amount: 1
+  energy_extractor:
+    display_name: Energy Extractor
+    permission: itemsadder.player
+    lore:
+    - '&7Use it to convert items'
+    - '&7into energy'
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/energy_extractor
+    behaviours:
+      furniture:
+        small_hitbox: true
+        light_level: 7
+      furniture_trade_machine:
+        trades_list:
+          cobblestone:
+            ingredients:
+              slot1:
+                item: COBBLESTONE
+                amount: 64
+            result:
+              item: energy_orb
+              amount: 6
+          cobblestone_slab:
+            ingredients:
+              slot1:
+                item: COBBLESTONE_SLAB
+                amount: 64
+            result:
+              item: energy_orb
+              amount: 3
+          dirt:
+            ingredients:
+              slot1:
+                item: DIRT
+                amount: 64
+            result:
+              item: energy_orb
+              amount: 6
+          netherrack:
+            ingredients:
+              slot1:
+                item: NETHERRACK
+                amount: 64
+            result:
+              item: energy_orb
+              amount: 6
+          coal:
+            ingredients:
+              slot1:
+                item: COAL
+                amount: 32
+            result:
+              item: energy_orb
+              amount: 16
+          oak_planks:
+            ingredients:
+              slot1:
+                item: OAK_PLANKS
+                amount: 64
+            result:
+              item: energy_orb
+              amount: 8
+          OAK_PLANKS:
+            ingredients:
+              slot1:
+                item: OAK_PLANKS
+                amount: 64
+            result:
+              item: energy_orb
+              amount: 8
+          birch_planks:
+            ingredients:
+              slot1:
+                item: BIRCH_PLANKS
+                amount: 64
+            result:
+              item: energy_orb
+              amount: 8
+          redstone:
+            ingredients:
+              slot1:
+                item: REDSTONE
+                amount: 64
+            result:
+              item: energy_orb
+              amount: 4
+          iron_ingot:
+            ingredients:
+              slot1:
+                item: IRON_INGOT
+                amount: 2
+            result:
+              item: energy_orb
+              amount: 32
+          emerald:
+            ingredients:
+              slot1:
+                item: EMERALD
+                amount: 1
+            result:
+              item: energy_capsule
+              amount: 1
+          diamond:
+            ingredients:
+              slot1:
+                item: DIAMOND
+                amount: 1
+            result:
+              item: energy_capsule
+              amount: 8
+          bronze_ingot:
+            ingredients:
+              slot1:
+                item: bronze_ingot
+                amount: 1
+            result:
+              item: energy_capsule
+              amount: 1
+  energy_converter:
+    display_name: Energy Converter
+    permission: itemsadder.player
+    lore:
+    - '&7Use it to convert energy'
+    - '&7into items'
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/energy_converter
+    behaviours:
+      furniture:
+        small_hitbox: true
+        light_level: 7
+      furniture_trade_machine:
+        trades_list:
+          dirt:
+            ingredients:
+              slot1:
+                item: energy_orb
+                amount: 6
+            result:
+              item: DIRT
+              amount: 64
+          cobblestone:
+            ingredients:
+              slot1:
+                item: energy_orb
+                amount: 6
+            result:
+              item: COBBLESTONE
+              amount: 64
+          cobblestone_stairs:
+            ingredients:
+              slot1:
+                item: energy_orb
+                amount: 6
+            result:
+              item: COBBLESTONE_STAIRS
+              amount: 64
+          iron_ingot:
+            ingredients:
+              slot1:
+                item: energy_orb
+                amount: 32
+            result:
+              item: IRON_INGOT
+              amount: 2
+          emerald_energy:
+            ingredients:
+              slot1:
+                item: energy_orb
+                amount: 64
+            result:
+              item: EMERALD
+              amount: 1
+          emerald_small_energy:
+            ingredients:
+              slot1:
+                item: small_energy_capsule
+                amount: 8
+            result:
+              item: EMERALD
+              amount: 1
+          diamond_energy:
+            ingredients:
+              slot1:
+                item: energy_capsule
+                amount: 8
+            result:
+              item: DIAMOND
+              amount: 1
+          diamond_small_energy:
+            ingredients:
+              slot1:
+                item: small_energy_capsule
+                amount: 64
+            result:
+              item: DIAMOND
+              amount: 1
+  vending_machine:
+    display_name: Vending Machine
+    permission: itemsadder.player
+    lore:
+    - '&7Use it to get cool items'
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/vending_machine
+    behaviours:
+      furniture_trade_machine:
+        trades_list:
+          hamburger:
+            ingredients:
+              slot1:
+                item: COBBLESTONE
+                amount: 64
+            result:
+              item: hamburger
+              amount: 1
+          hotdog:
+            ingredients:
+              slot1:
+                item: COBBLESTONE
+                amount: 64
+              slot2:
+                item: GRANITE
+                amount: 8
+            result:
+              item: hotdog
+              amount: 1
+      furniture:
+        small_hitbox: false
+  coffee_machine:
+    display_name: Coffee Machine
+    permission: itemsadder.player
+    lore:
+    - '&7Makes a really good coffee'
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/coffee_machine
+    behaviours:
+      furniture:
+        small_hitbox: true
+      furniture_trade_machine:
+        trades_list:
+          hamburger:
+            ingredients:
+              slot1:
+                item: COCOA_BEANS
+                amount: 4
+              slot2:
+                item: empty_cup
+                amount: 1
+            result:
+              item: coffee
+              amount: 1
   mysterious_stone:
     display_name: Mysterious Stone
     permission: itemsadder.player
@@ -1302,18 +1337,18 @@ items:
         gravity: false
         light_level: 13
         small_hitbox: false
-  # alchemy_candles:
-    # display_name: Alchemy Candles
-    # permission: itemsadder.player
-    # resource:
-      # material: OAK_WOOD
-      # generate: false
-      # model_path: item/alchemy_candles
-    # behaviours:
-      # furniture:
-        # gravity: false
-        # small_hitbox: true
-        # light_level: 8
+  alchemy_candles:
+    display_name: Alchemy Candles
+    permission: itemsadder.player
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/alchemy_candles
+    behaviours:
+      furniture:
+        gravity: false
+        small_hitbox: true
+        light_level: 8
   painting_burst:
     display_name: 画
     permission: itemsadder.player
@@ -1665,7 +1700,7 @@ items:
       furniture_sit:
         sit_height: 0.9
   white_wood_chair:
-    display_name: 白色羊毛椅子
+    display_name: 白色木椅子
     permission: itemsadder.player
     resource:
       material: OAK_WOOD
@@ -1679,7 +1714,7 @@ items:
       furniture_sit:
         sit_height: 0.45
   orange_wood_chair:
-    display_name: 橙色羊毛椅子
+    display_name: 橙色木椅子
     permission: itemsadder.player
     resource:
       material: OAK_WOOD
@@ -1693,7 +1728,7 @@ items:
       furniture_sit:
         sit_height: 0.45
   magenta_wood_chair:
-    display_name: 品红色羊毛椅子
+    display_name: 品红色木椅子
     permission: itemsadder.player
     resource:
       material: OAK_WOOD
@@ -1707,7 +1742,7 @@ items:
       furniture_sit:
         sit_height: 0.45
   light_blue_wood_chair:
-    display_name: 浅蓝色羊毛椅子
+    display_name: 浅蓝色木椅子
     permission: itemsadder.player
     resource:
       material: OAK_WOOD
@@ -1721,7 +1756,7 @@ items:
       furniture_sit:
         sit_height: 0.45
   yellow_wood_chair:
-    display_name: 黄色羊毛椅子
+    display_name: 黄色木椅子
     permission: itemsadder.player
     resource:
       material: OAK_WOOD
@@ -1735,7 +1770,7 @@ items:
       furniture_sit:
         sit_height: 0.45
   lime_wood_chair:
-    display_name: 青柠色羊毛椅子
+    display_name: 青柠色木椅子
     permission: itemsadder.player
     resource:
       material: OAK_WOOD
@@ -1749,7 +1784,7 @@ items:
       furniture_sit:
         sit_height: 0.45
   pink_wood_chair:
-    display_name: 粉色羊毛椅子
+    display_name: 粉色木椅子
     permission: itemsadder.player
     resource:
       material: OAK_WOOD
@@ -1763,7 +1798,7 @@ items:
       furniture_sit:
         sit_height: 0.45
   gray_wood_chair:
-    display_name: 灰色羊毛椅子
+    display_name: 灰色木椅子
     permission: itemsadder.player
     resource:
       material: OAK_WOOD
@@ -1777,7 +1812,7 @@ items:
       furniture_sit:
         sit_height: 0.45
   light_gray_wood_chair:
-    display_name: 浅灰色羊毛椅子
+    display_name: 浅灰色木椅子
     permission: itemsadder.player
     resource:
       material: OAK_WOOD
@@ -1791,7 +1826,7 @@ items:
       furniture_sit:
         sit_height: 0.45
   cyan_wood_chair:
-    display_name: 青色羊毛椅子
+    display_name: 青色木椅子
     permission: itemsadder.player
     resource:
       material: OAK_WOOD
@@ -1805,7 +1840,7 @@ items:
       furniture_sit:
         sit_height: 0.45
   purple_wood_chair:
-    display_name: 紫色羊毛椅子
+    display_name: 紫色木椅子
     permission: itemsadder.player
     resource:
       material: OAK_WOOD
@@ -1819,7 +1854,7 @@ items:
       furniture_sit:
         sit_height: 0.45
   blue_wood_chair:
-    display_name: 蓝色羊毛椅子
+    display_name: 蓝色木椅子
     permission: itemsadder.player
     resource:
       material: OAK_WOOD
@@ -1833,7 +1868,7 @@ items:
       furniture_sit:
         sit_height: 0.45
   brown_wood_chair:
-    display_name: 棕色羊毛椅子
+    display_name: 棕色木椅子
     permission: itemsadder.player
     resource:
       material: OAK_WOOD
@@ -1847,7 +1882,7 @@ items:
       furniture_sit:
         sit_height: 0.45
   green_wood_chair:
-    display_name: 绿色羊毛椅子
+    display_name: 绿色木椅子
     permission: itemsadder.player
     resource:
       material: OAK_WOOD
@@ -1861,7 +1896,7 @@ items:
       furniture_sit:
         sit_height: 0.45
   red_wood_chair:
-    display_name: 红色羊毛椅子
+    display_name: 红色木椅子
     permission: itemsadder.player
     resource:
       material: OAK_WOOD
@@ -1875,7 +1910,7 @@ items:
       furniture_sit:
         sit_height: 0.45
   black_wood_chair:
-    display_name: 黑色羊毛椅子
+    display_name: 黑色木椅子
     permission: itemsadder.player
     resource:
       material: OAK_WOOD
@@ -1981,79 +2016,79 @@ items:
         gravity: true
         fixed_rotation: true
         small_hitbox: true
-  # lit_campfire:
-    # display_name: Lit Campfire
-    # permission: itemsadder.player
-    # resource:
-      # material: OAK_WOOD
-      # generate: false
-      # model_path: item/lit_campfire
-    # behaviours:
-      # furniture:
-        # gravity: false
-        # fixed_rotation: true
-        # small_hitbox: true
-        # light_level: 15
-  # decorative_pumpkin:
-    # display_name: Decorative Pumpkin
-    # permission: itemsadder.player
-    # resource:
-      # material: OAK_WOOD
-      # generate: false
-      # model_path: item/decorative_pumpkin
-    # behaviours:
-      # furniture:
-        # gravity: false
-        # fixed_rotation: true
-        # small_hitbox: true
-        # light_level: 15
-  # christmas_tree:
-    # display_name: Christmas Tree
-    # permission: itemsadder.player
-    # resource:
-      # material: OAK_WOOD
-      # generate: false
-      # model_path: item/christmas_tree
-    # behaviours:
-      # furniture:
-        # gravity: false
-        # fixed_rotation: true
-        # small_hitbox: false
-        # light_level: 15
-  # christmas_candle:
-    # display_name: Christmas Candle
-    # permission: itemsadder.player
-    # resource:
-      # material: OAK_WOOD
-      # generate: false
-      # model_path: item/christmas_candle
-    # behaviours:
-      # furniture:
-        # gravity: false
-        # fixed_rotation: true
-        # small_hitbox: true
-        # light_level: 8
-  # decorative_candy_cane:
-    # display_name: Decorative Candy Cane
-    # permission: itemsadder.player
-    # resource:
-      # material: OAK_WOOD
-      # generate: false
-      # model_path: item/decorative_candy_cane
-    # behaviours:
-      # furniture:
-        # gravity: false
-        # fixed_rotation: true
-        # small_hitbox: false
-  # christmas_wreath:
-    # display_name: Christmas Wreath
-    # permission: itemsadder.player
-    # resource:
-      # material: OAK_WOOD
-      # generate: false
-      # model_path: item/christmas_wreath
-    # behaviours:
-      # furniture:
-        # gravity: false
-        # fixed_rotation: true
-        # small_hitbox: true
+  lit_campfire:
+    display_name: 点燃的篝火
+    permission: itemsadder.player
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/lit_campfire
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: true
+        small_hitbox: true
+        light_level: 15
+  decorative_pumpkin:
+    display_name: Decorative Pumpkin
+    permission: itemsadder.player
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/decorative_pumpkin
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: true
+        small_hitbox: true
+        light_level: 15
+  christmas_tree:
+    display_name: Christmas Tree
+    permission: itemsadder.player
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/christmas_tree
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: true
+        small_hitbox: false
+        light_level: 15
+  christmas_candle:
+    display_name: Christmas Candle
+    permission: itemsadder.player
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/christmas_candle
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: true
+        small_hitbox: true
+        light_level: 8
+  decorative_candy_cane:
+    display_name: Decorative Candy Cane
+    permission: itemsadder.player
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/decorative_candy_cane
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: true
+        small_hitbox: false
+  christmas_wreath:
+    display_name: Christmas Wreath
+    permission: itemsadder.player
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/christmas_wreath
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: true
+        small_hitbox: true

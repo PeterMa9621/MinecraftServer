@@ -358,18 +358,24 @@ recipes:
       # result:
         # item: itemsadder:carton_box
         # amount: 1
-    # cut_spruce_log:
-      # permission: itemsadder.cut_spruce_log
-      # enabled: true
-      # pattern:
-      # - XXX
-      # - XWX
-      # - XWX
-      # ingredients:
-        # W: SPRUCE_LOG
-      # result:
-        # item: itemsadder:cut_spruce_log
-        # amount: 6
+    cut_spruce_log:
+      permission: itemsadder.cut_spruce_log
+      enabled: true
+      pattern:
+      - XAX
+      - XWX
+      - XWX
+      ingredients:
+        A: mjy:axe
+        W: SPRUCE_LOG
+      result:
+        item: itemsadder:cut_spruce_log
+        amount: 4
+      return_items:
+        decrement_durability:
+          axe:
+            item: mjy:axe
+            amount: 1
     # shotgun_cartridge:
       # permission: itemsadder.shotgun_cartridge
       # enabled: true
@@ -422,7 +428,7 @@ items:
     display_name: 面粉
     permission: itemsadder.player
     resource:
-      material: STICK
+      material: PAPER
       generate: true
       textures:
       - item/flour.png
@@ -430,7 +436,7 @@ items:
     display_name: 面团
     permission: itemsadder.player
     resource:
-      material: STICK
+      material: PAPER
       generate: true
       textures:
       - item/dough.png
@@ -466,7 +472,7 @@ items:
     display_name: 塑料
     permission: itemsadder.player
     resource:
-      material: STICK
+      material: PAPER
       generate: true
       textures:
       - item/plastic.png
@@ -474,7 +480,7 @@ items:
     display_name: 塑料板
     permission: itemsadder.player
     resource:
-      material: STICK
+      material: PAPER
       generate: true
       textures:
       - item/plastic_plate.png
@@ -657,7 +663,7 @@ items:
     display_name: 铁板
     permission: itemsadder.player
     resource:
-      material: STICK
+      material: IRON_INGOT
       generate: true
       textures:
       - item/iron_plate.png
@@ -939,7 +945,7 @@ items:
       generate: false
       model_path: item/carton_box
   cut_spruce_log:
-    display_name: Cut Spruce Log
+    display_name: 云杉木条
     permission: cut_spruce_log
     resource:
       material: STICK

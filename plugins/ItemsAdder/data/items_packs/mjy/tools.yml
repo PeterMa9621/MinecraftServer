@@ -43,6 +43,19 @@ recipes:
       result:
         item: mjy:hammer
         amount: 1
+    axe:
+      permission: itemsadder.player
+      enabled: true
+      pattern:
+      - DDX
+      - DSD
+      - XSX
+      ingredients:
+        D: IRON_INGOT
+        S: STICK
+      result:
+        item: mjy:axe
+        amount: 1
   anvil_repair:
     qingshuijing_pickaxe:
       ingredient: mjy:qingshuijing
@@ -50,9 +63,6 @@ recipes:
     qingshuijing_hammer:
       ingredient: mjy:qingshuijing
       item: mjy:qingshuijing_hammer
-    hammer:
-      ingredient: IRON
-      item: mjy:hammer
 items:
   qingshuijing_pickaxe:
     display_name: '&f青水晶镐'
@@ -84,6 +94,19 @@ items:
       generate: true
       textures:
       - item/tool/hammer.png
+    durability:
+      max_custom_durability: 49
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 4.0
+  axe:
+    display_name: '&f小斧子'
+    permission: itemsadder.player
+    resource:
+      material: WOODEN_AXE
+      generate: true
+      textures:
+      - item/tool/axe.png
     durability:
       max_custom_durability: 49
     attribute_modifiers:
