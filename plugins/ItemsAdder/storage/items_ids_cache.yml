@@ -589,6 +589,7 @@ DIAMOND_PICKAXE:
 WOODEN_PICKAXE:
   itemsadder:crystal_pickaxe: 1
   mjy:qingshuijing_hammer: 2
+  mjy:hammer: 3
 DIAMOND_HOE:
   itemsadder:ruby_hoe: 1
   itemsadder:spinel_hoe: 2

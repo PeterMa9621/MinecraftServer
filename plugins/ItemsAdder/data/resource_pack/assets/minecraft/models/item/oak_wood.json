@@ -81,39 +81,9 @@
     },
     {
       "predicate": {
-        "custom_model_data": 14
-      },
-      "model": "itemsadder:item/energy_extractor"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 15
-      },
-      "model": "itemsadder:item/energy_converter"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 16
-      },
-      "model": "itemsadder:item/vending_machine"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 17
-      },
-      "model": "itemsadder:item/coffee_machine"
-    },
-    {
-      "predicate": {
         "custom_model_data": 18
       },
       "model": "itemsadder:item/mysterious_stone"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 19
-      },
-      "model": "itemsadder:item/alchemy_candles"
     },
     {
       "predicate": {
@@ -363,12 +333,6 @@
     },
     {
       "predicate": {
-        "custom_model_data": 61
-      },
-      "model": "itemsadder:item/dark_throne"
-    },
-    {
-      "predicate": {
         "custom_model_data": 62
       },
       "model": "itemsadder:item/school_chair"
@@ -402,42 +366,6 @@
         "custom_model_data": 67
       },
       "model": "itemsadder:item/small_fountain"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 68
-      },
-      "model": "itemsadder:item/lit_campfire"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 69
-      },
-      "model": "itemsadder:item/decorative_pumpkin"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 70
-      },
-      "model": "itemsadder:item/christmas_tree"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 71
-      },
-      "model": "itemsadder:item/christmas_candle"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 72
-      },
-      "model": "itemsadder:item/decorative_candy_cane"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 73
-      },
-      "model": "itemsadder:item/christmas_wreath"
     }
   ]
 }

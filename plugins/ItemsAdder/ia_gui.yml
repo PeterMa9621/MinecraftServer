@@ -356,8 +356,8 @@ categories:
   furnitures:
     enabled: true
     icon: "itemsadder:old_clock"
-    permission: 'ia.menu.special'
-    name: 'Furnitures'
+    permission: 'ia.menu.player'
+    name: '&5家具'
     items:
       - "itemsadder:old_clock"
       - "itemsadder:opened_chest"
@@ -379,8 +379,8 @@ categories:
   paintings:
     enabled: true
     icon: "itemsadder:painting_burst"
-    permission: 'ia.menu.special'
-    name: 'Paintings'
+    permission: 'ia.menu.player'
+    name: '画作'
     items:
       - "itemsadder:painting_burst"
       - "itemsadder:painting_courbet"
@@ -394,8 +394,8 @@ categories:
   chairs:
     enabled: true
     icon: "itemsadder:simple_chair"
-    permission: 'ia.menu.special'
-    name: 'Chairs'
+    permission: 'ia.menu.player'
+    name: '&5椅子'
     items:
       - "itemsadder:simple_chair"
       - "itemsadder:white_chair"
