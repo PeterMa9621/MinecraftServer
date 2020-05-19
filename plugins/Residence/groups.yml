@@ -154,8 +154,8 @@ Groups:
           CanBuy: true
           CanSell: false
           IgnoreLimits: false
-          BuyCost: 0.45
-          SellCost: 0.25
+          BuyCost: 0.35
+          SellCost: 0.2
           RenewCost: 0.2
           
     vip2: #group name, player should have residence.group.nextgroup permission node to have access to this residence group
@@ -189,8 +189,8 @@ Groups:
           CanBuy: true
           CanSell: false
           IgnoreLimits: false
-          BuyCost: 0.4
-          SellCost: 0.25
+          BuyCost: 0.3
+          SellCost: 0.2
           RenewCost: 0.2
           
     vip3: #group name, player should have residence.group.nextgroup permission node to have access to this residence group
@@ -224,8 +224,8 @@ Groups:
           CanBuy: true
           CanSell: false
           IgnoreLimits: false
-          BuyCost: 0.35
-          SellCost: 0.25
+          BuyCost: 0.25
+          SellCost: 0.2
           RenewCost: 0.2
 
 # You can manually specify the group a player is in below, this overrides their permissions group.
