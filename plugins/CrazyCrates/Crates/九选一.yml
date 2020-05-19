@@ -5,7 +5,7 @@ Crate:
   StartingKeys: 0
   InGUI: false
   Slot: 14
-  OpeningBroadCast: false
+  OpeningBroadCast: true
   BroadCast: '%Prefix%&6&l%Player% &7打开了 &e&l九选一抽奖箱&7.'
   Item: '54'
   Name: '&e&l九选一抽奖箱'
@@ -385,7 +385,6 @@ Crate:
       Glowing: false
       Commands:
         - 'ph giveitem %Player% mjy:shiyue_axe'
-        - 'broadcast 恭喜&6&l%Player%&7通过抽奖获得了1个&c&l蚀月斧！'
       Messages:
         - '&7恭喜！你获得了&c&l蚀月斧&7一个'
     28:
@@ -398,7 +397,6 @@ Crate:
       Glowing: false
       Commands:
         - 'ph giveitem %Player% mjy:riyue_axe'
-        - 'broadcast 恭喜&6&l%Player%&7通过抽奖获得了1个&c&l日月斧！'
       Messages:
         - '&7恭喜！你获得了&c&l日月斧&7一个'
     ########################################
@@ -1225,3 +1223,321 @@ Crate:
         - 'broadcast 恭喜&6&l%Player%&7通过抽奖获得了1个&c&l末影龙翅膀！'
       Messages:
         - '&7你获得了1个&f末影龙翅膀.'
+    ########################################
+    # 装备
+    ########################################
+    93:
+      DisplayName: '&5&l暴风头盔'
+      DisplayItem: 'LEATHER_HELMET#23'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 40
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:baofeng_head'
+      Messages:
+        - '&7恭喜！你获得了&5&l暴风头盔&7一个'
+    94:
+      DisplayName: '&5&l暴风护甲'
+      DisplayItem: 'LEATHER_CHESTPLATE#24'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 40
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:baofeng_chest'
+      Messages:
+        - '&7恭喜！你获得了&5&l暴风护甲&7一个'
+    95:
+      DisplayName: '&5&l暴风护腿'
+      DisplayItem: 'LEATHER_LEGGINGS#24'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 40
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:baofeng_leg'
+      Messages:
+        - '&7恭喜！你获得了&5&l暴风护腿&7一个'
+    96:
+      DisplayName: '&5&l暴风靴子'
+      DisplayItem: 'LEATHER_BOOTS#26'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 40
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:baofeng_feet'
+      Messages:
+        - '&7恭喜！你获得了&5&l暴风靴子&7一个'
+    97:
+      DisplayName: '&c&l龙骨头盔'
+      DisplayItem: 'LEATHER_HELMET#24'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 40
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:longgu_head'
+      Messages:
+        - '&7恭喜！你获得了&c&l龙骨头盔&7一个'
+    98:
+      DisplayName: '&3&l龙骨盔甲'
+      DisplayItem: 'LEATHER_CHESTPLATE#25'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 40
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:longgu_chest'
+      Messages:
+        - '&7恭喜！你获得了&3&l龙骨盔甲&7一个'
+    99:
+      DisplayName: '&5&l龙骨护腿'
+      DisplayItem: 'LEATHER_LEGGINGS#25'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 40
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:longgu_leg'
+      Messages:
+        - '&7恭喜！你获得了&5&l龙骨护腿&7一个'
+    100:
+      DisplayName: '&5&l龙骨靴子'
+      DisplayItem: 'LEATHER_BOOTS#27'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 40
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:longgu_feet'
+      Messages:
+        - '&7恭喜！你获得了&5&l龙骨靴子&7一个'
+    101:
+      DisplayName: '&c&l屠龙刀'
+      DisplayItem: 'DIAMOND_SWORD#38'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 40
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:tulong_sword'
+      Messages:
+        - '&7恭喜！你获得了&c&l屠龙刀&7一个'
+    102:
+      DisplayName: '&c&l倚天剑'
+      DisplayItem: 'DIAMOND_SWORD#41'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 40
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:yitian_sword'
+      Messages:
+        - '&7恭喜！你获得了&c&l倚天剑&7一个'
+    103:
+      DisplayName: '&c&l焚寂剑'
+      DisplayItem: 'DIAMOND_SWORD#42'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 40
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:fenji_sword'
+      Messages:
+        - '&7恭喜！你获得了&c&l焚寂剑&7一个'
+    104:
+      DisplayName: '&c&l龙鳞'
+      DisplayItem: 'DIAMOND_SWORD#43'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 40
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:longlin_sword'
+      Messages:
+        - '&7恭喜！你获得了&c&l龙鳞&7一个'
+    105:
+      DisplayName: '&c&l凋零王的长剑'
+      DisplayItem: 'DIAMOND_SWORD#28'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 40
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:diaolingwang_sword'
+      Messages:
+        - '&7恭喜！你获得了&c&l凋零王的长剑&7一个'
+    ########################################
+    # 饰品
+    ########################################
+    106:
+      DisplayName: '&6绿恶魔翅膀'
+      DisplayItem: 'FEATHER#15'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 40
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'iagive %Player% itemsadder:demoniac_turquoise_wings'
+      Messages:
+        - '&7恭喜！你获得了&6绿恶魔翅膀&7一个'
+    107:
+      DisplayName: '&6紫恶魔翅膀'
+      DisplayItem: 'FEATHER#16'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 40
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'iagive %Player% itemsadder:demoniac_purple_wings'
+      Messages:
+        - '&7恭喜！你获得了&6紫恶魔翅膀&7一个'
+    108:
+      DisplayName: '&6蓝恶魔翅膀'
+      DisplayItem: 'FEATHER#17'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 40
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'iagive %Player% itemsadder:demoniac_blue_wings'
+      Messages:
+        - '&7恭喜！你获得了&6蓝恶魔翅膀&7一个'
+    109:
+      DisplayName: '&6黑色猫尾巴'
+      DisplayItem: 'FEATHER#19'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 40
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'iagive %Player% itemsadder:all_black_cat_tail'
+      Messages:
+        - '&7恭喜！你获得了&6黑色猫尾巴&7一个'
+    110:
+      DisplayName: '&6黑白猫尾巴'
+      DisplayItem: 'FEATHER#20'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 40
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'iagive %Player% itemsadder:black_cat_tail'
+      Messages:
+        - '&7恭喜！你获得了&6黑白猫尾巴&7一个'
+    111:
+      DisplayName: '&6白色猫尾巴'
+      DisplayItem: 'FEATHER#21'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 40
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'iagive %Player% itemsadder:white_cat_tail'
+      Messages:
+        - '&7恭喜！你获得了&6白色猫尾巴&7一个'
+    112:
+      DisplayName: '&6红色背包'
+      DisplayItem: 'FEATHER#23'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 40
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'iagive %Player% itemsadder:red_backpack'
+      Messages:
+        - '&7恭喜！你获得了&6红色背包&7一个'
+    113:
+      DisplayName: '&6绿色背包'
+      DisplayItem: 'FEATHER#24'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 40
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'iagive %Player% itemsadder:turquoise_backpack'
+      Messages:
+        - '&7恭喜！你获得了&6绿色背包&7一个'
+    114:
+      DisplayName: '&6紫色背包'
+      DisplayItem: 'FEATHER#25'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 40
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'iagive %Player% itemsadder:purple_backpack'
+      Messages:
+        - '&7恭喜！你获得了&6紫色背包&7一个'
+    115:
+      DisplayName: '&6蓝色背包'
+      DisplayItem: 'FEATHER#26'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 40
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'iagive %Player% itemsadder:blue_backpack'
+      Messages:
+        - '&7恭喜！你获得了&6蓝色背包&7一个'
+    116:
+      DisplayName: '&6黑色背包'
+      DisplayItem: 'FEATHER#27'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 40
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'iagive %Player% itemsadder:black_backpack'
+      Messages:
+        - '&7恭喜！你获得了&6黑色背包&7一个'
+    117:
+      DisplayName: '&6棕色背包'
+      DisplayItem: 'FEATHER#28'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 40
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'iagive %Player% itemsadder:brown_backpack'
+      Messages:
+        - '&7恭喜！你获得了&6棕色背包&7一个'
+    118:
+      DisplayName: '&6草帽'
+      DisplayItem: 'FEATHER#7'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 40
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'iagive %Player% itemsadder:straw_hat'
+      Messages:
+        - '&7恭喜！你获得了&6草帽&7一个'
