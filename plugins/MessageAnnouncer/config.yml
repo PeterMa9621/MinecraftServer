@@ -86,4 +86,4 @@ announcements:
   - '[{"text":"[小提示] ","color":"gold"},{"text":"拥有一个帮派，结识更多的志同道合之人吧。","color":"white"},{"text":"点击了解更多","color":"dark_purple","bold":true,"underlined":true,"clickEvent":{"action":"run_command","value":"/ob
     open 帮派手册"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"点击查看更多内容","color":"yellow"}]}}}]'
   itemsadder:
-  - '[{"text":"[小提示] ","color":"gold"},{"text":"查看新增物品请输入/ia。VIP可以发送emoji哦，输入/e查看:smile:","color":"white"},{"text":"点击查看新增物品","color":"dark_purple","bold":true,"underlined":true,"clickEvent":{"action":"run_command","value":"/ia"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"点击查看更多内容","color":"yellow"}]}}}]'
+  - '[{"text":"[小提示] ","color":"gold"},{"text":"查看新增物品请输入/ia。VIP可以发送emoji哦，输入/e查看","color":"white"},{"text":"点击查看新增物品","color":"dark_purple","bold":true,"underlined":true,"clickEvent":{"action":"run_command","value":"/ia"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"点击查看更多内容","color":"yellow"}]}}}]'
