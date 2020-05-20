@@ -1,10 +1,13 @@
-'1':
+SKELETON2:
+  Type: mob
+  NPCID: 10
+  Describe: §a§6巫婆§f希望你能去帮他解决§e4§f个§e骷髅§f！
+  RewardMessage: §7你完成了任务
   Mob:
-    ID: ZOMBIE
-    Amount: 2
-    CustomName: §e§l狩猎者
+    ID: SKELETON
+    Amount: 4
   Reward:
-    Money: '30:50'
+    Money: 30:100
 ELDER_GUARDIAN:
   Type: mob
   NPCID: 11
