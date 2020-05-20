@@ -4,8 +4,8 @@ info:
   authors: "LoneDev, equinoxrex_, i_am_arobazzz "
 items:
   abyssal_lantern:
-    display_name: Abyssal Lantern
-    permission: buildersbasics
+    display_name: 深渊灯笼
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -21,8 +21,9 @@ items:
         placed_model:
           type: REAL
           break_particles: ITEM
-    display_name: Abyssal Lantern Top
-    permission: buildersbasics
+  abyssal_lantern_top:
+    display_name: 深渊灯笼顶部
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -34,8 +35,8 @@ items:
           type: REAL
           break_particles: ITEM
   acacia_boards:
-    display_name: Acacia Boards
-    permission: buildersbasics
+    display_name: 金合欢板
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -47,8 +48,8 @@ items:
           type: REAL
           break_particles: ITEM
   andesite_bricks:
-    display_name: Andesite Bricks
-    permission: buildersbasics
+    display_name: 安山岩砖
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -60,8 +61,8 @@ items:
           type: REAL
           break_particles: ITEM
   andesite_pillar:
-    display_name: Andesite Pillar
-    permission: buildersbasics
+    display_name: 安山岩柱子
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -78,8 +79,8 @@ items:
           type: REAL
           break_particles: ITEM
   birch_boards:
-    display_name: Birch Boards
-    permission: buildersbasics
+    display_name: 桦木板
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -91,8 +92,8 @@ items:
           type: REAL
           break_particles: ITEM
   black_purpur_block:
-    display_name: Black Purpur Block
-    permission: buildersbasics
+    display_name: 黑色紫珀块
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -104,8 +105,8 @@ items:
           type: REAL
           break_particles: ITEM
   black_terracotta_bricks:
-    display_name: Black Terracotta Bricks
-    permission: buildersbasics
+    display_name: 黑色陶瓦砖
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -117,8 +118,8 @@ items:
           type: REAL
           break_particles: ITEM
   blue_purpur_block:
-    display_name: Blue Purpur Block
-    permission: buildersbasics
+    display_name: 蓝色紫珀块
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -130,8 +131,8 @@ items:
           type: REAL
           break_particles: ITEM
   blue_terracotta_bricks:
-    display_name: Blue Terracotta Bricks
-    permission: buildersbasics
+    display_name: 蓝色陶瓦砖
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -143,8 +144,8 @@ items:
           type: REAL
           break_particles: ITEM
   brown_purpur_block:
-    display_name: Brown Purpur Block
-    permission: buildersbasics
+    display_name: 棕色紫珀块
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -156,8 +157,8 @@ items:
           type: REAL
           break_particles: ITEM
   brown_terracotta_bricks:
-    display_name: Brown Terracotta Bricks
-    permission: buildersbasics
+    display_name: 棕色陶瓦砖
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -169,8 +170,8 @@ items:
           type: REAL
           break_particles: ITEM
   chiseled_andesite:
-    display_name: Chiseled Andesite
-    permission: buildersbasics
+    display_name: 雕刻安山岩
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -182,8 +183,8 @@ items:
           type: REAL
           break_particles: ITEM
   chiseled_dark_prismarine:
-    display_name: Chiseled Dark Prismarine
-    permission: buildersbasics
+    display_name: 雕刻暗海晶石
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -200,8 +201,8 @@ items:
           type: REAL
           break_particles: ITEM
   chiseled_diorite:
-    display_name: Chiseled Diorite
-    permission: buildersbasics
+    display_name: 雕刻闪长岩
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -213,8 +214,8 @@ items:
           type: REAL
           break_particles: ITEM
   chiseled_granite:
-    display_name: Chiseled Granite
-    permission: buildersbasics
+    display_name: 雕刻花岗岩
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -226,8 +227,8 @@ items:
           type: REAL
           break_particles: ITEM
   chiseled_prismarine:
-    display_name: Chiseled Prismarine
-    permission: buildersbasics
+    display_name: 雕刻海晶石
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -239,8 +240,8 @@ items:
           type: REAL
           break_particles: ITEM
   cobblestone_bricks:
-    display_name: Cobblestone Bricks
-    permission: buildersbasics
+    display_name: 圆石砖块
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -252,8 +253,8 @@ items:
           type: REAL
           break_particles: ITEM
   cyan_purpur_block:
-    display_name: Cyan Purpur Block
-    permission: buildersbasics
+    display_name: 青色紫珀块
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -265,8 +266,8 @@ items:
           type: REAL
           break_particles: ITEM
   cyan_terracotta_bricks:
-    display_name: Cyan Terracotta Bricks
-    permission: buildersbasics
+    display_name: 青色陶瓦砖块
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -278,8 +279,8 @@ items:
           type: REAL
           break_particles: ITEM
   dark_oak_boards:
-    display_name: Dark Oak Boards
-    permission: buildersbasics
+    display_name: 深色橡木板
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -291,8 +292,8 @@ items:
           type: REAL
           break_particles: ITEM
   dark_prismarine_bricks:
-    display_name: Dark Prismarine Bricks
-    permission: buildersbasics
+    display_name: 深色海晶石砖块
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -304,8 +305,8 @@ items:
           type: REAL
           break_particles: ITEM
   dark_prismarine_pillar:
-    display_name: Dark Prismarine Pillar
-    permission: buildersbasics
+    display_name: 深色海晶石柱子
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -322,8 +323,8 @@ items:
           type: REAL
           break_particles: ITEM
   dark_prismarine_tiles:
-    display_name: Dark Prismarine Tiles
-    permission: buildersbasics
+    display_name: 深色海晶石瓷砖
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -335,8 +336,8 @@ items:
           type: REAL
           break_particles: ITEM
   diorite_bricks:
-    display_name: Diorite Bricks
-    permission: buildersbasics
+    display_name: 闪长岩砖块
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -348,8 +349,8 @@ items:
           type: REAL
           break_particles: ITEM
   diorite_pillar:
-    display_name: Diorite Pillar
-    permission: buildersbasics
+    display_name: 闪长岩柱子
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -366,8 +367,8 @@ items:
           type: REAL
           break_particles: ITEM
   driftwood_boards:
-    display_name: Driftwood Boards
-    permission: buildersbasics
+    display_name: 浮木板
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -379,8 +380,8 @@ items:
           type: REAL
           break_particles: ITEM
   end_stone_pillar:
-    display_name: End Stone Pillar
-    permission: buildersbasics
+    display_name: 末地石柱子
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -397,8 +398,8 @@ items:
           type: REAL
           break_particles: ITEM
   end_stone_tiles:
-    display_name: End Stone Tiles
-    permission: buildersbasics
+    display_name: 末地石瓷砖
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -410,8 +411,8 @@ items:
           type: REAL
           break_particles: ITEM
   granite_bricks:
-    display_name: Granite Bricks
-    permission: buildersbasics
+    display_name: 花岗岩砖块
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -423,8 +424,8 @@ items:
           type: REAL
           break_particles: ITEM
   granite_pillar:
-    display_name: Granite Pillar
-    permission: buildersbasics
+    display_name: 花岗岩柱子
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -441,8 +442,8 @@ items:
           type: REAL
           break_particles: ITEM
   gray_purpur_block:
-    display_name: Gray Purpur Block
-    permission: buildersbasics
+    display_name: 灰色紫珀块
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -454,8 +455,8 @@ items:
           type: REAL
           break_particles: ITEM
   gray_terracotta_bricks:
-    display_name: Gray Terracotta Bricks
-    permission: buildersbasics
+    display_name: 灰色陶瓦砖块
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -467,8 +468,8 @@ items:
           type: REAL
           break_particles: ITEM
   green_purpur_block:
-    display_name: Green Purpur Block
-    permission: buildersbasics
+    display_name: 绿色紫珀块
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -480,8 +481,8 @@ items:
           type: REAL
           break_particles: ITEM
   green_terracotta_bricks:
-    display_name: Green Terracotta Bricks
-    permission: buildersbasics
+    display_name: 绿色陶瓦砖块
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -493,8 +494,8 @@ items:
           type: REAL
           break_particles: ITEM
   pillar_black:
-    display_name: Pillar Black
-    permission: buildersbasics
+    display_name: 黑色柱子
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -511,8 +512,8 @@ items:
           type: REAL
           break_particles: ITEM
   pillar_blue:
-    display_name: Pillar Blue
-    permission: buildersbasics
+    display_name: 蓝色柱子
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -529,8 +530,8 @@ items:
           type: REAL
           break_particles: ITEM
   pillar_brown:
-    display_name: Pillar Brown
-    permission: buildersbasics
+    display_name: 棕色柱子
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -547,8 +548,8 @@ items:
           type: REAL
           break_particles: ITEM
   pillar_cyan:
-    display_name: Pillar Cyan
-    permission: buildersbasics
+    display_name: 青色柱子
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -565,8 +566,8 @@ items:
           type: REAL
           break_particles: ITEM
   pillar_gray:
-    display_name: Pillar Gray
-    permission: buildersbasics
+    display_name: 灰色柱子
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -583,8 +584,8 @@ items:
           type: REAL
           break_particles: ITEM
   pillar_green:
-    display_name: Pillar Green
-    permission: buildersbasics
+    display_name: 绿色柱子
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -601,8 +602,8 @@ items:
           type: REAL
           break_particles: ITEM
   pillar_light_blue:
-    display_name: Pillar Light Blue
-    permission: buildersbasics
+    display_name: 浅蓝色柱子
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -619,8 +620,8 @@ items:
           type: REAL
           break_particles: ITEM
   pillar_light_gray:
-    display_name: Pillar Light Gray
-    permission: buildersbasics
+    display_name: 浅灰色柱子
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -637,8 +638,8 @@ items:
           type: REAL
           break_particles: ITEM
   pillar_lime:
-    display_name: Pillar Lime
-    permission: buildersbasics
+    display_name: 青柠色柱子
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -655,8 +656,8 @@ items:
           type: REAL
           break_particles: ITEM
   pillar_magenta:
-    display_name: Pillar Magenta
-    permission: buildersbasics
+    display_name: 品红色柱子
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -673,8 +674,8 @@ items:
           type: REAL
           break_particles: ITEM
   pillar_orange:
-    display_name: Pillar Orange
-    permission: buildersbasics
+    display_name: 橙色柱子
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -691,8 +692,8 @@ items:
           type: REAL
           break_particles: ITEM
   pillar_pink:
-    display_name: Pillar Pink
-    permission: buildersbasics
+    display_name: 粉色柱子
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -709,8 +710,8 @@ items:
           type: REAL
           break_particles: ITEM
   pillar_purple:
-    display_name: Pillar Purple
-    permission: buildersbasics
+    display_name: 紫色柱子
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -727,8 +728,8 @@ items:
           type: REAL
           break_particles: ITEM
   pillar_red:
-    display_name: Pillar Red
-    permission: buildersbasics
+    display_name: 红色柱子
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -745,8 +746,8 @@ items:
           type: REAL
           break_particles: ITEM
   pillar_white:
-    display_name: Pillar White
-    permission: buildersbasics
+    display_name: 白色柱子
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -763,8 +764,8 @@ items:
           type: REAL
           break_particles: ITEM
   pillar_yellow:
-    display_name: Pillar Yellow
-    permission: buildersbasics
+    display_name: 黄色柱子
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -781,8 +782,8 @@ items:
           type: REAL
           break_particles: ITEM
   infernal_lantern:
-    display_name: Infernal Lantern
-    permission: buildersbasics
+    display_name: 地狱灯笼
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -794,8 +795,8 @@ items:
           type: REAL
           break_particles: ITEM
   jungle_boards:
-    display_name: Jungle Boards
-    permission: buildersbasics
+    display_name: 丛林木板
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -807,8 +808,8 @@ items:
           type: REAL
           break_particles: ITEM
   light_blue_purpur_block:
-    display_name: Light Blue Purpur Block
-    permission: buildersbasics
+    display_name: 浅蓝色紫珀块
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -820,8 +821,8 @@ items:
           type: REAL
           break_particles: ITEM
   light_blue_terracotta_bricks:
-    display_name: Light Blue Terracotta Bricks
-    permission: buildersbasics
+    display_name: 浅蓝色陶瓦砖块
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -833,8 +834,8 @@ items:
           type: REAL
           break_particles: ITEM
   light_gray_purpur_block:
-    display_name: Light Gray Purpur Block
-    permission: buildersbasics
+    display_name: 浅灰色紫珀块
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -846,8 +847,8 @@ items:
           type: REAL
           break_particles: ITEM
   light_gray_terracotta_bricks:
-    display_name: Light Gray Terracotta Bricks
-    permission: buildersbasics
+    display_name: 浅灰色陶瓦砖块
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -859,8 +860,8 @@ items:
           type: REAL
           break_particles: ITEM
   lime_purpur_block:
-    display_name: Lime Purpur Block
-    permission: buildersbasics
+    display_name: 青柠色紫珀块
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -872,8 +873,8 @@ items:
           type: REAL
           break_particles: ITEM
   lime_terracotta_bricks:
-    display_name: Lime Terracotta Bricks
-    permission: buildersbasics
+    display_name: 青柠色陶瓦砖块
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -885,8 +886,8 @@ items:
           type: REAL
           break_particles: ITEM
   magenta_purpur_block:
-    display_name: Magenta Purpur Block
-    permission: buildersbasics
+    display_name: 品红色紫珀块
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -898,8 +899,8 @@ items:
           type: REAL
           break_particles: ITEM
   magenta_terracotta_bricks:
-    display_name: Magenta Terracotta Bricks
-    permission: buildersbasics
+    display_name: 品红色陶瓦砖块
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -911,8 +912,8 @@ items:
           type: REAL
           break_particles: ITEM
   mossy_cobblestone_bricks:
-    display_name: Mossy Cobblestone Bricks
-    permission: buildersbasics
+    display_name: 苔石砖块
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -924,8 +925,8 @@ items:
           type: REAL
           break_particles: ITEM
   oak_boards:
-    display_name: Oak Boards
-    permission: buildersbasics
+    display_name: 橡木板
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -937,8 +938,8 @@ items:
           type: REAL
           break_particles: ITEM
   orange_purpur_block:
-    display_name: Orange Purpur Block
-    permission: buildersbasics
+    display_name: 橙色紫珀块
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -950,8 +951,8 @@ items:
           type: REAL
           break_particles: ITEM
   orange_terracotta_bricks:
-    display_name: Orange Terracotta Bricks
-    permission: buildersbasics
+    display_name: 橙色陶瓦砖块
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -963,8 +964,8 @@ items:
           type: REAL
           break_particles: ITEM
   pink_purpur_block:
-    display_name: Pink Purpur Block
-    permission: buildersbasics
+    display_name: 粉色紫珀块
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -976,8 +977,8 @@ items:
           type: REAL
           break_particles: ITEM
   pink_terracotta_bricks:
-    display_name: Pink Terracotta Bricks
-    permission: buildersbasics
+    display_name: 粉色陶瓦砖块
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -989,8 +990,8 @@ items:
           type: REAL
           break_particles: ITEM
   polished_stone:
-    display_name: Polished Stone
-    permission: buildersbasics
+    display_name: 抛光石头
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -1002,8 +1003,8 @@ items:
           type: REAL
           break_particles: ITEM
   prismarine_pillar:
-    display_name: Prismarine Pillar
-    permission: buildersbasics
+    display_name: 海晶石柱子
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -1020,8 +1021,8 @@ items:
           type: REAL
           break_particles: ITEM
   prismarine_tiles:
-    display_name: Prismarine Tiles
-    permission: buildersbasics
+    display_name: 海晶石瓷砖
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -1033,8 +1034,8 @@ items:
           type: REAL
           break_particles: ITEM
   purple_purpur_block:
-    display_name: Purple Purpur Block
-    permission: buildersbasics
+    display_name: 紫色紫珀块
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -1046,8 +1047,8 @@ items:
           type: REAL
           break_particles: ITEM
   purple_terracotta_bricks:
-    display_name: Purple Terracotta Bricks
-    permission: buildersbasics
+    display_name: 紫色陶瓦砖块
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -1059,8 +1060,8 @@ items:
           type: REAL
           break_particles: ITEM
   red_purpur_block:
-    display_name: Red Purpur Block
-    permission: buildersbasics
+    display_name: 红色紫珀块
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -1072,8 +1073,8 @@ items:
           type: REAL
           break_particles: ITEM
   red_terracotta_bricks:
-    display_name: Red Terracotta Bricks
-    permission: buildersbasics
+    display_name: 红色陶瓦砖块
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -1085,8 +1086,8 @@ items:
           type: REAL
           break_particles: ITEM
   sandstone_pillar:
-    display_name: Sandstone Pillar
-    permission: buildersbasics
+    display_name: 砂石柱子
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -1098,8 +1099,8 @@ items:
           type: REAL
           break_particles: ITEM
   small_andesite_bricks:
-    display_name: Small Andesite Bricks
-    permission: buildersbasics
+    display_name: 小安山岩砖块
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -1111,8 +1112,8 @@ items:
           type: REAL
           break_particles: ITEM
   small_diorite_bricks:
-    display_name: Small Diorite Bricks
-    permission: buildersbasics
+    display_name: 小闪长岩砖块
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -1124,8 +1125,8 @@ items:
           type: REAL
           break_particles: ITEM
   small_end_stone_bricks:
-    display_name: Small End Stone Bricks
-    permission: buildersbasics
+    display_name: 小末地石砖块
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -1137,8 +1138,8 @@ items:
           type: REAL
           break_particles: ITEM
   small_granite_bricks:
-    display_name: Small Granite Bricks
-    permission: buildersbasics
+    display_name: 小花岗岩砖块
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -1150,8 +1151,8 @@ items:
           type: REAL
           break_particles: ITEM
   small_permafrost_bricks:
-    display_name: Small Permafrost Bricks
-    permission: buildersbasics
+    display_name: 小蓝冰砖块
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -1163,8 +1164,8 @@ items:
           type: REAL
           break_particles: ITEM
   small_stone_bricks:
-    display_name: Small Stone Bricks
-    permission: buildersbasics
+    display_name: 小石头砖块
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -1176,8 +1177,8 @@ items:
           type: REAL
           break_particles: ITEM
   smooth_stone:
-    display_name: Smooth Stone
-    permission: buildersbasics
+    display_name: 光滑的石头
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -1189,8 +1190,8 @@ items:
           type: REAL
           break_particles: ITEM
   spruce_boards:
-    display_name: Spruce Boards
-    permission: buildersbasics
+    display_name: 云杉木板
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -1202,8 +1203,8 @@ items:
           type: REAL
           break_particles: ITEM
   stone_pillar:
-    display_name: Stone Pillar
-    permission: buildersbasics
+    display_name: 石头柱子
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -1220,8 +1221,8 @@ items:
           type: REAL
           break_particles: ITEM
   terracotta_bricks:
-    display_name: Terracotta Bricks
-    permission: buildersbasics
+    display_name: 陶瓦砖块
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -1233,8 +1234,8 @@ items:
           type: REAL
           break_particles: ITEM
   white_purpur_block:
-    display_name: White Purpur Block
-    permission: buildersbasics
+    display_name: 白色紫珀块
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -1246,8 +1247,8 @@ items:
           type: REAL
           break_particles: ITEM
   white_terracotta_bricks:
-    display_name: White Terracotta Bricks
-    permission: buildersbasics
+    display_name: 白色陶瓦砖块
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -1259,8 +1260,8 @@ items:
           type: REAL
           break_particles: ITEM
   wisteria_boards:
-    display_name: Wisteria Boards
-    permission: buildersbasics
+    display_name: 紫藤木板
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -1272,8 +1273,8 @@ items:
           type: REAL
           break_particles: ITEM
   yellow_purpur_block:
-    display_name: Yellow Purpur Block
-    permission: buildersbasics
+    display_name: 黄色紫珀块
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -1285,8 +1286,8 @@ items:
           type: REAL
           break_particles: ITEM
   yellow_terracotta_bricks:
-    display_name: Yellow Terracotta Bricks
-    permission: buildersbasics
+    display_name: 黄色陶瓦砖块
+    permission: itemsadder.player
     resource:
       material: STONE
       generate: true
@@ -1300,7 +1301,7 @@ items:
 recipes:
   crafting_table:
     abyssal_lantern:
-      permission: buildersbasics.abyssal_lantern
+      permission: itemsadder.player.abyssal_lantern
       enabled: true
       pattern:
       - XXX
@@ -1318,7 +1319,7 @@ recipes:
             item: "itemsadder:chisel"
             amount: 1           
     acacia_boards:
-      permission: buildersbasics.acacia_boards
+      permission: itemsadder.player.acacia_boards
       enabled: true
       pattern:
       - XXX
@@ -1336,7 +1337,7 @@ recipes:
             item: "itemsadder:chisel"
             amount: 1           
     andesite_bricks:
-      permission: buildersbasics.andesite_bricks
+      permission: itemsadder.player.andesite_bricks
       enabled: true
       pattern:
       - XXX
@@ -1348,7 +1349,7 @@ recipes:
         item: buildersbasics:andesite_bricks
         amount: 4      
     andesite_pillar:
-      permission: buildersbasics.andesite_pillar
+      permission: itemsadder.player.andesite_pillar
       enabled: true
       pattern:
       - XXS
@@ -1366,7 +1367,7 @@ recipes:
             item: "itemsadder:chisel"
             amount: 2          
     birch_boards:
-      permission: buildersbasics.birch_boards
+      permission: itemsadder.player.birch_boards
       enabled: true
       pattern:
       - XXX
@@ -1384,7 +1385,7 @@ recipes:
             item: "itemsadder:chisel"
             amount: 1          
     black_purpur_block:
-      permission: buildersbasics.black_purpur_block
+      permission: itemsadder.player.black_purpur_block
       enabled: true
       pattern:
       - XXX
@@ -1397,7 +1398,7 @@ recipes:
         item: buildersbasics:black_purpur_block
         amount: 1       
     black_terracotta_bricks:
-      permission: buildersbasics.black_terracotta_bricks
+      permission: itemsadder.player.black_terracotta_bricks
       enabled: true
       pattern:
       - XXX
@@ -1415,7 +1416,7 @@ recipes:
             item: "itemsadder:chisel"
             amount: 1    
     light_gray_purpur_block:
-      permission: buildersbasics.light_gray_purpur_block
+      permission: itemsadder.player.light_gray_purpur_block
       enabled: true
       pattern:
       - XXX
@@ -1427,7 +1428,7 @@ recipes:
         item: buildersbasics:light_gray_purpur_block
         amount: 4   
     dark_oak_boards:
-      permission: buildersbasics.dark_oak_boards
+      permission: itemsadder.player.dark_oak_boards
       enabled: true
       pattern:
       - XXX
@@ -1440,7 +1441,7 @@ recipes:
         item: buildersbasics:dark_oak_boards
         amount: 1  
     blue_purpur_block:
-      permission: buildersbasics.blue_purpur_block
+      permission: itemsadder.player.blue_purpur_block
       enabled: true
       pattern:
       - XXX
@@ -1453,7 +1454,7 @@ recipes:
         item: buildersbasics:blue_purpur_block
         amount: 1
     blue_terracotta_bricks:
-      permission: buildersbasics.blue_terracotta_bricks
+      permission: itemsadder.player.blue_terracotta_bricks
       enabled: true
       pattern:
       - XXX
@@ -1471,7 +1472,7 @@ recipes:
             item: "itemsadder:chisel"
             amount: 1   
     brown_purpur_block:
-      permission: buildersbasics.brown_purpur_block
+      permission: itemsadder.player.brown_purpur_block
       enabled: true
       pattern:
       - XXX
@@ -1484,7 +1485,7 @@ recipes:
         item: buildersbasics:brown_purpur_block
         amount: 1  
     brown_terracotta_bricks:
-      permission: buildersbasics.brown_terracotta_bricks
+      permission: itemsadder.player.brown_terracotta_bricks
       enabled: true
       pattern:
       - XXX
@@ -1502,7 +1503,7 @@ recipes:
             item: "itemsadder:chisel"
             amount: 1    
     chiseled_andesite:
-      permission: buildersbasics.chiseled_andesite
+      permission: itemsadder.player.chiseled_andesite
       enabled: true
       pattern:
       - XXX
@@ -1520,7 +1521,7 @@ recipes:
             item: "itemsadder:chisel"
             amount: 1
     chiseled_dark_prismarine:
-      permission: buildersbasics.chiseled_dark_prismarine
+      permission: itemsadder.player.chiseled_dark_prismarine
       enabled: true
       pattern:
       - XXX
@@ -1538,7 +1539,7 @@ recipes:
             item: "itemsadder:chisel"
             amount: 1  
     chiseled_diorite:
-      permission: buildersbasics.chiseled_diorite
+      permission: itemsadder.player.chiseled_diorite
       enabled: true
       pattern:
       - XXX
@@ -1556,7 +1557,7 @@ recipes:
             item: "itemsadder:chisel"
             amount: 1 
     chiseled_granite:
-      permission: buildersbasics.chiseled_granite
+      permission: itemsadder.player.chiseled_granite
       enabled: true
       pattern:
       - XXX
@@ -1574,7 +1575,7 @@ recipes:
             item: "itemsadder:chisel"
             amount: 1     
     chiseled_prismarine:
-      permission: buildersbasics.chiseled_prismarine
+      permission: itemsadder.player.chiseled_prismarine
       enabled: true
       pattern:
       - XXX
@@ -1592,7 +1593,7 @@ recipes:
             item: "itemsadder:chisel"
             amount: 1  
     cobblestone_bricks:
-      permission: buildersbasics.cobblestone_bricks
+      permission: itemsadder.player.cobblestone_bricks
       enabled: true
       pattern:
       - XXX
@@ -1604,7 +1605,7 @@ recipes:
         item: buildersbasics:cobblestone_bricks
         amount: 4  
     cyan_purpur_block:
-      permission: buildersbasics.cyan_purpur_block
+      permission: itemsadder.player.cyan_purpur_block
       enabled: true
       pattern:
       - XXX
@@ -1617,7 +1618,7 @@ recipes:
         item: buildersbasics:cyan_purpur_block
         amount: 1  
     cyan_terracotta_bricks:
-      permission: buildersbasics.cyan_terracotta_bricks
+      permission: itemsadder.player.cyan_terracotta_bricks
       enabled: true
       pattern:
       - XXX
@@ -1635,7 +1636,7 @@ recipes:
             item: "itemsadder:chisel"
             amount: 1   
     dark_prismarine_bricks:
-      permission: buildersbasics.dark_prismarine_bricks
+      permission: itemsadder.player.dark_prismarine_bricks
       enabled: true
       pattern:
       - XXX
@@ -1647,7 +1648,7 @@ recipes:
         item: buildersbasics:dark_prismarine_bricks
         amount: 4
     dark_prismarine_pillar:
-      permission: buildersbasics.dark_prismarine_pillar
+      permission: itemsadder.player.dark_prismarine_pillar
       enabled: true
       pattern:
       - XXS
@@ -1665,7 +1666,7 @@ recipes:
             item: "itemsadder:chisel"
             amount: 2
     dark_prismarine_tiles:
-      permission: buildersbasics.dark_prismarine_tiles
+      permission: itemsadder.player.dark_prismarine_tiles
       enabled: true
       pattern:
       - XXX
@@ -1677,7 +1678,7 @@ recipes:
         item: buildersbasics:dark_prismarine_tiles
         amount: 4          
     diorite_bricks:
-      permission: buildersbasics.diorite_bricks
+      permission: itemsadder.player.diorite_bricks
       enabled: true
       pattern:
       - XXX
@@ -1689,7 +1690,7 @@ recipes:
         item: buildersbasics:diorite_bricks
         amount: 4   
     diorite_pillar:
-      permission: buildersbasics.diorite_pillar
+      permission: itemsadder.player.diorite_pillar
       enabled: true
       pattern:
       - XXS
@@ -1707,7 +1708,7 @@ recipes:
             item: "itemsadder:chisel"
             amount: 2    
     end_stone_pillar:
-      permission: buildersbasics.end_stone_pillar
+      permission: itemsadder.player.end_stone_pillar
       enabled: true
       pattern:
       - XXS
@@ -1725,7 +1726,7 @@ recipes:
             item: "itemsadder:chisel"
             amount: 2    
     end_stone_tiles:
-      permission: buildersbasics.end_stone_tiles
+      permission: itemsadder.player.end_stone_tiles
       enabled: true
       pattern:
       - XXX
@@ -1737,7 +1738,7 @@ recipes:
         item: buildersbasics:end_stone_tiles
         amount: 4      
     granite_bricks:
-      permission: buildersbasics.granite_bricks
+      permission: itemsadder.player.granite_bricks
       enabled: true
       pattern:
       - XXX
@@ -1749,7 +1750,7 @@ recipes:
         item: buildersbasics:granite_bricks
         amount: 4  
     granite_pillar:
-      permission: buildersbasics.granite_pillar
+      permission: itemsadder.player.granite_pillar
       enabled: true
       pattern:
       - XXS
@@ -1767,7 +1768,7 @@ recipes:
             item: "itemsadder:chisel"
             amount: 2   
     gray_purpur_block:
-      permission: buildersbasics.gray_purpur_block
+      permission: itemsadder.player.gray_purpur_block
       enabled: true
       pattern:
       - XXX
@@ -1780,7 +1781,7 @@ recipes:
         item: buildersbasics:gray_purpur_block
         amount: 1  
     gray_terracotta_bricks:
-      permission: buildersbasics.gray_terracotta_bricks
+      permission: itemsadder.player.gray_terracotta_bricks
       enabled: true
       pattern:
       - XXX
@@ -1798,7 +1799,7 @@ recipes:
             item: "itemsadder:chisel"
             amount: 1        
     green_purpur_block:
-      permission: buildersbasics.green_purpur_block
+      permission: itemsadder.player.green_purpur_block
       enabled: true
       pattern:
       - XXX
@@ -1811,7 +1812,7 @@ recipes:
         item: buildersbasics:green_purpur_block
         amount: 1 
     green_terracotta_bricks:
-      permission: buildersbasics.green_terracotta_bricks
+      permission: itemsadder.player.green_terracotta_bricks
       enabled: true
       pattern:
       - XXX
@@ -1842,7 +1843,7 @@ recipes:
         item: buildersbasics:infernal_lantern
         amount: 8   
     jungle_boards:
-      permission: buildersbasics.jungle_boards
+      permission: itemsadder.player.jungle_boards
       enabled: true
       pattern:
       - XXX
@@ -1860,7 +1861,7 @@ recipes:
             item: "itemsadder:chisel"
             amount: 1  
     light_blue_purpur_block:
-      permission: buildersbasics.light_blue_purpur_block
+      permission: itemsadder.player.light_blue_purpur_block
       enabled: true
       pattern:
       - XXX
@@ -1873,7 +1874,7 @@ recipes:
         item: buildersbasics:light_blue_purpur_block
         amount: 1  
     light_blue_terracotta_bricks:
-      permission: buildersbasics.light_blue_terracotta_bricks
+      permission: itemsadder.player.light_blue_terracotta_bricks
       enabled: true
       pattern:
       - XXX
@@ -1891,7 +1892,7 @@ recipes:
             item: "itemsadder:chisel"
             amount: 1    
     light_gray_terracotta_bricks:
-      permission: buildersbasics.light_gray_terracotta_bricks
+      permission: itemsadder.player.light_gray_terracotta_bricks
       enabled: true
       pattern:
       - XXX
@@ -1909,7 +1910,7 @@ recipes:
             item: "itemsadder:chisel"
             amount: 1  
     lime_purpur_block:
-      permission: buildersbasics.lime_purpur_block
+      permission: itemsadder.player.lime_purpur_block
       enabled: true
       pattern:
       - XXX
@@ -1922,7 +1923,7 @@ recipes:
         item: buildersbasics:lime_purpur_block
         amount: 1    
     lime_terracotta_bricks:
-      permission: buildersbasics.lime_terracotta_bricks
+      permission: itemsadder.player.lime_terracotta_bricks
       enabled: true
       pattern:
       - XXX
@@ -1940,7 +1941,7 @@ recipes:
             item: "itemsadder:chisel"
             amount: 1 
     magenta_purpur_block:
-      permission: buildersbasics.magenta_purpur_block
+      permission: itemsadder.player.magenta_purpur_block
       enabled: true
       pattern:
       - XXX
@@ -1953,7 +1954,7 @@ recipes:
         item: buildersbasics:magenta_purpur_block
         amount: 1  
     magenta_terracotta_bricks:
-      permission: buildersbasics.magenta_terracotta_bricks
+      permission: itemsadder.player.magenta_terracotta_bricks
       enabled: true
       pattern:
       - XXX
@@ -1971,7 +1972,7 @@ recipes:
             item: "itemsadder:chisel"
             amount: 1       
     mossy_cobblestone_bricks:
-      permission: buildersbasics.mossy_cobblestone_bricks
+      permission: itemsadder.player.mossy_cobblestone_bricks
       enabled: true
       pattern:
       - XXX
@@ -1983,7 +1984,7 @@ recipes:
         item: buildersbasics:mossy_cobblestone_bricks
         amount: 4    
     oak_boards:
-      permission: buildersbasics.oak_boards
+      permission: itemsadder.player.oak_boards
       enabled: true
       pattern:
       - XXX
@@ -2001,7 +2002,7 @@ recipes:
             item: "itemsadder:chisel"
             amount: 1   
     orange_purpur_block:
-      permission: buildersbasics.orange_purpur_block
+      permission: itemsadder.player.orange_purpur_block
       enabled: true
       pattern:
       - XXX
@@ -2014,7 +2015,7 @@ recipes:
         item: buildersbasics:orange_purpur_block
         amount: 1    
     orange_terracotta_bricks:
-      permission: buildersbasics.orange_terracotta_bricks
+      permission: itemsadder.player.orange_terracotta_bricks
       enabled: true
       pattern:
       - XXX
@@ -2032,7 +2033,7 @@ recipes:
             item: "itemsadder:chisel"
             amount: 1               
     pink_purpur_block:
-      permission: buildersbasics.pink_purpur_block
+      permission: itemsadder.player.pink_purpur_block
       enabled: true
       pattern:
       - XXX
@@ -2045,7 +2046,7 @@ recipes:
         item: buildersbasics:pink_purpur_block
         amount: 1  
     pink_terracotta_bricks:
-      permission: buildersbasics.pink_terracotta_bricks
+      permission: itemsadder.player.pink_terracotta_bricks
       enabled: true
       pattern:
       - XXX
@@ -2063,7 +2064,7 @@ recipes:
             item: "itemsadder:chisel"
             amount: 1         
     pink_terracotta_bricks:
-      permission: buildersbasics.pink_terracotta_bricks
+      permission: itemsadder.player.pink_terracotta_bricks
       enabled: true
       pattern:
       - XXX
@@ -2081,7 +2082,7 @@ recipes:
             item: "itemsadder:chisel"
             amount: 1  
     polished_stone:
-      permission: buildersbasics.polished_stone
+      permission: itemsadder.player.polished_stone
       enabled: true
       pattern:
       - SSS
@@ -2093,7 +2094,7 @@ recipes:
         item: buildersbasics:polished_stone
         amount: 9         
     prismarine_pillar:
-      permission: buildersbasics.prismarine_pillar
+      permission: itemsadder.player.prismarine_pillar
       enabled: true
       pattern:
       - XXS
@@ -2111,7 +2112,7 @@ recipes:
             item: "itemsadder:chisel"
             amount: 2  
     dark_prismarine_tiles:
-      permission: buildersbasics.dark_prismarine_tiles
+      permission: itemsadder.player.dark_prismarine_tiles
       enabled: true
       pattern:
       - XXX
@@ -2123,7 +2124,7 @@ recipes:
         item: buildersbasics:dark_prismarine_tiles
         amount: 4  
     purple_purpur_block:
-      permission: buildersbasics.purple_purpur_block
+      permission: itemsadder.player.purple_purpur_block
       enabled: true
       pattern:
       - XXX
@@ -2136,7 +2137,7 @@ recipes:
         item: buildersbasics:purple_purpur_block
         amount: 1     
     red_purpur_block:
-      permission: buildersbasics.red_purpur_block
+      permission: itemsadder.player.red_purpur_block
       enabled: true
       pattern:
       - XXX
@@ -2149,7 +2150,7 @@ recipes:
         item: buildersbasics:red_purpur_block
         amount: 1      
     red_terracotta_bricks:
-      permission: buildersbasics.red_terracotta_bricks
+      permission: itemsadder.player.red_terracotta_bricks
       enabled: true
       pattern:
       - XXX
@@ -2167,7 +2168,7 @@ recipes:
             item: "itemsadder:chisel"
             amount: 1  
     purple_terracotta_bricks:
-      permission: buildersbasics.purple_terracotta_bricks
+      permission: itemsadder.player.purple_terracotta_bricks
       enabled: true
       pattern:
       - XXX
@@ -2185,7 +2186,7 @@ recipes:
             item: "itemsadder:chisel"
             amount: 1 
     sandstone_pillar:
-      permission: buildersbasics.sandstone_pillar
+      permission: itemsadder.player.sandstone_pillar
       enabled: true
       pattern:
       - XXS
@@ -2203,7 +2204,7 @@ recipes:
             item: "itemsadder:chisel"
             amount: 2     
     small_andesite_bricks:
-      permission: buildersbasics.small_andesite_bricks
+      permission: itemsadder.player.small_andesite_bricks
       enabled: true
       pattern:
       - XXX
@@ -2215,7 +2216,7 @@ recipes:
         item: buildersbasics:small_andesite_bricks
         amount: 4   
     small_diorite_bricks:
-      permission: buildersbasics.small_diorite_bricks
+      permission: itemsadder.player.small_diorite_bricks
       enabled: true
       pattern:
       - XXX
@@ -2227,7 +2228,7 @@ recipes:
         item: buildersbasics:small_diorite_bricks
         amount: 4    
     small_end_stone_bricks:
-      permission: buildersbasics.small_end_stone_bricks
+      permission: itemsadder.player.small_end_stone_bricks
       enabled: true
       pattern:
       - XXX
@@ -2239,7 +2240,7 @@ recipes:
         item: buildersbasics:small_end_stone_bricks
         amount: 4    
     small_granite_bricks:
-      permission: buildersbasics.small_granite_bricks
+      permission: itemsadder.player.small_granite_bricks
       enabled: true
       pattern:
       - XXX
@@ -2251,7 +2252,7 @@ recipes:
         item: buildersbasics:small_granite_bricks
         amount: 4    
     small_permafrost_bricks:
-      permission: buildersbasics.small_permafrost_bricks
+      permission: itemsadder.player.small_permafrost_bricks
       enabled: true
       pattern:
       - XXX
@@ -2269,7 +2270,7 @@ recipes:
             item: "itemsadder:chisel"
             amount: 1        
     small_stone_bricks:
-      permission: buildersbasics.small_stone_bricks
+      permission: itemsadder.player.small_stone_bricks
       enabled: true
       pattern:
       - XXX
@@ -2281,7 +2282,7 @@ recipes:
         item: buildersbasics:small_stone_bricks
         amount: 4 
     spruce_boards:
-      permission: buildersbasics.spruce_boards
+      permission: itemsadder.player.spruce_boards
       enabled: true
       pattern:
       - XXX
@@ -2299,7 +2300,7 @@ recipes:
             item: "itemsadder:chisel"
             amount: 1       
     stone_pillar:
-      permission: buildersbasics.stone_pillar
+      permission: itemsadder.player.stone_pillar
       enabled: true
       pattern:
       - XXS
@@ -2317,7 +2318,7 @@ recipes:
             item: "itemsadder:chisel"
             amount: 2              
     terracotta_bricks:
-      permission: buildersbasics.terracotta_bricks
+      permission: itemsadder.player.terracotta_bricks
       enabled: true
       pattern:
       - XXX
@@ -2335,7 +2336,7 @@ recipes:
             item: "itemsadder:chisel"
             amount: 1 
     white_purpur_block:
-      permission: buildersbasics.white_purpur_block
+      permission: itemsadder.player.white_purpur_block
       enabled: true
       pattern:
       - XXX
@@ -2348,7 +2349,7 @@ recipes:
         item: buildersbasics:white_purpur_block
         amount: 1                
     white_terracotta_bricks:
-      permission: buildersbasics.white_terracotta_bricks
+      permission: itemsadder.player.white_terracotta_bricks
       enabled: true
       pattern:
       - XXX
@@ -2366,7 +2367,7 @@ recipes:
             item: "itemsadder:chisel"
             amount: 1 
     yellow_purpur_block:
-      permission: buildersbasics.yellow_purpur_block
+      permission: itemsadder.player.yellow_purpur_block
       enabled: true
       pattern:
       - XXX
@@ -2379,7 +2380,7 @@ recipes:
         item: buildersbasics:yellow_purpur_block
         amount: 1 
     yellow_terracotta_bricks:
-      permission: buildersbasics.yellow_terracotta_bricks
+      permission: itemsadder.player.yellow_terracotta_bricks
       enabled: true
       pattern:
       - XXX
