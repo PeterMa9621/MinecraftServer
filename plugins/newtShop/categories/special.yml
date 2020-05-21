@@ -24,3 +24,18 @@ items:
           custom-model-data: 40
     buy: 1000.0
     sell: 0.0
+  QIANGHUASHI:
+    item:
+      type: SPECIAL
+      display-name: '&6强化石'
+      serial:
+        v: 2230
+        type: IRON_INGOT
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §f§f强化石
+          custom-model-data: 16
+          internal: H4sIAAAAAAAAAAXBQQ6AIAwEwA1eoL5yYxupSYlaPfB7ZgQQiH8WSVV7K4or9sc5zv4zu1e0wbC8eRi2uCawAPt7QZE1AAAA
+    buy: 2500.0
+    sell: 0.0
