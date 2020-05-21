@@ -8,7 +8,7 @@ bounds:
     world: "-300,400"
     world_test: "-100,100"
 # 默认冷却时间（秒），拥有randomtp.nocool权限的玩家无视冷却.
-defaultCooldown: 10
+defaultCooldown: 15
 # 权限冷却时间
 # 当玩家拥有“randomtp.vip1”时冷却时间为8秒。
 # 玩家拥有多个权限节点时，冷却时间取最低的那个。

@@ -397,6 +397,7 @@ Language:
       &6描述:
       %1
     DescChange: '&6描述已更改为: %1'
+    ChantChange: '&4Can''t change while shop flag is set to true'
     NewBoard: '&6成功添加商店宣传板'
     BoardExist: '&c商店宣传板已经存在'
     DeleteBoard: '&6右击要删除的宣传板'

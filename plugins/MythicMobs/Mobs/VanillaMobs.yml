@@ -8,102 +8,170 @@
 CAVE_SPIDER:
   Health: 30
   Damage: 6
+  Options:
+    PreventRenaming: false
 ZOMBIE:
   Health: 40
   Damage: 6
+  Options:
+    PreventRenaming: false
 BABY_ZOMBIE:
   Health: 40
   Damage: 6
+  Options:
+    PreventRenaming: false
 SPIDER:
   Health: 40
   Damage: 6
+  Options:
+    PreventRenaming: false
 GIANT:
   Health: 1000
   Damage: 20
+  Options:
+    PreventRenaming: false
   Skills:
   - potion{type=POISON;duration=100;lvl=1} @target ~onAttack
 ELDER_GUARDIAN:
   Health: 120
+  Options:
+    PreventRenaming: false
 GUARDIAN:
   Health: 60
   Damage: 11
+  Options:
+    PreventRenaming: false
 DROWNED:
   Health: 60
   Damage: 14
+  Options:
+    PreventRenaming: false
 BABY_DROWNED:
   Health: 60
   Damage: 14
+  Options:
+    PreventRenaming: false
 CREEPER:
   Health: 40
+  Options:
+    PreventRenaming: false
 HUSK:
   Health: 40
   Damage: 6
+  Options:
+    PreventRenaming: false
 PHANTOM:
   Health: 40
   Damage: 5
+  Options:
+    PreventRenaming: false
 SHULKER:
   Health: 60
   Damage: 5
+  Options:
+    PreventRenaming: false
 SILVERFISH:
   Health: 12
   Damage: 2
+  Options:
+    PreventRenaming: false
 SKELETON:
   Health: 30
   Damage: 4
+  Options:
+    PreventRenaming: false
 SLIME:
   Health: 20
   Damage: 6
+  Options:
+    PreventRenaming: false
 STRAY:
   Health: 40
   Damage: 7
+  Options:
+    PreventRenaming: false
 VEX:
   Health: 30
   Damage: 14
+  Options:
+    PreventRenaming: false
 EVOKER:
   Health: 48
   Damage: 11
+  Options:
+    PreventRenaming: false
 VINDICATOR:
   Health: 48
   Damage: 21
+  Options:
+    PreventRenaming: false
 WITCH:
   Health: 52
+  Options:
+    PreventRenaming: false
 ZOMBIE_VILLAGER:
   Health: 40
   Damage: 6
+  Options:
+    PreventRenaming: false
 IRON_GOLEM:
   Health: 200
+  Options:
+    PreventRenaming: false
 BEE:
   Health: 20
+  Options:
+    PreventRenaming: false
 PILLAGER:
   Health: 48
+  Options:
+    PreventRenaming: false
 RAVAGER:
   Health: 200
+  Options:
+    PreventRenaming: false
 # ###############
 # The End
 # ###############
 ENDERMAN:
   Health: 100
   Damage: 16
+  Options:
+    PreventRenaming: false
 ENDERMITE:
   Health: 24
   Damage: 6
+  Options:
+    PreventRenaming: false
 # ###############
 # The nether
 # ###############
 PIG_ZOMBIE:
   Health: 60
   Damage: 15
+  Options:
+    PreventRenaming: false
 BABY_PIG_ZOMBIE:
   Health: 60
   Damage: 15
+  Options:
+    PreventRenaming: false
 GHAST:
   Health: 40
+  Options:
+    PreventRenaming: false
 BLAZE:
   Health: 60
   Damage: 12
+  Options:
+    PreventRenaming: false
 WITHER_SKELETON:
   Health: 60
   Damage: 15
+  Options:
+    PreventRenaming: false
 MAGMA_CUBE:
   Health: 20
   Damage: 6
+  Options:
+    PreventRenaming: false
