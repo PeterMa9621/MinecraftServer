@@ -790,7 +790,7 @@ protect:
       enderman: false
       cave_spider: false
       silverfish: false
-      blaze: fal
+      blaze: false
       magma_cube: false
       ender_dragon: true
       pig: false
@@ -881,17 +881,17 @@ protect:
   # For which block types would you like to be alerted?
   # You can find a list of items at https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html.
   alert:
-    on-placement: LAVA,TNT,LAVA_BUCKET
-    on-use: LAVA_BUCKET
+    on-placement: TNT
+    on-use: 
     on-break:
 
   blacklist:
 
     # Which blocks should people be prevented from placing?
-    placement: LAVA,TNT,LAVA_BUCKET
+    placement: TNT
 
     # Which items should people be prevented from using?
-    usage: LAVA_BUCKET
+    usage: 
 
     # Which blocks should people be prevented from breaking?
     break:

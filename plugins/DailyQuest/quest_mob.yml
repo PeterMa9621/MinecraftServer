@@ -11,61 +11,61 @@ SKELETON2:
 ELDER_GUARDIAN:
   Type: mob
   NPCID: 11
-  Describe: §a§6铁匠§f希望你能去帮他解决§e4§f个§e远古守卫者§f！
+  Describe: §a§6铁匠§f希望你能去帮他解决§e1§f个§e远古守卫者§f！
   RewardMessage: §7你完成了任务
   Mob:
     ID: ELDER_GUARDIAN
-    Amount: 4
+    Amount: 1
   Reward:
     Money: 30:100
 WITHER_SKELETON:
   Type: mob
   NPCID: 10
-  Describe: §a§6巫婆§f希望你能去帮他解决§e3§f个§e凋灵骷髅§f！
+  Describe: §a§6巫婆§f希望你能去帮他解决§e1§f个§e凋灵骷髅§f！
   RewardMessage: §7你完成了任务
   Mob:
     ID: WITHER_SKELETON
-    Amount: 3
+    Amount: 1
   Reward:
     Money: 30:100
 STRAY:
   Type: mob
   NPCID: 10
-  Describe: §a§6巫婆§f希望你能去帮他解决§e4§f个§e流浪者§f！
+  Describe: §a§6巫婆§f希望你能去帮他解决§e1§f个§e流浪者§f！
   RewardMessage: §7你完成了任务
   Mob:
     ID: STRAY
-    Amount: 4
+    Amount: 1
   Reward:
     Money: 30:100
 HUSK:
   Type: mob
   NPCID: 11
-  Describe: §a§6铁匠§f希望你能去帮他解决§e5§f个§e尸壳§f！
+  Describe: §a§6铁匠§f希望你能去帮他解决§e1§f个§e尸壳§f！
   RewardMessage: §7你完成了任务
   Mob:
     ID: HUSK
-    Amount: 5
+    Amount: 1
   Reward:
     Money: 30:100
 ZOMBIE_VILLAGER:
   Type: mob
   NPCID: 11
-  Describe: §a§6铁匠§f希望你能去帮他解决§e3§f个§e僵尸村民§f！
+  Describe: §a§6铁匠§f希望你能去帮他解决§e1§f个§e僵尸村民§f！
   RewardMessage: §7你完成了任务
   Mob:
     ID: ZOMBIE_VILLAGER
-    Amount: 3
+    Amount: 1
   Reward:
     Money: 30:100
 SKELETON_HORSE:
   Type: mob
-  NPCID: 11
-  Describe: §a§6铁匠§f希望你能去帮他解决§e4§f个§e骷髅马§f！
+  NPCID: 9
+  Describe: §a§6小花§f希望你能去帮他解决§e2§f个§e苦力怕§f！
   RewardMessage: §7你完成了任务
   Mob:
-    ID: SKELETON_HORSE
-    Amount: 4
+    ID: CREEPER
+    Amount: 2
   Reward:
     Money: 30:100
 ZOMBIE_HORSE:
@@ -91,51 +91,51 @@ DONKEY:
 MULE:
   Type: mob
   NPCID: 12
-  Describe: §a§6大叔§f希望你能去帮他解决§e4§f个§e骡§f！
+  Describe: §a§6大叔§f希望你能去帮他解决§e1§f个§e骡§f！
   RewardMessage: §7你完成了任务
   Mob:
     ID: MULE
-    Amount: 4
+    Amount: 1
   Reward:
     Money: 30:100
 EVOKER:
   Type: mob
-  NPCID: 12
-  Describe: §a§6大叔§f希望你能去帮他解决§e2§f个§e唤魔者§f！
+  NPCID: 9
+  Describe: §a§6小花§f希望你能去帮他解决§e2§f个§e苦力怕§f！
   RewardMessage: §7你完成了任务
   Mob:
-    ID: EVOKER
+    ID: CREEPER
     Amount: 2
   Reward:
     Money: 30:100
 VEX:
   Type: mob
-  NPCID: 13
-  Describe: §a§6东门守卫§f希望你能去帮他解决§e4§f个§e恼鬼§f！
+  NPCID: 9
+  Describe: §a§6小花§f希望你能去帮他解决§e3§f个§e苦力怕§f！
   RewardMessage: §7你完成了任务
   Mob:
-    ID: VEX
-    Amount: 4
+    ID: CREEPER
+    Amount: 3
   Reward:
     Money: 30:100
 VINDICATOR:
   Type: mob
-  NPCID: 12
-  Describe: §a§6大叔§f希望你能去帮他解决§e3§f个§e卫道士§f！
+  NPCID: 10
+  Describe: §a§6巫婆§f希望你能去帮他解决§e6§f个§e骷髅§f！
   RewardMessage: §7你完成了任务
   Mob:
-    ID: VINDICATOR
-    Amount: 3
+    ID: SKELETON
+    Amount: 6
   Reward:
     Money: 30:100
 ILLUSIONER:
   Type: mob
-  NPCID: 12
-  Describe: §a§6大叔§f希望你能去帮他解决§e2§f个§e幻术师§f！
+  NPCID: 10
+  Describe: §a§6巫婆§f希望你能去帮他解决§e6§f个§e骷髅§f！
   RewardMessage: §7你完成了任务
   Mob:
-    ID: ILLUSIONER
-    Amount: 2
+    ID: SKELETON
+    Amount: 6
   Reward:
     Money: 30:100
 CREEPER:
@@ -180,22 +180,22 @@ ZOMBIE:
     Money: 30:100
 SLIME:
   Type: mob
-  NPCID: 11
-  Describe: §a§6铁匠§f希望你能去帮他解决§e5§f个§e史莱姆§f！
+  NPCID: 9
+  Describe: §a§6小花§f希望你能去帮他解决§e3§f个§e僵尸§f！
   RewardMessage: §7你完成了任务
   Mob:
-    ID: SLIME
-    Amount: 5
+    ID: ZOMBIE
+    Amount: 3
   Reward:
     Money: 30:100
 GHAST:
   Type: mob
-  NPCID: 11
-  Describe: §a§6铁匠§f希望你能去帮他解决§e5§f个§e恶魂§f！
+  NPCID: 9
+  Describe: §a§6小花§f希望你能去帮他解决§e3§f个§e僵尸§f！
   RewardMessage: §7你完成了任务
   Mob:
-    ID: GHAST
-    Amount: 5
+    ID: ZOMBIE
+    Amount: 3
   Reward:
     Money: 30:100
 ENDERMAN:
@@ -220,12 +220,12 @@ CAVE_SPIDER:
     Money: 30:100
 SILVERFISH:
   Type: mob
-  NPCID: 12
-  Describe: §a§6大叔§f希望你能去帮他解决§e5§f个§e蠹虫§f！
+  NPCID: 9
+  Describe: §a§6小花§f希望你能去帮他解决§e3§f个§e僵尸§f！
   RewardMessage: §7你完成了任务
   Mob:
-    ID: SILVERFISH
-    Amount: 5
+    ID: ZOMBIE
+    Amount: 3
   Reward:
     Money: 30:100
 BLAZE:
@@ -240,22 +240,22 @@ BLAZE:
     Money: 30:100
 MAGMA_CUBE:
   Type: mob
-  NPCID: 10
-  Describe: §a§6巫婆§f希望你能去帮他解决§e3§f个§e岩浆怪§f！
+  NPCID: 9
+  Describe: §a§6小花§f希望你能去帮他解决§e3§f个§e僵尸§f！
   RewardMessage: §7你完成了任务
   Mob:
-    ID: MAGMA_CUBE
+    ID: ZOMBIE
     Amount: 3
   Reward:
     Money: 30:100
 BAT:
   Type: mob
   NPCID: 13
-  Describe: §a§6东门守卫§f希望你能去帮他解决§e4§f个§e蝙蝠§f！
+  Describe: §a§6东门守卫§f希望你能去帮他解决§e1§f个§e蝙蝠§f！
   RewardMessage: §7你完成了任务
   Mob:
     ID: BAT
-    Amount: 4
+    Amount: 1
   Reward:
     Money: 30:100
 WITCH:
@@ -270,12 +270,12 @@ WITCH:
     Money: 30:100
 ENDERMITE:
   Type: mob
-  NPCID: 14
-  Describe: §a§6北门守卫§f希望你能去帮他解决§e2§f个§e末影螨§f！
+  NPCID: 9
+  Describe: §a§6小花§f希望你能去帮他解决§e3§f个§e僵尸§f！
   RewardMessage: §7你完成了任务
   Mob:
-    ID: ENDERMITE
-    Amount: 2
+    ID: ZOMBIE
+    Amount: 3
   Reward:
     Money: 30:100
 GUARDIAN:
@@ -370,12 +370,12 @@ OCELOT:
     Money: 30:100
 IRON_GOLEM:
   Type: mob
-  NPCID: 14
-  Describe: §a§6北门守卫§f希望你能去帮他解决§e4§f个§e铁傀儡§f！
+  NPCID: 9
+  Describe: §a§6小花§f希望你能去帮他解决§e3§f个§e僵尸§f！
   RewardMessage: §7你完成了任务
   Mob:
-    ID: IRON_GOLEM
-    Amount: 4
+    ID: ZOMBIE
+    Amount: 3
   Reward:
     Money: 30:100
 HORSE:
@@ -400,12 +400,12 @@ RABBIT:
     Money: 30:100
 POLAR_BEAR:
   Type: mob
-  NPCID: 13
-  Describe: §a§6东门守卫§f希望你能去帮他解决§e5§f个§e北极熊§f！
+  NPCID: 9
+  Describe: §a§6小花§f希望你能去帮他解决§e7§f个§e僵尸§f！
   RewardMessage: §7你完成了任务
   Mob:
-    ID: POLAR_BEAR
-    Amount: 5
+    ID: ZOMBIE
+    Amount: 7
   Reward:
     Money: 30:100
 LLAMA:
@@ -441,71 +441,71 @@ VILLAGER:
 TURTLE:
   Type: mob
   NPCID: 9
-  Describe: §a§6小花§f希望你能去帮他解决§e4§f个§e海龟§f！
+  Describe: §a§6小花§f希望你能去帮他解决§e1§f个§e海龟§f！
   RewardMessage: §7你完成了任务
   Mob:
     ID: TURTLE
-    Amount: 4
+    Amount: 1
   Reward:
     Money: 30:100
 PHANTOM:
   Type: mob
   NPCID: 10
-  Describe: §a§6巫婆§f希望你能去帮他解决§e2§f个§e幻翼§f！
+  Describe: §a§6巫婆§f希望你能去帮他解决§e1§f个§e幻翼§f！
   RewardMessage: §7你完成了任务
   Mob:
     ID: PHANTOM
-    Amount: 2
+    Amount: 1
   Reward:
     Money: 30:100
 COD:
   Type: mob
   NPCID: 11
-  Describe: §a§6铁匠§f希望你能去帮他解决§e5§f个§e鳕鱼§f！
+  Describe: §a§6铁匠§f希望你能去帮他解决§e1§f个§e鳕鱼§f！
   RewardMessage: §7你完成了任务
   Mob:
     ID: COD
-    Amount: 5
+    Amount: 1
   Reward:
     Money: 30:100
 SALMON:
   Type: mob
   NPCID: 10
-  Describe: §a§6巫婆§f希望你能去帮他解决§e2§f个§e鲑鱼§f！
+  Describe: §a§6巫婆§f希望你能去帮他解决§e1§f个§e鲑鱼§f！
   RewardMessage: §7你完成了任务
   Mob:
     ID: SALMON
-    Amount: 2
+    Amount: 1
   Reward:
     Money: 30:100
 PUFFERFISH:
   Type: mob
   NPCID: 13
-  Describe: §a§6东门守卫§f希望你能去帮他解决§e2§f个§e河豚§f！
+  Describe: §a§6东门守卫§f希望你能去帮他解决§e1§f个§e河豚§f！
   RewardMessage: §7你完成了任务
   Mob:
     ID: PUFFERFISH
-    Amount: 2
+    Amount: 1
   Reward:
     Money: 30:100
 TROPICAL_FISH:
   Type: mob
   NPCID: 14
-  Describe: §a§6北门守卫§f希望你能去帮他解决§e2§f个§e热带鱼§f！
+  Describe: §a§6北门守卫§f希望你能去帮他解决§e1§f个§e热带鱼§f！
   RewardMessage: §7你完成了任务
   Mob:
     ID: TROPICAL_FISH
-    Amount: 2
+    Amount: 1
   Reward:
     Money: 30:100
 DROWNED:
   Type: mob
   NPCID: 12
-  Describe: §a§6大叔§f希望你能去帮他解决§e5§f个§e溺尸§f！
+  Describe: §a§6大叔§f希望你能去帮他解决§e3§f个§e溺尸§f！
   RewardMessage: §7你完成了任务
   Mob:
     ID: DROWNED
-    Amount: 5
+    Amount: 3
   Reward:
     Money: 30:100
 DOLPHIN:
@@ -530,52 +530,52 @@ CAT:
     Money: 30:100
 PANDA:
   Type: mob
-  NPCID: 13
-  Describe: §a§6东门守卫§f希望你能去帮他解决§e3§f个§e熊猫§f！
+  NPCID: 9
+  Describe: §a§6小花§f希望你能去帮他解决§e6§f个§e僵尸§f！
   RewardMessage: §7你完成了任务
   Mob:
-    ID: PANDA
-    Amount: 3
+    ID: ZOMBIE
+    Amount: 6
   Reward:
     Money: 30:100
 PILLAGER:
   Type: mob
-  NPCID: 13
-  Describe: §a§6东门守卫§f希望你能去帮他解决§e3§f个§e掠夺者§f！
+  NPCID: 9
+  Describe: §a§6小花§f希望你能去帮他解决§e5§f个§e僵尸§f！
   RewardMessage: §7你完成了任务
   Mob:
-    ID: PILLAGER
-    Amount: 3
+    ID: ZOMBIE
+    Amount: 5
   Reward:
     Money: 30:100
 RAVAGER:
   Type: mob
-  NPCID: 13
-  Describe: §a§6东门守卫§f希望你能去帮他解决§e2§f个§e劫掠兽§f！
+  NPCID: 9
+  Describe: §a§6小花§f希望你能去帮他解决§e3§f个§e僵尸§f！
   RewardMessage: §7你完成了任务
   Mob:
-    ID: RAVAGER
-    Amount: 2
+    ID: ZOMBIE
+    Amount: 3
   Reward:
     Money: 30:100
 TRADER_LLAMA:
   Type: mob
-  NPCID: 13
-  Describe: §a§6东门守卫§f希望你能去帮他解决§e3§f个§e行商羊驼§f！
+  NPCID: 11
+  Describe: §a§6铁匠§f希望你能去帮他解决§e4§f个§e末影人§f！
   RewardMessage: §7你完成了任务
   Mob:
-    ID: TRADER_LLAMA
-    Amount: 3
+    ID: ENDERMAN
+    Amount: 4
   Reward:
     Money: 30:100
 WANDERING_TRADER:
   Type: mob
   NPCID: 11
-  Describe: §a§6铁匠§f希望你能去帮他解决§e2§f个§e流浪商人§f！
+  Describe: §a§6铁匠§f希望你能去帮他解决§e3§f个§e末影人§f！
   RewardMessage: §7你完成了任务
   Mob:
-    ID: WANDERING_TRADER
-    Amount: 2
+    ID: ENDERMAN
+    Amount: 3
   Reward:
     Money: 30:100
 FOX:
@@ -591,10 +591,10 @@ FOX:
 BEE:
   Type: mob
   NPCID: 12
-  Describe: §a§6大叔§f希望你能去帮他解决§e5§f个§e蜜蜂§f！
+  Describe: §a§6大叔§f希望你能去帮他解决§e2§f个§e蜜蜂§f！
   RewardMessage: §7你完成了任务
   Mob:
     ID: BEE
-    Amount: 5
+    Amount: 2
   Reward:
     Money: 30:100
