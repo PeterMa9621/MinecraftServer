@@ -1,6 +1,6 @@
 vip1:
-  Money: 0
-  MinInventory: 8
+  Money: 2500
+  MinInventory: 0
   Items:
     '1':
       Command: ph give %player% diamond_block 16
@@ -18,7 +18,7 @@ vip1:
 
 vip2:
   Money: 5000
-  MinInventory: 8
+  MinInventory: 0
   Items:
     '1':
       Command: ph give %player% diamond_block 32
@@ -41,7 +41,7 @@ vip2:
       
 vip3:
   Money: 10000
-  MinInventory: 8
+  MinInventory: 0
   Items:
     '1':
       Command: ph give %player% diamond_block 64
