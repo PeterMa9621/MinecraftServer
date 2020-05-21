@@ -925,7 +925,7 @@ items:
       type: NORMAL
       material: BLACK_STAINED_GLASS
   SEA_LANTERN:
-    buy: 40
+    buy: 4
     sell: 0
     item:
       type: NORMAL

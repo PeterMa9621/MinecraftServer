@@ -27,6 +27,7 @@ interval_announcement_list:
 - dungeon
 - clan
 - itemsadder
+- shop
 announcements:
   donate:
   - '[{"text":"[服务器公告] ","color":"light_purple"},{"text":"如果你喜欢我们服务器，欢迎赞助我们。","color":"green"},{"text":"点击打开赞助界面","color":"gold","bold":true,"underlined":true,"clickEvent":{"action":"run_command","value":"/clock
@@ -87,3 +88,5 @@ announcements:
     open 帮派手册"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"点击查看更多内容","color":"yellow"}]}}}]'
   itemsadder:
   - '[{"text":"[小提示] ","color":"gold"},{"text":"查看新增物品请输入/ia。VIP可以发送emoji哦，输入/e查看","color":"white"},{"text":"点击查看新增物品","color":"dark_purple","bold":true,"underlined":true,"clickEvent":{"action":"run_command","value":"/ia"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"点击查看更多内容","color":"yellow"}]}}}]'
+  shop:
+  - '[{"text":"[小提示] ","color":"gold"},{"text":"输入/shop可以快速打开商店","color":"white"},{"text":"点这里试试","color":"dark_purple","bold":true,"underlined":true,"clickEvent":{"action":"run_command","value":"/shop"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"打开商店","color":"yellow"}]}}}]'
