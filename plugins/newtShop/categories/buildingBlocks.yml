@@ -709,97 +709,97 @@ items:
       type: NORMAL
       material: QUARTZ_STAIRS
   WHITE_TERRACOTTA:
-    buy: 4
+    buy: 2.5
     sell: 0
     item:
       type: NORMAL
       material: WHITE_TERRACOTTA
   ORANGE_TERRACOTTA:
-    buy: 4
+    buy: 2.5
     sell: 0
     item:
       type: NORMAL
       material: ORANGE_TERRACOTTA
   MAGENTA_TERRACOTTA:
-    buy: 4
+    buy: 2.5
     sell: 0
     item:
       type: NORMAL
       material: MAGENTA_TERRACOTTA
   LIGHT_BLUE_TERRACOTTA:
-    buy: 4
+    buy: 2.5
     sell: 0
     item:
       type: NORMAL
       material: LIGHT_BLUE_TERRACOTTA
   YELLOW_TERRACOTTA:
-    buy: 4
+    buy: 2.5
     sell: 0
     item:
       type: NORMAL
       material: YELLOW_TERRACOTTA
   LIME_TERRACOTTA:
-    buy: 4
+    buy: 2.5
     sell: 0
     item:
       type: NORMAL
       material: LIME_TERRACOTTA
   PINK_TERRACOTTA:
-    buy: 4
+    buy: 2.5
     sell: 0
     item:
       type: NORMAL
       material: PINK_TERRACOTTA
   GRAY_TERRACOTTA:
-    buy: 4
+    buy: 2.5
     sell: 0
     item:
       type: NORMAL
       material: GRAY_TERRACOTTA
   LIGHT_GRAY_TERRACOTTA:
-    buy: 4
+    buy: 2.5
     sell: 0
     item:
       type: NORMAL
       material: LIGHT_GRAY_TERRACOTTA
   CYAN_TERRACOTTA:
-    buy: 4
+    buy: 2.5
     sell: 0
     item:
       type: NORMAL
       material: CYAN_TERRACOTTA
   PURPLE_TERRACOTTA:
-    buy: 4
+    buy: 2.5
     sell: 0
     item:
       type: NORMAL
       material: PURPLE_TERRACOTTA
   BLUE_TERRACOTTA:
-    buy: 4
+    buy: 2.5
     sell: 0
     item:
       type: NORMAL
       material: BLUE_TERRACOTTA
   BROWN_TERRACOTTA:
-    buy: 4
+    buy: 2.5
     sell: 0
     item:
       type: NORMAL
       material: BROWN_TERRACOTTA
   GREEN_TERRACOTTA:
-    buy: 4
+    buy: 2.5
     sell: 0
     item:
       type: NORMAL
       material: GREEN_TERRACOTTA
   RED_TERRACOTTA:
-    buy: 4
+    buy: 2.5
     sell: 0
     item:
       type: NORMAL
       material: RED_TERRACOTTA
   BLACK_TERRACOTTA:
-    buy: 4
+    buy: 2.5
     sell: 0
     item:
       type: NORMAL
@@ -961,193 +961,193 @@ items:
       type: NORMAL
       material: RED_NETHER_BRICKS
   WHITE_CONCRETE:
-    buy: 5
+    buy: 3
     sell: 0
     item:
       type: NORMAL
       material: WHITE_CONCRETE
   ORANGE_CONCRETE:
-    buy: 5
+    buy: 3
     sell: 0
     item:
       type: NORMAL
       material: ORANGE_CONCRETE
   MAGENTA_CONCRETE:
-    buy: 5
+    buy: 3
     sell: 0
     item:
       type: NORMAL
       material: MAGENTA_CONCRETE
   LIGHT_BLUE_CONCRETE:
-    buy: 5
+    buy: 3
     sell: 0
     item:
       type: NORMAL
       material: LIGHT_BLUE_CONCRETE
   YELLOW_CONCRETE:
-    buy: 5
+    buy: 3
     sell: 0
     item:
       type: NORMAL
       material: YELLOW_CONCRETE
   LIME_CONCRETE:
-    buy: 5
+    buy: 3
     sell: 0
     item:
       type: NORMAL
       material: LIME_CONCRETE
   PINK_CONCRETE:
-    buy: 5
+    buy: 3
     sell: 0
     item:
       type: NORMAL
       material: PINK_CONCRETE
   GRAY_CONCRETE:
-    buy: 5
+    buy: 3
     sell: 0
     item:
       type: NORMAL
       material: GRAY_CONCRETE
   LIGHT_GRAY_CONCRETE:
-    buy: 5
+    buy: 3
     sell: 0
     item:
       type: NORMAL
       material: LIGHT_GRAY_CONCRETE
   CYAN_CONCRETE:
-    buy: 5
+    buy: 3
     sell: 0
     item:
       type: NORMAL
       material: CYAN_CONCRETE
   PURPLE_CONCRETE:
-    buy: 5
+    buy: 3
     sell: 0
     item:
       type: NORMAL
       material: PURPLE_CONCRETE
   BLUE_CONCRETE:
-    buy: 5
+    buy: 3
     sell: 0
     item:
       type: NORMAL
       material: BLUE_CONCRETE
   BROWN_CONCRETE:
-    buy: 5
+    buy: 3
     sell: 0
     item:
       type: NORMAL
       material: BROWN_CONCRETE
   GREEN_CONCRETE:
-    buy: 5
+    buy: 3
     sell: 0
     item:
       type: NORMAL
       material: GREEN_CONCRETE
   RED_CONCRETE:
-    buy: 5
+    buy: 3
     sell: 0
     item:
       type: NORMAL
       material: RED_CONCRETE
   BLACK_CONCRETE:
-    buy: 5
+    buy: 3
     sell: 0
     item:
       type: NORMAL
       material: BLACK_CONCRETE
   WHITE_CONCRETE_POWDER:
-    buy: 4.5
+    buy: 2.5
     sell: 0
     item:
       type: NORMAL
       material: WHITE_CONCRETE_POWDER
   ORANGE_CONCRETE_POWDER:
-    buy: 4.5
+    buy: 2.5
     sell: 0
     item:
       type: NORMAL
       material: ORANGE_CONCRETE_POWDER
   MAGENTA_CONCRETE_POWDER:
-    buy: 4.5
+    buy: 2.5
     sell: 0
     item:
       type: NORMAL
       material: MAGENTA_CONCRETE_POWDER
   LIGHT_BLUE_CONCRETE_POWDER:
-    buy: 4.5
+    buy: 2.5
     sell: 0
     item:
       type: NORMAL
       material: LIGHT_BLUE_CONCRETE_POWDER
   YELLOW_CONCRETE_POWDER:
-    buy: 4.5
+    buy: 2.5
     sell: 0
     item:
       type: NORMAL
       material: YELLOW_CONCRETE_POWDER
   LIME_CONCRETE_POWDER:
-    buy: 4.5
+    buy: 2.5
     sell: 0
     item:
       type: NORMAL
       material: LIME_CONCRETE_POWDER
   PINK_CONCRETE_POWDER:
-    buy: 4.5
+    buy: 2.5
     sell: 0
     item:
       type: NORMAL
       material: PINK_CONCRETE_POWDER
   GRAY_CONCRETE_POWDER:
-    buy: 4.5
+    buy: 2.5
     sell: 0
     item:
       type: NORMAL
       material: GRAY_CONCRETE_POWDER
   LIGHT_GRAY_CONCRETE_POWDER:
-    buy: 4.5
+    buy: 2.5
     sell: 0
     item:
       type: NORMAL
       material: LIGHT_GRAY_CONCRETE_POWDER
   CYAN_CONCRETE_POWDER:
-    buy: 4.5
+    buy: 2.5
     sell: 0
     item:
       type: NORMAL
       material: CYAN_CONCRETE_POWDER
   PURPLE_CONCRETE_POWDER:
-    buy: 4.5
+    buy: 2.5
     sell: 0
     item:
       type: NORMAL
       material: PURPLE_CONCRETE_POWDER
   BLUE_CONCRETE_POWDER:
-    buy: 4.5
+    buy: 2.5
     sell: 0
     item:
       type: NORMAL
       material: BLUE_CONCRETE_POWDER
   BROWN_CONCRETE_POWDER:
-    buy: 4.5
+    buy: 2.5
     sell: 0
     item:
       type: NORMAL
       material: BROWN_CONCRETE_POWDER
   GREEN_CONCRETE_POWDER:
-    buy: 4.5
+    buy: 2.5
     sell: 0
     item:
       type: NORMAL
       material: GREEN_CONCRETE_POWDER
   RED_CONCRETE_POWDER:
-    buy: 4.5
+    buy: 2.5
     sell: 0
     item:
       type: NORMAL
       material: RED_CONCRETE_POWDER
   BLACK_CONCRETE_POWDER:
-    buy: 4.5
+    buy: 2.5
     sell: 0
     item:
       type: NORMAL
