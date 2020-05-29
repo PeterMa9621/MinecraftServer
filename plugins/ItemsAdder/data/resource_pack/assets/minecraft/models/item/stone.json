@@ -546,6 +546,12 @@
         "custom_model_data": 91
       },
       "model": "buildersbasics:auto_generated/yellow_terracotta_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 92
+      },
+      "model": "buildersbasics:auto_generated/abyssal_lantern_top"
     }
   ]
 }
