@@ -13,11 +13,16 @@ kits:
   tools:
     delay: 10
     items:
-      - ironsword 1
-      - ironshovel 1
-      - ironpickaxe 1
-      - ironaxe 1
-      - bread 16
+      - /iagive {player} itemsadder:masters_sword
+      - /iagive {player} itemsadder:spinel_axe
+      - /iagive {player} itemsadder:spinel_hoe
+      - /iagive {player} itemsadder:spinel_pickaxe
+      - /iagive {player} itemsadder:spinel_shovel
+      - bread 32
+      - /ph giveitem {player} mjy:shilian_chest
+      - /ph giveitem {player} mjy:shilian_feet
+      - /ph giveitem {player} mjy:shilian_head
+      - /ph giveitem {player} mjy:shilian_leg
   dtools:
     delay: 600
     items:
